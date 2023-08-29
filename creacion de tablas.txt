@@ -1,0 +1,53 @@
+Create database DB_ReservaCampoDeportivo
+use DB_ReservaCampoDeportivo
+
+CREATE TABLE Usuarios (
+    id_usuario INT IDENTITY(1,1) PRIMARY KEY,
+    usuario NVARCHAR(30) NOT NULL,
+    pass NVARCHAR(50) NOT NULL,
+    nombres NVARCHAR(30) NOT NULL,
+    apellidos NVARCHAR(30) NOT NULL,
+    tipoDocumento NVARCHAR(15) NOT NULL,
+    documento NVARCHAR(20) NOT NULL,
+	correo NVARCHAR(50) NOT NULL,
+    celular NVARCHAR(13) NOT NULL,
+    validacion BIT 
+);
+
+CREATE TABLE Gerentes (
+    id_gerente INT IDENTITY(1,1) PRIMARY KEY,
+    usuario NVARCHAR(30) NOT NULL,
+    pass NVARCHAR(50) NOT NULL,
+    nombres NVARCHAR(30) NOT NULL,
+    apellidos NVARCHAR(30) NOT NULL,
+    tipoDocumento NVARCHAR(15) NOT NULL,
+    documento NVARCHAR(20) NOT NULL,
+    correo NVARCHAR(50) NOT NULL,
+    celular NVARCHAR(13) NOT NULL,
+    validacion BIT NOT NULL,
+    nombreCampo NVARCHAR(50) NOT NULL,
+    horaApertura TIME NOT NULL,
+    horaCierre TIME NOT NULL,
+    costoPorHora DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE Canchas (
+    id_cancha INT IDENTITY(1,1) PRIMARY KEY,
+    id_gerente INT NOT NULL,
+    deporte NVARCHAR(50) NOT NULL,
+    disponible BIT NOT NULL,
+    cantidadCanchas INT NOT NULL,
+    reservada BIT NOT NULL DEFAULT 0,
+    FOREIGN KEY (id_gerente) REFERENCES Gerentes (id_gerente)
+);
+
+
+CREATE TABLE Reservas (
+    id_reserva INT IDENTITY(1,1) PRIMARY KEY,
+    id_cancha INT NOT NULL,
+    id_cliente INT NOT NULL,
+    fechaReserva DATETIME NOT NULL,
+    FOREIGN KEY (id_cancha) REFERENCES Canchas (id_cancha),
+    FOREIGN KEY (id_cliente) REFERENCES Usuarios (id_usuario)
+);
+
