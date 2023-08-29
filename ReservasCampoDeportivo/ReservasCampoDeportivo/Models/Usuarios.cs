@@ -15,6 +15,10 @@ namespace ReservasCampoDeportivo.Models
         public string? pass { get; set; }
 
         [Required]
+        [StringLength(50)]
+        public string? Confirmarpass { get; set; }
+
+        [Required]
         [StringLength(30)]
         public string? nombres { get; set; }
 

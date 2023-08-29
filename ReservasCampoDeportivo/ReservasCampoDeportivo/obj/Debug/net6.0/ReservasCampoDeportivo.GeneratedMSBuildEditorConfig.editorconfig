@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\UPN\CICLO 8\CALIDAD DE SOFTWARE\Proyecto .NET\ReservasCamposDeportivos\ReservasCampoDeportivo\ReservasCampoDeportivo
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/UPN/CICLO 8/CALIDAD DE SOFTWARE/Proyecto .NET/ReservasCamposDeportivos/ReservasCampoDeportivo/ReservasCampoDeportivo/Views/Acceso/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UPN/CICLO 8/CALIDAD DE SOFTWARE/Proyecto .NET/ReservasCamposDeportivos/ReservasCampoDeportivo/ReservasCampoDeportivo/Views/Acceso/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXFJlZ2lzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/UPN/CICLO 8/CALIDAD DE SOFTWARE/Proyecto .NET/ReservasCamposDeportivos/ReservasCampoDeportivo/ReservasCampoDeportivo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,43 @@
+use DB_ReservaCampoDeportivo
+go
+create proc sp_RegistrarUsuario(
+@usuario NVARCHAR(30),
+@pass NVARCHAR(50),
+@nombres NVARCHAR(30),
+@apellidos NVARCHAR(30),
+@tipoDocumento NVARCHAR(15),
+@documento NVARCHAR(20),
+@correo NVARCHAR(50),
+@celular NVARCHAR(13),
+
+@registrado bit output,
+@mensaje varchar(30) output
+)
+as
+begin
+	if(not exists(select*from Usuarios where correo=@correo))
+	begin
+		insert into Usuarios(usuario,pass,nombres,apellidos,tipoDocumento,documento,correo,celular,validacion)
+		values(@usuario,@pass,@nombres,@apellidos,@tipoDocumento,@documento,@correo,@celular,0)
+		set @registrado=1
+		set @mensaje='Usuario registrado'
+	end
+	else
+	begin
+		set @registrado=0
+		set @mensaje='Correo ya existente'
+	end
+end
+
+go
+create proc sp_ValidarUsuario(
+@correo varchar(50),
+@clave varchar(50)
+)
+as
+begin
+	if(exists(select*from Usuarios where correo=@correo and pass=@clave))
+		select id_usuario from Usuarios where correo=@correo and pass=@clave
+	else
+		select '0'
+end
