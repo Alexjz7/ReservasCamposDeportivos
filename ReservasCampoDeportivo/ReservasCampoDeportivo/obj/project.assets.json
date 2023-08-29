@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
+      "projectUniqueName": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
       "projectName": "ReservasCampoDeportivo",
-      "projectPath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
+      "projectPath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
       "packagesPath": "C:\\Users\\rene_\\.nuget\\packages\\",
-      "outputPath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\obj\\",
+      "outputPath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rene_\\AppData\\Roaming\\NuGet\\NuGet.Config",

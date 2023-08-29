@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIbBwE5stJ5RxIvCgVVRmqYJqQgCk+19KA0R4/BQGoxfhHfJz+GYycIHMFpRvprmVkYFlaBoiTROlX2sjTjjAQ==",
+  "dgSpecHash": "9bpAHZ2zuUdsesFIMT5d9/NfZ9Dw2eXVLCOiRtUtWcvflwhiqoCzrZF5O5kcbO6rUcT3qiIZAf810VHCau8QwQ==",
   "success": true,
-  "projectFilePath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
+  "projectFilePath": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\ReservasCampoDeportivo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rene_\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\rene_\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
