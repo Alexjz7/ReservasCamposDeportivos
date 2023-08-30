@@ -1,27 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-using Microsoft.AspNetCore.Mvc;
-using System.Data.SqlClient;
-using System.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using ReservasCampoDeportivo.Models;
+using System;
+using System.Data;
+using System.Data.SqlClient;
 using System.Security.Cryptography;
 using System.Text;
-
 
 namespace ReservasCampoDeportivo.Controllers
 {
     public class AccesoController : Controller
     {
-        static string cadena = "Data Source=(local);Catalog=DB_ReservaCampoDeportivo;Integrated Security=True";
-
+        private readonly string _cadenaConexion = "Data Source=(local);Initial Catalog=DB_ReservaCampoDeportivo;Integrated Security=true";
 
         public IActionResult Login()
         {
             return View();
         }
+
         public IActionResult Registrar()
         {
             return View();
@@ -31,7 +26,7 @@ namespace ReservasCampoDeportivo.Controllers
         public IActionResult Registrar(Usuarios oUsuarios)
         {
             bool registrado;
-            string? mensaje;
+            string mensaje;
 
             if (oUsuarios.pass == oUsuarios.Confirmarpass)
             {
@@ -39,34 +34,36 @@ namespace ReservasCampoDeportivo.Controllers
             }
             else
             {
-                ViewData["Mensaje"] = "Las contraseñas no coinsiden";
+                ViewData["Mensaje"] = "Las contraseñas no coinciden";
                 return View();
             }
 
-            using (SqlConnection con = new SqlConnection())
+            using (SqlConnection con = new SqlConnection(_cadenaConexion))
             {
-                SqlCommand cmd = new SqlCommand("sp_RegistrarUsuario", con);
-                cmd.Parameters.AddWithValue("usuario",oUsuarios.usuario);
-                cmd.Parameters.AddWithValue("pass", oUsuarios.pass);
-                cmd.Parameters.AddWithValue("nombres", oUsuarios.nombres);
-                cmd.Parameters.AddWithValue("apellidos", oUsuarios.apellidos);
-                cmd.Parameters.AddWithValue("tipoDocumento", oUsuarios.tipoDocumento);
-                cmd.Parameters.AddWithValue("documento", oUsuarios.documento);
-                cmd.Parameters.AddWithValue("correo", oUsuarios.correo);
-                cmd.Parameters.AddWithValue("celular", oUsuarios.celular);
+                using (SqlCommand cmd = new SqlCommand("sp_RegistrarUsuario", con))
+                {
+                    cmd.Parameters.AddWithValue("usuario", oUsuarios.usuario);
+                    cmd.Parameters.AddWithValue("pass", oUsuarios.pass);
+                    cmd.Parameters.AddWithValue("nombres", oUsuarios.nombres);
+                    cmd.Parameters.AddWithValue("apellidos", oUsuarios.apellidos);
+                    cmd.Parameters.AddWithValue("tipoDocumento", oUsuarios.tipoDocumento);
+                    cmd.Parameters.AddWithValue("documento", oUsuarios.documento);
+                    cmd.Parameters.AddWithValue("correo", oUsuarios.correo);
+                    cmd.Parameters.AddWithValue("celular", oUsuarios.celular);
 
-                cmd.Parameters.Add("registrado", SqlDbType.Bit).Direction = ParameterDirection.Output;
-                cmd.Parameters.Add("mensaje", SqlDbType.VarChar,30).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("registrado", SqlDbType.Bit).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("mensaje", SqlDbType.VarChar, 30).Direction = ParameterDirection.Output;
 
-                cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.CommandType = CommandType.StoredProcedure;
 
-                con.Open();
-                cmd.ExecuteNonQuery();
+                    con.Open();
+                    cmd.ExecuteNonQuery();
 
-                registrado = Convert.ToBoolean(cmd.Parameters["registrado"].Value);
-                mensaje = cmd.Parameters["mensaje"].Value.ToString();
-
+                    registrado = Convert.ToBoolean(cmd.Parameters["registrado"].Value);
+                    mensaje = cmd.Parameters["mensaje"].Value.ToString();
+                }
             }
+
             ViewData["mensaje"] = mensaje;
             if (registrado)
             {
@@ -82,19 +79,21 @@ namespace ReservasCampoDeportivo.Controllers
         public IActionResult Login(Usuarios oUsuarios)
         {
             oUsuarios.pass = EncriptarConLongitudMaxima(oUsuarios.pass, 50);
-            using (SqlConnection con = new SqlConnection())
+            using (SqlConnection con = new SqlConnection(_cadenaConexion))
             {
-                SqlCommand cmd = new SqlCommand("sp_ValidarUsuario", con);
-                cmd.Parameters.AddWithValue("correo", oUsuarios.usuario);
-                cmd.Parameters.AddWithValue("pass", oUsuarios.pass);                
-                cmd.CommandType = CommandType.StoredProcedure;
+                using (SqlCommand cmd = new SqlCommand("sp_ValidarUsuario", con))
+                {
+                    cmd.Parameters.AddWithValue("correo", oUsuarios.usuario);
+                    cmd.Parameters.AddWithValue("pass", oUsuarios.pass);
+                    cmd.CommandType = CommandType.StoredProcedure;
 
-                con.Open();
-                oUsuarios.id_usuario=Convert.ToInt32(cmd.ExecuteScalar().ToString());
+                    con.Open();
+                    oUsuarios.id_usuario = Convert.ToInt32(cmd.ExecuteScalar().ToString());
+                }
             }
             if (oUsuarios.id_usuario != 0)
             {
-                //Session["usuario"] = oUsuarios;
+                HttpContext.Session.SetString("usuario", oUsuarios.usuario); 
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -102,11 +101,7 @@ namespace ReservasCampoDeportivo.Controllers
                 ViewData["mensaje"] = "Usuario no encontrado";
                 return View();
             }
-
         }
-
-
-
 
         public static string EncriptarConLongitudMaxima(string input, int longitudMaxima)
         {
@@ -125,6 +120,5 @@ namespace ReservasCampoDeportivo.Controllers
                 return hashString;
             }
         }
-
     }
 }
