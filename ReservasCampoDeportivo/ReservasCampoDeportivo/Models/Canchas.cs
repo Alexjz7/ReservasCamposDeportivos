@@ -4,6 +4,7 @@ namespace ReservasCampoDeportivo.Models
 {
     public class Canchas
     {
+        [Key]
         public int id_cancha { get; set; }
 
         [Required]

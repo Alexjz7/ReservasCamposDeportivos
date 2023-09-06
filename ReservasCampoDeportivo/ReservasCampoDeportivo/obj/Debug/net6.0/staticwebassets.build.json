@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QaJreUFLebFkLrui9kmN0pk83Pemq0jTJ67upVOFir0=",
+  "Hash": "LF31gf0ETxDGmW0AlhfiL5HYcbNhNwiwoRRQ3n1Y4uY=",
   "Source": "ReservasCampoDeportivo",
   "BasePath": "_content/ReservasCampoDeportivo",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ReservasCampoDeportivo.bundle.scp.css"
     },
     {
+      "Identity": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\Log.css",
+      "SourceId": "ReservasCampoDeportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\",
+      "BasePath": "_content/ReservasCampoDeportivo",
+      "RelativePath": "css/Log.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Log.css"
+    },
+    {
+      "Identity": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\Reg.css",
+      "SourceId": "ReservasCampoDeportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\",
+      "BasePath": "_content/ReservasCampoDeportivo",
+      "RelativePath": "css/Reg.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Reg.css"
+    },
+    {
       "Identity": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\site.css",
       "SourceId": "ReservasCampoDeportivo",
       "SourceType": "Discovered",
@@ -83,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\imagenes\\fondo.jpg",
+      "SourceId": "ReservasCampoDeportivo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\",
+      "BasePath": "_content/ReservasCampoDeportivo",
+      "RelativePath": "imagenes/fondo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\fondo.jpg"
     },
     {
       "Identity": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\js\\site.js",

@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\ReservasCampoDeportivo.bundle.scp.css"
     },
     {
+      "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\Log.css",
+      "PackagePath": "staticwebassets\\css\\Log.css"
+    },
+    {
+      "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\Reg.css",
+      "PackagePath": "staticwebassets\\css\\Reg.css"
+    },
+    {
       "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\imagenes\\fondo.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\fondo.jpg"
     },
     {
       "Id": "D:\\UPN\\CICLO 8\\CALIDAD DE SOFTWARE\\Proyecto .NET\\ReservasCamposDeportivos\\ReservasCampoDeportivo\\ReservasCampoDeportivo\\wwwroot\\js\\site.js",

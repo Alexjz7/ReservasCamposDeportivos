@@ -1,15 +1,31 @@
-﻿
+﻿@model Usuarios
 @{
     Layout = null;
 }
 
-<!DOCTYPE html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Log.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title>Inicia sesión para utilizar nuestros servicios</title>
 </head>
+
 <body>
+    <!--Contenido del login-->
+
+    <form action="@Url.Action("login","Acceso")" method="post" class="form-login">
+        <h2>LOGIN</h2>
+        <input class="control" type="text" name="correo" id="correo" placeholder="Usuario">
+        <input class="control" type="password" name="pass" id="pass" placeholder="Contraseña">
+        <input class="boton" type="submit" value="INICIAR">
+        <p>¿Aún no tengo cuenta?<a href="@Url.Action("Registrar","Acceso")"> Registrarse ahora</a></p>
+        <p><a href="#">¿Olvidé mi cuenta?</a></p>
+    </form>
 </body>
+
 </html>

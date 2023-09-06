@@ -13,5 +13,6 @@ namespace ReservasCampoDeportivo.Data
         public DbSet<Gerentes> Gerentes { get; set; }
         public DbSet<Canchas> Canchas { get; set; }
         public DbSet<Reservas> Reservas { get; set; }
+
     }
 }

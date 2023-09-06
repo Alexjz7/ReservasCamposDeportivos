@@ -4,6 +4,7 @@ namespace ReservasCampoDeportivo.Models
 {
     public class Usuarios
     {
+        [Key]
         public int id_usuario { get; set; }
 
         [Required]
