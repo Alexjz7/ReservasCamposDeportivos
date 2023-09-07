@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Web_CamposDeportivos__V2.Models.Reservas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Reservas</h1>
+
+<p>
+    <a class="btn btn-sm btn-success" asp-action="Create">Crear Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Cancha
+            </th>
+            <th>
+                Cliente
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaReserva)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_cancha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaReserva)
+            </td>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.id_reserva" class="btn btn-sm btn-info">Detalle</a>
+                    <a asp-action="Edit" asp-route-id="@item.id_reserva" class="btn btn-sm btn-primary">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.id_reserva" class="btn btn-sm btn-danger">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,42 @@
+﻿@model Web_CamposDeportivos__V2.Models.Canchas
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalles de la cancha</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.id_gerente)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.id_gerente)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.deporte)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.deporte)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.disponible)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.disponible)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reservada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.reservada)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.id_cancha">Editar</a> |
+    <a asp-action="Index">Volver a la lista</a>
+</div>

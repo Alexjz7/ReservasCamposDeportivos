@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Web_CamposDeportivos__V2.Models.Canchas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Campos</h1>
+
+<p>
+    <a class="btn btn-sm btn-success" asp-action="Create">Agregar campo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id_gerente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.deporte)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.disponible)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.reservada)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_gerente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.deporte)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.disponible)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.reservada)
+            </td>
+            <td>
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.id_cancha">Detalle</a>
+                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.id_cancha"><i class="fa-solid fa-pen-to-square"></i></a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.id_cancha"><i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

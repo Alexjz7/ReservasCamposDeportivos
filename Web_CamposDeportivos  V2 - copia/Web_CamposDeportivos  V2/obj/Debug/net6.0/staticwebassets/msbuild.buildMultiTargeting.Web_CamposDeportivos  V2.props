@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Web_CamposDeportivos  V2.props" />
+</Project>

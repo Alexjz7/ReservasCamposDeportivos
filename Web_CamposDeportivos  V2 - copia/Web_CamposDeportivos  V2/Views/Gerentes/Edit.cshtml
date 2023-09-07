@@ -1,0 +1,93 @@
+﻿@model Web_CamposDeportivos__V2.Models.Gerentes
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Gerente</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_gerente" />
+            <div class="form-group">
+                <label asp-for="usuario" class="control-label"></label>
+                <input asp-for="usuario" class="form-control" />
+                <span asp-validation-for="usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="pass" class="control-label">contraseña</label>
+                <input asp-for="pass" class="form-control" />
+                <span asp-validation-for="pass" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nombres" class="control-label"></label>
+                <input asp-for="nombres" class="form-control" />
+                <span asp-validation-for="nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="apellidos" class="control-label"></label>
+                <input asp-for="apellidos" class="form-control" />
+                <span asp-validation-for="apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tipoDocumento" class="control-label"></label>
+                <input asp-for="tipoDocumento" class="form-control" />
+                <span asp-validation-for="tipoDocumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="documento" class="control-label"></label>
+                <input asp-for="documento" class="form-control" />
+                <span asp-validation-for="documento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="correo" class="control-label"></label>
+                <input asp-for="correo" type="email" class="form-control" />
+                <span asp-validation-for="correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="celular" class="control-label"></label>
+                <input asp-for="celular" class="form-control" />
+                <span asp-validation-for="celular" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="validacion" /> @Html.DisplayNameFor(model => model.validacion)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="nombreCampo" class="control-label"></label>
+                <input asp-for="nombreCampo" class="form-control" />
+                <span asp-validation-for="nombreCampo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaApertura" class="control-label"></label>
+                <input asp-for="horaApertura" class="form-control" />
+                <span asp-validation-for="horaApertura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaCierre" class="control-label"></label>
+                <input asp-for="horaCierre" class="form-control" />
+                <span asp-validation-for="horaCierre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="costoPorHora" class="control-label"></label>
+                <input asp-for="costoPorHora" class="form-control" />
+                <span asp-validation-for="costoPorHora" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,47 @@
+﻿@model Web_CamposDeportivos__V2.Models.Reservas
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Nueva Reserva</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="id_cancha" class="control-label">Tipo de Cancha</label>
+                @* <input asp-for="id_cancha" class="form-control" /> *@
+                <select asp-for="id_cancha" asp-items="@ViewBag.Cancha" class="form-select">
+                    <option disabled selected>--Seleccione una opción--</option>
+                </select>
+                <span asp-validation-for="id_cancha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="id_cliente" class="control-label">Usuario</label>
+                <select asp-for="id_cliente" asp-items="@ViewBag.Cliente" class="form-select">
+                    <option disabled selected>--Seleccione una opción--</option>
+                </select>
+                <span asp-validation-for="id_cliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaReserva" class="control-label"></label>
+                <input asp-for="fechaReserva" class="form-control" />
+                <span asp-validation-for="fechaReserva" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,32 @@
+﻿@model Usuarios
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Log.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title>Inicia sesión para utilizar nuestros servicios</title>
+</head>
+
+<body>
+    <!--Contenido del login-->
+    <form>
+    <section class="form-login">
+        <h2>LOGIN</h2>
+        <input class="control" type="text" name="nombre" id="nombre" placeholder="Usuario">
+        <input class="control" type="password" name="nombre" id="nombre" placeholder="Contraseña">
+        <input class="boton" type="submit" value="INICIAR">
+        <p>¿Aún no tengo cuenta?<a asp-controller="Access" asp-action="Registrar"> Registrarse ahora</a></p>
+        <p><a href="#">¿Olvidé mi cuenta?</a></p>
+    </section>
+    </form>
+</body>
+
+</html>

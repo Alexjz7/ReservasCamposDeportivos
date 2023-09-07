@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Web_CamposDeportivos__V2.Models.Gerentes>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Gerentes</h1>
+
+<p>
+    <a class="btn btn-sm btn-success" asp-action="Create">Crear gerente</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.usuario)
+            </th>
+            <th>
+                contraseña
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipoDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.validacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombreCampo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.horaApertura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.horaCierre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.costoPorHora)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pass)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipoDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.celular)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.validacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombreCampo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.horaApertura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.horaCierre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.costoPorHora)
+            </td>
+            <td>
+                @* <a asp-action="Details" asp-route-id="@item.id_gerente"></a> *@
+                <a asp-action="Edit" asp-route-id="@item.id_gerente"><i class="fa-solid fa-pen-to-square"></i></a>
+                <a asp-action="Delete" asp-route-id="@item.id_gerente"><i class="fa-solid fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
