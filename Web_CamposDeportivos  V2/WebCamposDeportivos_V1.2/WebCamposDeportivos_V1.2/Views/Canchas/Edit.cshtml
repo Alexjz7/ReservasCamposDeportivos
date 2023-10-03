@@ -1,0 +1,72 @@
+﻿@model WebCamposDeportivos_V1._2.Models.Canchas
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Canchas</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_cancha" />
+            <div class="form-group">
+                <label asp-for="id_empresa" class="control-label"></label>
+                <select asp-for="id_empresa" class="form-control" asp-items="ViewBag.id_empresa"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="id_deporte" class="control-label"></label>
+                <select asp-for="id_deporte" class="form-control" asp-items="ViewBag.id_deporte"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="detalle" class="control-label"></label>
+                <input asp-for="detalle" class="form-control" />
+                <span asp-validation-for="detalle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaInicio" class="control-label"></label>
+                <input asp-for="fechaInicio" type="date" class="form-control" />
+                <span asp-validation-for="fechaInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaFinal" class="control-label"></label>
+                <input asp-for="fechaFinal" type="date" class="form-control" />
+                <span asp-validation-for="fechaFinal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaApertura" class="control-label"></label>
+                <input asp-for="horaApertura" type="time" class="form-control" />
+                <span asp-validation-for="horaApertura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaCierre" class="control-label"></label>
+                <input asp-for="horaCierre" type="time" class="form-control" />
+                <span asp-validation-for="horaCierre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="costoPorHora" class="control-label"></label>
+                <input asp-for="costoPorHora" type="number" class="form-control" />
+                <span asp-validation-for="costoPorHora" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="estado" /> @Html.DisplayNameFor(model => model.estado)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

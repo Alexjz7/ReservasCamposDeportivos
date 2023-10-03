@@ -1,0 +1,84 @@
+﻿@model Usuarios
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Regístrate y obtén tu cuenta en nuestra web</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/form_reg.css">
+</head>
+
+<body>
+    <!--Contenido del registro-->
+
+    <section class="form-registro">
+        <h2>Registro</h2>
+        <form method="post" asp-action="Registrar">
+            <div class="form-group row">
+                <input asp-for="nombres" class="ocontrol" type="text" placeholder="Nombres">
+                <span asp-validation-for="nombres" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="apellidos" class="ocontrol" type="text" placeholder="Apellidos">
+                <span asp-validation-for="apellidos" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <select asp-for="tipoDocumento" class="ocontrol">
+                    <option disabled selected>Seleccione una opción...</option>
+                    <option value="DNI">DNI</option>
+                    <option value="Carnet">Carnet</option>
+                </select>
+                <span asp-validation-for="tipoDocumento" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="documento" class="ocontrol" type="text" placeholder="DNI">
+                <span asp-validation-for="documento" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="usuario" class="ocontrol" type="text" placeholder="Usuario" />
+                <span asp-validation-for="usuario" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="correo" class="ocontrol" type="email" placeholder="Email" />
+                <span asp-validation-for="correo" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="pass" class="ocontrol" type="password" placeholder="Contraseña">
+                <span asp-validation-for="pass" class="advert"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="celular" class="ocontrol" type="tel" placeholder="Celular">
+                <span asp-validation-for="celular" class="advert"></span>
+            </div>
+
+
+            @if (ViewData["Mensaje"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewData["Mensaje"]
+                </div>
+            }
+
+            <div>
+                <button type="submit" class="boton">
+                Registrarse
+                </button>  
+                <p><a asp-controller="Access" asp-action="Login">Ya tengo una cuenta</a></p>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

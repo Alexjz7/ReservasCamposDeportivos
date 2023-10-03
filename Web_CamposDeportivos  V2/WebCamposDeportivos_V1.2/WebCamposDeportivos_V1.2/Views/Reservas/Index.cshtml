@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Reservas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Reservas</h1>
+
+<p>
+    <a asp-action="Create">Crear nueva reserva</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cancha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaReserva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.horaReserva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.total)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.nombres + item.Cliente.apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cancha.detalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaReserva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.horaReserva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pago.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_reserva">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.id_reserva">Detalle</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_reserva">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

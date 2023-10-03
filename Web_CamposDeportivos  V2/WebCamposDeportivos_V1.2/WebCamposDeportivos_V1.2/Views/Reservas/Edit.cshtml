@@ -1,0 +1,59 @@
+﻿@model WebCamposDeportivos_V1._2.Models.Reservas
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Reservas</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_reserva" />
+            <div class="form-group">
+                <label asp-for="ClienteID" class="control-label"></label>
+                <select asp-for="ClienteID" class="form-control" asp-items="ViewBag.ClienteID"></select>
+                <span asp-validation-for="ClienteID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CanchaID" class="control-label"></label>
+                <select asp-for="CanchaID" class="form-control" asp-items="ViewBag.CanchaID"></select>
+                <span asp-validation-for="CanchaID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PagoID" class="control-label"></label>
+                <select asp-for="PagoID" class="form-control" asp-items="ViewBag.PagoID"></select>
+                <span asp-validation-for="PagoID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaReserva" class="control-label"></label>
+                <input asp-for="fechaReserva" class="form-control" />
+                <span asp-validation-for="fechaReserva" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="horaReserva" class="control-label"></label>
+                <input asp-for="horaReserva" class="form-control" />
+                <span asp-validation-for="horaReserva" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="total" class="control-label"></label>
+                <input asp-for="total" class="form-control" />
+                <span asp-validation-for="total" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
