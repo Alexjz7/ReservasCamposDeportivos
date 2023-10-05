@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -22,8 +23,6 @@
 
 </head>
 <body id="page-top">
-    @{
-    }
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar -->
@@ -52,28 +51,44 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-concierge-bell"></i>
-                    <span>Gestion</span>
+                    <i class="fa-solid fa-check-to-slot fa-beat"></i>
+                    <span>Disponibilidad</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="@Url.Action("Index", "Canchas")">Recepción</a>
+                        <a class="collapse-item" href="@Url.Action("Index", "Recepcion")">Recepción</a>
                         <a class="collapse-item" href="@Url.Action("Salida", "Gestion")">Salida</a>
                     </div>
                 </div>
             </li>
             <!-- Nav Item - Utilities Collapse Menu -->
-            @{
                <li class="nav-item">
                     <a class="nav-link" href="@Url.Action("Index", "Reservas")">
-                        <i class="fa-solid fa-calendar-check fa-beat"></i>
+                    <i class="fa-solid fa-calendar-plus"></i>
                         <span>Reservas</span>
                     </a>
                </li>
-            }
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            @if (User.IsInRole("Operario") || User.IsInRole("Admin"))
+            {
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseamantenimiento"
+                   aria-expanded="true" aria-controls="collapseamantenimiento">
+                    <i class="fas fa-fw fa-wrench"></i>
+                    <span>Administración</span>
+                </a>
+                <div id="collapseamantenimiento" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="@Url.Action("Index", "Canchas")">Campos</a>
+                        <a class="collapse-item" href="@Url.Action("Index","Deportes")">Deportes</a>
+                        <a class="collapse-item" href="@Url.Action("Index","Empresas")">Empresas</a>
+                    </div>
+                </div>
+            </li>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseReporte"
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseReporte"
                    aria-expanded="true" aria-controls="collapseReporte">
                     <i class="fas fa-chart-line"></i>
                     <span>Reportes</span>
@@ -85,24 +100,24 @@
                     </div>
                 </div>
             </li>
+            }
 
 
             <!-- Nav Item - Charts -->
-            @{
-                
-
-            }
+            @if (User.IsInRole("Operario"))
+            {
             <li class="nav-item">
                 <a class="nav-link" href="@Url.Action("Index","Usuarios")">
                     <i class="fas fa-user-friends"></i>
                     <span>Clientes</span>
                 </a>
             </li>
+            }
 
             <li class="nav-item">
-                <a class="nav-link" href="@Url.Action("Privacy","Home")" target="_blank">
-                    <i class="fas fa-donate"></i>
-                    <span>Ver Políticas</span>
+                <a class="nav-link" href="@Url.Action("Index","Pagos")">
+                    <i class="fa-solid fa-coins fa-bounce"></i>
+                    <span>Medios de pago</span>
                 </a>
             </li>
 

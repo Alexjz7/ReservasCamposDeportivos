@@ -30,22 +30,12 @@ namespace WebCamposDeportivos_V1._2.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_cancha"));
 
-                    b.Property<double>("costoPorHora")
-                        .HasColumnType("float");
+                    b.Property<decimal>("costoPorHora")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("detalle")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<bool>("estado")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("fechaFinal")
-                        .HasColumnType("date");
-
-                    b.Property<DateTime>("fechaInicio")
-                        .HasColumnType("date");
 
                     b.Property<TimeSpan>("horaApertura")
                         .HasColumnType("time");
@@ -59,31 +49,39 @@ namespace WebCamposDeportivos_V1._2.Migrations
                     b.Property<int>("id_empresa")
                         .HasColumnType("int");
 
+                    b.Property<int>("id_estadoCancha")
+                        .HasColumnType("int");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
                     b.HasKey("id_cancha");
 
                     b.HasIndex("id_deporte");
 
                     b.HasIndex("id_empresa");
 
+                    b.HasIndex("id_estadoCancha");
+
                     b.ToTable("Canchas");
                 });
 
             modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Deportes", b =>
                 {
-                    b.Property<int>("id_deporte")
+                    b.Property<int>("id_deportes")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_deporte"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_deportes"));
 
-                    b.Property<string>("Descripcion")
+                    b.Property<string>("nombre")
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<bool>("estado")
-                        .HasColumnType("bit");
-
-                    b.HasKey("id_deporte");
+                    b.HasKey("id_deportes");
 
                     b.ToTable("Deportes");
                 });
@@ -116,22 +114,37 @@ namespace WebCamposDeportivos_V1._2.Migrations
                     b.ToTable("Empresas");
                 });
 
-            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Pago", b =>
+            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Estado_Canchas", b =>
                 {
-                    b.Property<int>("id_pago")
+                    b.Property<int>("Id_estadoCancha")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_pago"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_estadoCancha"));
 
                     b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id_estadoCancha");
+
+                    b.ToTable("Estado_Canchas");
+                });
+
+            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Pagos", b =>
+                {
+                    b.Property<int>("id_pagos")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id_pagos"));
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<bool>("estado")
-                        .HasColumnType("bit");
-
-                    b.HasKey("id_pago");
+                    b.HasKey("id_pagos");
 
                     b.ToTable("Pagos");
                 });
@@ -153,14 +166,17 @@ namespace WebCamposDeportivos_V1._2.Migrations
                     b.Property<int>("PagoID")
                         .HasColumnType("int");
 
+                    b.Property<string>("estado")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("fechaReserva")
                         .HasColumnType("date");
 
                     b.Property<TimeSpan>("horaReserva")
                         .HasColumnType("time");
 
-                    b.Property<double>("total")
-                        .HasColumnType("float");
+                    b.Property<decimal>("total")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("id_reserva");
 
@@ -288,9 +304,17 @@ namespace WebCamposDeportivos_V1._2.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("WebCamposDeportivos_V1._2.Models.Estado_Canchas", "Estado")
+                        .WithMany("Add_Cancha")
+                        .HasForeignKey("id_estadoCancha")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Deporte");
 
                     b.Navigation("Empresa");
+
+                    b.Navigation("Estado");
                 });
 
             modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Reservas", b =>
@@ -307,7 +331,7 @@ namespace WebCamposDeportivos_V1._2.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebCamposDeportivos_V1._2.Models.Pago", "Pago")
+                    b.HasOne("WebCamposDeportivos_V1._2.Models.Pagos", "Pago")
                         .WithMany("Add_Reserva")
                         .HasForeignKey("PagoID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -367,7 +391,12 @@ namespace WebCamposDeportivos_V1._2.Migrations
                     b.Navigation("Add_EmpresaUsuario");
                 });
 
-            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Pago", b =>
+            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Estado_Canchas", b =>
+                {
+                    b.Navigation("Add_Cancha");
+                });
+
+            modelBuilder.Entity("WebCamposDeportivos_V1._2.Models.Pagos", b =>
                 {
                     b.Navigation("Add_Reserva");
                 });

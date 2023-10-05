@@ -5,65 +5,60 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Eliminar campos</h1>
+<h1>Eliminar Campo</h1>
 
 <h3>Realmente desea eliminar este campo?</h3>
 <div>
+    <h4>Canchas</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.detalle)
+        <dt class="col-sm-2">
+            Empresa
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.nombre)
+        </dd>
+        <dt class="col-sm-2">
+            Nombre
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt class="col-sm-2">
+            Deporte
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Deporte.nombre)
+        </dd>
+        <dt class="col-sm-2">
+            Detalle
+        </dt>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.detalle)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.fechaInicio)
+        <dt class="col-sm-2">
+            Hora de Apertura
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.fechaInicio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.fechaFinal)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.fechaFinal)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.horaApertura)
-        </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.horaApertura)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.horaCierre)
+        <dt class="col-sm-2">
+            Hora de Cierre
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.horaCierre)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.costoPorHora)
+        <dt class="col-sm-2">
+            Costo por Hora
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.costoPorHora)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.estado)
+        <dt class="col-sm-2">
+            Estado
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.estado)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Empresa)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Empresa.celular)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Deporte)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Deporte.id_deporte)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estado.Descripcion)
         </dd>
     </dl>
     

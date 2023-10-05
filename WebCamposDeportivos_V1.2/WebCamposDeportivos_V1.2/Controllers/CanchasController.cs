@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -20,13 +21,15 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Canchas
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Canchas.Include(c => c.Deporte).Include(c => c.Empresa);
+            var appDbContext = _context.Canchas.Include(c => c.Deporte).Include(c => c.Empresa).Include(c => c.Estado);
             return View(await appDbContext.ToListAsync());
         }
 
         // GET: Canchas/Details/5
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Canchas == null)
@@ -37,6 +40,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
             var canchas = await _context.Canchas
                 .Include(c => c.Deporte)
                 .Include(c => c.Empresa)
+                .Include(c => c.Estado)
                 .FirstOrDefaultAsync(m => m.id_cancha == id);
             if (canchas == null)
             {
@@ -47,10 +51,12 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Canchas/Create
+        [Authorize(Roles = "Admin, Operario")]
         public IActionResult Create()
         {
-            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deporte", "Descripcion");
+            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deportes", "nombre");
             ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "nombre");
+            ViewData["id_estadoCancha"] = new SelectList(_context.Estado_Canchas, "Id_estadoCancha", "Descripcion");
             return View();
         }
 
@@ -59,7 +65,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_cancha,id_empresa,id_deporte,detalle,fechaInicio,fechaFinal,horaApertura,horaCierre,costoPorHora,estado")] Canchas canchas)
+        public async Task<IActionResult> Create(Canchas canchas)
         {
             if (ModelState.IsValid)
             {
@@ -67,12 +73,14 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deporte", "Descripcion", canchas.id_deporte);
+            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deportes", "nombre", canchas.id_deporte);
             ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "nombre", canchas.id_empresa);
+            ViewData["id_estadoCancha"] = new SelectList(_context.Estado_Canchas, "Id_estadoCancha", "Descripcion", canchas.id_estadoCancha);
             return View(canchas);
         }
 
         // GET: Canchas/Edit/5
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Canchas == null)
@@ -85,8 +93,9 @@ namespace WebCamposDeportivos_V1._2.Controllers
             {
                 return NotFound();
             }
-            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deporte", "id_deporte", canchas.id_deporte);
-            ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "celular", canchas.id_empresa);
+            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deportes", "nombre", canchas.id_deporte);
+            ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "nombre", canchas.id_empresa);
+            ViewData["id_estadoCancha"] = new SelectList(_context.Estado_Canchas, "Id_estadoCancha", "Descripcion", canchas.id_estadoCancha);
             return View(canchas);
         }
 
@@ -95,7 +104,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_cancha,id_empresa,id_deporte,detalle,fechaInicio,fechaFinal,horaApertura,horaCierre,costoPorHora,estado")] Canchas canchas)
+        public async Task<IActionResult> Edit(int id, [Bind("id_cancha,id_empresa,id_deporte,nombre,detalle,horaApertura,horaCierre,costoPorHora,id_estadoCancha")] Canchas canchas)
         {
             if (id != canchas.id_cancha)
             {
@@ -122,12 +131,14 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deporte", "id_deporte", canchas.id_deporte);
-            ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "celular", canchas.id_empresa);
+            ViewData["id_deporte"] = new SelectList(_context.Deportes, "id_deportes", "nombre", canchas.id_deporte);
+            ViewData["id_empresa"] = new SelectList(_context.Empresas, "id_empresa", "nombre", canchas.id_empresa);
+            ViewData["id_estadoCancha"] = new SelectList(_context.Estado_Canchas, "Id_estadoCancha", "Descripcion", canchas.id_estadoCancha);
             return View(canchas);
         }
 
         // GET: Canchas/Delete/5
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Canchas == null)
@@ -138,6 +149,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
             var canchas = await _context.Canchas
                 .Include(c => c.Deporte)
                 .Include(c => c.Empresa)
+                .Include(c => c.Estado)
                 .FirstOrDefaultAsync(m => m.id_cancha == id);
             if (canchas == null)
             {

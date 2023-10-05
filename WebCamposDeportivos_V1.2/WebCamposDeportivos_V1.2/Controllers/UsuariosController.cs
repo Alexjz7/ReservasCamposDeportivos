@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +20,6 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Usuarios
-        [Authorize(Roles = "Operario")]
         public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Usuarios.Include(u => u.Rol);
@@ -48,7 +46,6 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Usuarios/Create
-        [Authorize(Roles = "Operario")]
         public IActionResult Create()
         {
             ViewData["id_rol"] = new SelectList(_context.Roles, "RolID", "RolID");
@@ -73,7 +70,6 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Usuarios/Edit/5
-        [Authorize(Roles = "Operario")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Usuarios == null)
@@ -93,7 +89,6 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // POST: Usuarios/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id_usuario,id_rol,usuario,pass,nombres,apellidos,tipoDocumento,documento,correo,celular,estado")] Usuarios usuarios)
@@ -127,7 +122,6 @@ namespace WebCamposDeportivos_V1._2.Controllers
             return View(usuarios);
         }
 
-        [Authorize(Roles = "Operario")]
         // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

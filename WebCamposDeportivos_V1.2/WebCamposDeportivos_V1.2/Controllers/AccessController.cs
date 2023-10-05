@@ -82,7 +82,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
                     _context.Usuarios.Add(user);
                     _context.SaveChanges();
                     ViewData["Mensaje"] = "Usuario registrado exitosamente";
-                    return RedirectToAction("Index", "Reservas");
+                    return RedirectToAction("Login", "Access");
                 }
             }
             return View();
@@ -135,46 +135,28 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         [HttpGet]
-        public IActionResult SesionOperario()
+        public IActionResult SesionOrganizador()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> SesionOperario(Usuarios user)
+        public IActionResult SesionOrganizador(Usuarios user)
         {
-            var _user = validarOrganizador(user.usuario, user.pass);
-
-            if (_user != null)
+            if (user.pass != null)
             {
-                var claims = new List<Claim>
+                user.pass = Encriptar(user.pass);
+                user.id_rol = 1;
+                user.estado= true;
+                if (ModelState.IsValid)
                 {
-                    new Claim(ClaimTypes.Name, _user.nombres+ " " + _user.apellidos),
-                    new Claim(ClaimTypes.Email, _user.correo),
-                    new Claim(ClaimTypes.GivenName, _user.usuario),
-                    new Claim(ClaimTypes.MobilePhone, _user.celular),
-                    new Claim(ClaimTypes.GivenName, _user.tipoDocumento),
-                    new Claim(ClaimTypes.SerialNumber, _user.documento),
-                    new Claim(ClaimTypes.Role, _user.Rol.Descripcion)
-                };
-
-                var claimsIdentity = new ClaimsIdentity(claims,
-                                                        CookieAuthenticationDefaults.AuthenticationScheme);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                                                new ClaimsPrincipal(claimsIdentity));
-                return RedirectToAction("Index", "Reservas");
+                    _context.Usuarios.Add(user);
+                    _context.SaveChanges();
+                    ViewData["Mensaje"] = "Usuario registrado exitosamente";
+                    return RedirectToAction("Index", "Reservas");
+                }
             }
-
             return View();
-        }
-
-        private Usuarios validarOrganizador(string alias, string clave)
-        {
-            var tipo_usuario = _context.Usuarios.Include(r => r.Rol)
-                                    .Where(u => u.usuario == alias)
-                                    .Where(u => u.pass == clave)
-                                    .FirstOrDefault();
-            return tipo_usuario;
         }
     }
 }

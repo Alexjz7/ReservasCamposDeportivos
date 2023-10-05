@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Crear reserva</h1>
+<h1>Crear Reserva</h1>
 
 <hr />
 <div class="row">
@@ -13,31 +13,46 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <select hidden asp-for="ClienteID" class ="form-control" asp-items="ViewBag.ClienteID" readonly></select>
+                <select asp-for="ClienteID" hidden="hidden" class ="form-control" asp-items="@ViewBag.usuario"></select>
             </div>
             <div class="form-group">
-                <label asp-for="CanchaID" class="control-label"></label>
-                <select asp-for="CanchaID" class ="form-control" asp-items="ViewBag.CanchaID"></select>
+                <label asp-for="CanchaID" class="control-label">Nombre del Campo</label>
+                <select asp-for="CanchaID" class ="form-control" asp-items="@ViewBag.cancha"></select>
             </div>
             <div class="form-group">
-                <label asp-for="PagoID" class="control-label"></label>
-                <select asp-for="PagoID" class ="form-control" asp-items="ViewBag.PagoID"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="fechaReserva" class="control-label"></label>
+                <label asp-for="fechaReserva" class="control-label">Fecha de la reserva</label>
                 <input asp-for="fechaReserva" type="date" class="form-control" />
                 <span asp-validation-for="fechaReserva" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="horaReserva" class="control-label"></label>
+                <label asp-for="horaReserva" class="control-label">Hora de la reserva</label>
                 <input asp-for="horaReserva" type="time" class="form-control" />
                 <span asp-validation-for="horaReserva" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="total" class="control-label"></label>
-                <input asp-for="total" value="7" type="number" class="form-control" readonly />
+                <label asp-for="PagoID" class="control-label">Tipo de Pago</label>
+                <select asp-for="PagoID" class="form-control" asp-items="@ViewBag.pago"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="total" class="control-label">Costo total</label>
+                <select asp-for="total" class="form-control" asp-items="@ViewBag.costo" disabled></select>
                 <span asp-validation-for="total" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="estado" class="control-label">Estado</label>
+                <select asp-for="estado" class="form-control" asp-items="@ViewBag.estado" disabled></select>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="total" class="control-label">Costo total</label>
+                <input asp-for="total" class="form-control" value="7.00" readonly/>
+                <span asp-validation-for="total" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="estado" class="control-label">Estado</label>
+                <select asp-for="estado" class="form-control" disabled>
+                    <option value="1" selected>Pendiente</option>
+                </select>
+            </div> *@
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
@@ -46,7 +61,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Volver</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

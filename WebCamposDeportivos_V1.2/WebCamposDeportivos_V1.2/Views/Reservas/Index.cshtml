@@ -7,55 +7,68 @@
 
 <h1>Lista de Reservas</h1>
 
-<p>
-    <a asp-action="Create">Crear nueva reserva</a>
-</p>
+@if (User.IsInRole("Cliente"))
+{
+    <p>
+        <a asp-action="Create">Nueva reserva</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Cliente)
+                Cliente
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cancha)
+                Nombre del Campo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.fechaReserva)
+                Fecha de la Reserva
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.horaReserva)
+                Hora de la Reserva
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Pago)
+                Tipo de Pago
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.total)
+                Total
             </th>
+            <th>
+                Estado
+            </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cliente.nombres + item.Cliente.apellidos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cancha.detalle)
-            </td>
+                <td>
+                    @item.Cliente.nombres
+                </td>
+                <td>
+                    @item.Cancha.nombre
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.fechaReserva)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.horaReserva)
             </td>
+                <td>
+                    @item.Pago.Descripcion
+                </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Pago.Descripcion)
+                @item.Cancha.costoPorHora
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.total)
+                @Html.DisplayFor(modelItem => item.estado)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.id_reserva">Editar</a> |
+                    @if (User.IsInRole("Cliente") || User.IsInRole("Admin"))
+                    {
+                <a asp-action="Edit" asp-route-id="@item.id_reserva">Editar |</a>
+                    }
                 <a asp-action="Details" asp-route-id="@item.id_reserva">Detalle</a> |
                 <a asp-action="Delete" asp-route-id="@item.id_reserva">Eliminar</a>
             </td>

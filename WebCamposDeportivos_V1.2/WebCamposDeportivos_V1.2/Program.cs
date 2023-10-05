@@ -32,6 +32,9 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     SeedData.Initialize(services);
+
+    var services1 = scope.ServiceProvider;
+    SeedData.AddStatus(services1);
 }
 
 // Configure the HTTP request pipeline.

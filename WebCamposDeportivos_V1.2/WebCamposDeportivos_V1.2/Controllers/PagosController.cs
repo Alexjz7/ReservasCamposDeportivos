@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -35,17 +36,18 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 return NotFound();
             }
 
-            var pago = await _context.Pagos
-                .FirstOrDefaultAsync(m => m.id_pago == id);
-            if (pago == null)
+            var pagos = await _context.Pagos
+                .FirstOrDefaultAsync(m => m.id_pagos == id);
+            if (pagos == null)
             {
                 return NotFound();
             }
 
-            return View(pago);
+            return View(pagos);
         }
 
         // GET: Pagos/Create
+        [Authorize(Roles = "Admin, Operario")]
         public IActionResult Create()
         {
             return View();
@@ -56,18 +58,19 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_pago,Descripcion,estado")] Pago pago)
+        public async Task<IActionResult> Create([Bind("id_pagos,Descripcion")] Pagos pagos)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(pago);
+                _context.Add(pagos);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(pago);
+            return View(pagos);
         }
 
         // GET: Pagos/Edit/5
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Pagos == null)
@@ -75,12 +78,12 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 return NotFound();
             }
 
-            var pago = await _context.Pagos.FindAsync(id);
-            if (pago == null)
+            var pagos = await _context.Pagos.FindAsync(id);
+            if (pagos == null)
             {
                 return NotFound();
             }
-            return View(pago);
+            return View(pagos);
         }
 
         // POST: Pagos/Edit/5
@@ -88,9 +91,9 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_pago,Descripcion,estado")] Pago pago)
+        public async Task<IActionResult> Edit(int id, [Bind("id_pagos,Descripcion")] Pagos pagos)
         {
-            if (id != pago.id_pago)
+            if (id != pagos.id_pagos)
             {
                 return NotFound();
             }
@@ -99,12 +102,12 @@ namespace WebCamposDeportivos_V1._2.Controllers
             {
                 try
                 {
-                    _context.Update(pago);
+                    _context.Update(pagos);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PagoExists(pago.id_pago))
+                    if (!PagosExists(pagos.id_pagos))
                     {
                         return NotFound();
                     }
@@ -115,10 +118,11 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(pago);
+            return View(pagos);
         }
 
         // GET: Pagos/Delete/5
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Pagos == null)
@@ -126,14 +130,14 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 return NotFound();
             }
 
-            var pago = await _context.Pagos
-                .FirstOrDefaultAsync(m => m.id_pago == id);
-            if (pago == null)
+            var pagos = await _context.Pagos
+                .FirstOrDefaultAsync(m => m.id_pagos == id);
+            if (pagos == null)
             {
                 return NotFound();
             }
 
-            return View(pago);
+            return View(pagos);
         }
 
         // POST: Pagos/Delete/5
@@ -145,19 +149,19 @@ namespace WebCamposDeportivos_V1._2.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Pagos'  is null.");
             }
-            var pago = await _context.Pagos.FindAsync(id);
-            if (pago != null)
+            var pagos = await _context.Pagos.FindAsync(id);
+            if (pagos != null)
             {
-                _context.Pagos.Remove(pago);
+                _context.Pagos.Remove(pagos);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PagoExists(int id)
+        private bool PagosExists(int id)
         {
-          return (_context.Pagos?.Any(e => e.id_pago == id)).GetValueOrDefault();
+          return (_context.Pagos?.Any(e => e.id_pagos == id)).GetValueOrDefault();
         }
     }
 }

@@ -21,7 +21,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Deportes
-        [Authorize(Roles = "Cliente, Admin, Operario")]
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Index()
         {
               return _context.Deportes != null ? 
@@ -30,7 +30,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Deportes/Details/5
-        [Authorize(Roles = "Cliente, Admin, Operario")]
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Deportes == null)
@@ -39,7 +39,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
             }
 
             var deportes = await _context.Deportes
-                .FirstOrDefaultAsync(m => m.id_deporte == id);
+                .FirstOrDefaultAsync(m => m.id_deportes == id);
             if (deportes == null)
             {
                 return NotFound();
@@ -49,7 +49,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Deportes/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Operario")]
         public IActionResult Create()
         {
             return View();
@@ -60,7 +60,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id_deporte,Descripcion,estado")] Deportes deportes)
+        public async Task<IActionResult> Create([Bind("id_deportes,nombre")] Deportes deportes)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +72,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Deportes/Edit/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Deportes == null)
@@ -93,9 +93,9 @@ namespace WebCamposDeportivos_V1._2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id_deporte,Descripcion,estado")] Deportes deportes)
+        public async Task<IActionResult> Edit(int id, [Bind("id_deportes,nombre")] Deportes deportes)
         {
-            if (id != deportes.id_deporte)
+            if (id != deportes.id_deportes)
             {
                 return NotFound();
             }
@@ -109,7 +109,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DeportesExists(deportes.id_deporte))
+                    if (!DeportesExists(deportes.id_deportes))
                     {
                         return NotFound();
                     }
@@ -124,7 +124,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
         }
 
         // GET: Deportes/Delete/5
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin, Operario")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Deportes == null)
@@ -133,7 +133,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
             }
 
             var deportes = await _context.Deportes
-                .FirstOrDefaultAsync(m => m.id_deporte == id);
+                .FirstOrDefaultAsync(m => m.id_deportes == id);
             if (deportes == null)
             {
                 return NotFound();
@@ -163,7 +163,7 @@ namespace WebCamposDeportivos_V1._2.Controllers
 
         private bool DeportesExists(int id)
         {
-          return (_context.Deportes?.Any(e => e.id_deporte == id)).GetValueOrDefault();
+          return (_context.Deportes?.Any(e => e.id_deportes == id)).GetValueOrDefault();
         }
     }
 }

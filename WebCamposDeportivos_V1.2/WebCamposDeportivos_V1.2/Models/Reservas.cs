@@ -25,12 +25,15 @@ namespace WebCamposDeportivos_V1._2.Models
         [Column(TypeName = "time")]
         public TimeSpan horaReserva { get; set; }
 
-        public double total { get; set; }
+        [Required]
+        public decimal total { get; set; }
+
+        public string? estado { get; set; }
 
         public Usuarios? Cliente { get; set; }
 
         public Canchas? Cancha { get; set; }
 
-        public Pago? Pago { get; set; }
+        public Pagos? Pago { get; set; }
     }
 }

@@ -14,8 +14,9 @@ namespace WebCamposDeportivos_V1._2.Data
         public DbSet<Reservas> Reservas { get; set; }
         public DbSet<Empresas> Empresas { get; set; }
         public DbSet<Rol> Roles { get; set; }
-        public DbSet<Pago> Pagos { get; set; }
+        public DbSet<Pagos> Pagos { get; set; }
         public DbSet<Deportes> Deportes { get; set; }
-        public DbSet<WebCamposDeportivos_V1._2.Models.User_Empresa> User_Empresa { get; set; } = default!;
+        public DbSet<User_Empresa> User_Empresa { get; set; }
+        public DbSet<Estado_Canchas>Estado_Canchas { get; set; }
     }
 }

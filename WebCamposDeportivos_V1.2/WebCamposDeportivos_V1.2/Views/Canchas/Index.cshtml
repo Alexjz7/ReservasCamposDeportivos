@@ -8,25 +8,22 @@
 <h1>Lista de Campos</h1>
 
 <p>
-    <a asp-action="Create">Crear nuevo</a>
+    <a asp-action="Create">Crear campo</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Empresa)
+                Empresa
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Deporte)
+                Nombre
             </th>
             <th>
-                Nombre del Campo
+                Deporte
             </th>
             <th>
-                Fecha de Inicio
-            </th>
-            <th>
-                Fecha Final
+                Detalle
             </th>
             <th>
                 Hora de Apertura
@@ -40,6 +37,7 @@
             <th>
                 Estado
             </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -49,16 +47,13 @@
                 @Html.DisplayFor(modelItem => item.Empresa.nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Deporte.Descripcion)
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deporte.nombre)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.detalle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.fechaInicio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.fechaFinal)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.horaApertura)
@@ -67,10 +62,11 @@
                 @Html.DisplayFor(modelItem => item.horaCierre)
             </td>
             <td>
+                    <label>S/.</label>
                 @Html.DisplayFor(modelItem => item.costoPorHora)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.estado)
+                @item.Estado.Descripcion
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.id_cancha">Editar</a> |

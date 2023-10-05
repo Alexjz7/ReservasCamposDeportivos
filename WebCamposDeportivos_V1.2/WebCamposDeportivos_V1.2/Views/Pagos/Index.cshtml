@@ -1,23 +1,23 @@
-﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Pago>
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Pagos>
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>Medios de pago</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (User.IsInRole("Operario") || User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Crear nuevo</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.estado)
             </th>
             <th></th>
         </tr>
@@ -29,12 +29,13 @@
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.estado)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.id_pago">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.id_pago">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.id_pago">Delete</a>
+                    @if (User.IsInRole("Operario") || User.IsInRole("Admin"))
+                    {
+                    <a asp-action="Edit" asp-route-id="@item.id_pagos">Editar |</a>
+                    <a asp-action="Delete" asp-route-id="@item.id_pagos">Eliminar |</a>
+                    }
+
+                    <a asp-action="Details" asp-route-id="@item.id_pagos">Detalle</a>
             </td>
         </tr>
 }

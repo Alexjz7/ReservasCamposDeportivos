@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Crear Canchas</h1>
+<h1>Crear Campos</h1>
 
 <hr />
 <div class="row">
@@ -13,51 +13,40 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="id_empresa" class="control-label"></label>
-                <select asp-for="id_empresa" class ="form-control" asp-items="ViewBag.id_empresa">
-                    <option disabled selected>--Seleccione una opción--</option>
-                </select>
+                <label asp-for="id_empresa" class="control-label">Empresa</label>
+                <select asp-for="id_empresa" class ="form-control" asp-items="ViewBag.id_empresa"></select>
             </div>
             <div class="form-group">
-                <label asp-for="id_deporte" class="control-label"></label>
-                <select asp-for="id_deporte" class ="form-control" asp-items="ViewBag.id_deporte">
-                    <option disabled selected>--Seleccione una opción--</option>
-                </select>
+                <label asp-for="nombre" class="control-label">Nombre</label>
+                <input asp-for="nombre" type="text" class="form-control" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="detalle" class="control-label"></label>
-                <input asp-for="detalle" class="form-control" />
+                <label asp-for="id_deporte" class="control-label">Deporte</label>
+                <select asp-for="id_deporte" class ="form-control" asp-items="ViewBag.id_deporte"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="detalle" class="control-label">Detalle</label>
+                <textarea asp-for="detalle" class="form-control"></textarea>
                 <span asp-validation-for="detalle" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="fechaInicio" class="control-label"></label>
-                <input asp-for="fechaInicio" type="date" class="form-control" />
-                <span asp-validation-for="fechaInicio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="fechaFinal" class="control-label"></label>
-                <input asp-for="fechaFinal" type="date" class="form-control" />
-                <span asp-validation-for="fechaFinal" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="horaApertura" class="control-label"></label>
+                <label asp-for="horaApertura" class="control-label">Hora de Apertura</label>
                 <input asp-for="horaApertura" type="time" class="form-control" />
                 <span asp-validation-for="horaApertura" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="horaCierre" class="control-label"></label>
+                <label asp-for="horaCierre" class="control-label">Hora de Cierre</label>
                 <input asp-for="horaCierre" type="time" class="form-control" />
                 <span asp-validation-for="horaCierre" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="costoPorHora" class="control-label"></label>
-                <input asp-for="costoPorHora" type="number" class="form-control" />
+                <label asp-for="costoPorHora" class="control-label">Costo por Hora</label>
+                <input asp-for="costoPorHora" type="number" value="5.0" step="0.1" class="form-control" />
                 <span asp-validation-for="costoPorHora" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="estado" /> @Html.DisplayNameFor(model => model.estado)
-                </label>
+            <div class="form-group">
+                <select asp-for="id_estadoCancha" class ="form-control" hidden="hidden" asp-items="ViewBag.id_estadoCancha"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
@@ -67,7 +56,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Volver</a>
 </div>
 
 @section Scripts {
