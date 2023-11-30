@@ -11946,11 +11946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\CALEB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CALEB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11967,8 +11967,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj": {
-              "projectPath": "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj"
+            "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj": {
+              "projectPath": "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj"
             }
           }
         }

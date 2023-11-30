@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BGiqUvXg1WugoCRL5JOQkMX9xLti8hScXWDEgUBlHJte67VYVaFgMSetvVcsaYscPjAQCn+WNVpG70wjjSL/Xw==",
+  "dgSpecHash": "B6JLnlj/O2hFjoCVuPd2l17tVMByIM9rAQYnAcBvxTH2qs3MXY/hd3qQ6BMGpZN/iDeuCWMy4Q5IHZFlnR0VKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CALEB\\Downloads\\TrabajoCampo\\V6-FINALISTA\\ReservasCamposDeportivos (V5)\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj",
+  "projectFilePath": "C:\\Users\\CALEB\\Documents\\ReservasCamposDeportivos\\ReservasCamposDeportivos-V5\\WebCamposDeportivos_V1.2\\WebCamposDeportivos_V1.2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CALEB\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\CALEB\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

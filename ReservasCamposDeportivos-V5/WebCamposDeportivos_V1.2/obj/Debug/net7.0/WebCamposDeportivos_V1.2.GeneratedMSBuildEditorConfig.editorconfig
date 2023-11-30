@@ -9,163 +9,167 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebCamposDeportivos_V1._2
 build_property.RootNamespace = WebCamposDeportivos_V1._2
-build_property.ProjectDir = C:\Users\CALEB\Downloads\TrabajoCampo\V6-FINALISTA\ReservasCamposDeportivos (V5)\WebCamposDeportivos_V1.2\
+build_property.ProjectDir = C:\Users\CALEB\Documents\ReservasCamposDeportivos\ReservasCamposDeportivos-V5\WebCamposDeportivos_V1.2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\CALEB\Downloads\TrabajoCampo\V6-FINALISTA\ReservasCamposDeportivos (V5)\WebCamposDeportivos_V1.2
+build_property.MSBuildProjectDirectory = C:\Users\CALEB\Documents\ReservasCamposDeportivos\ReservasCamposDeportivos-V5\WebCamposDeportivos_V1.2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Access/AdminRegistro.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Access/AdminRegistro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXEFkbWluUmVnaXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Access/Login.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Access/Registrar.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Access/LoginSupervisor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luU3VwZXJ2aXNvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Access/Registrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Canchas/Create.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Canchas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Canchas/Delete.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Canchas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Canchas/Details.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Canchas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Canchas/Edit.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Canchas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Canchas/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Canchas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuY2hhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Empresas/Create.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Empresas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Empresas/Delete.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Empresas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Empresas/Edit.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Empresas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Empresas/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Empresas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/DisponibilidadCampos.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/DisponibilidadCampos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwb25pYmlsaWRhZENhbXBvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/Error.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/Principal.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmluY2lwYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/Privacy.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Home/TerminosCondiciones.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Home/TerminosCondiciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtaW5vc0NvbmRpY2lvbmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/MediosPago/Create.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/MediosPago/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaW9zUGFnb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/MediosPago/Delete.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/MediosPago/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaW9zUGFnb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/MediosPago/Details.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/MediosPago/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaW9zUGFnb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/MediosPago/Edit.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/MediosPago/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaW9zUGFnb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/MediosPago/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/MediosPago/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaW9zUGFnb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Reservas/Create.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Reservas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Reservas/Delete.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Reservas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Reservas/Details.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Reservas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Reservas/Edit.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Reservas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Reservas/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Reservas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Shared/Error.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Usuarios/Delete.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Usuarios/Edit.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Usuarios/Index.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/_ViewImports.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/_ViewStart.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/CALEB/Downloads/TrabajoCampo/V6-FINALISTA/ReservasCamposDeportivos (V5)/WebCamposDeportivos_V1.2/Views/Shared/_Layout.cshtml]
+[C:/Users/CALEB/Documents/ReservasCamposDeportivos/ReservasCamposDeportivos-V5/WebCamposDeportivos_V1.2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bh12cz1fqu

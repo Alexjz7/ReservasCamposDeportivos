@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestProject1
-build_property.ProjectDir = C:\Users\CALEB\Downloads\TrabajoCampo\V6-FINALISTA\ReservasCamposDeportivos (V5)\TestProject1\
+build_property.ProjectDir = C:\Users\CALEB\Documents\ReservasCamposDeportivos\ReservasCamposDeportivos-V5\TestProject1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
