@@ -1,0 +1,688 @@
+
+oWebCamposDeportivos_V1._2.Controllers.AccessController.AdminRegistro(WebCamposDeportivos_V1._2.Models.Usuarios)Ç
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.csü ü(*"19*å
+0
+° °(!à
+Ö
+
+° °(
+%0string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuariosh
+f
+
+° °(!
+
+%1bool""string.operator !=(string, string)*
+"
+string*
+
+%0string*
+""*
+1
+2*Ú
+1
+£ •(&à
+Ö
+
+£& £(/
+%2string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios∑
+¥
+
+£ £(0
+%3string"HWebCamposDeportivos_V1._2.Controllers.AccessController.Encriptar(string)*<:"8
+6WebCamposDeportivos_V1._2.Controllers.AccessController*
+
+%2stringö
+ó
+
+£ £(0
+%4string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.set*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%3stringè
+å
+
+§ §(	
+%5int"4WebCamposDeportivos_V1._2.Models.Usuarios.id_rol.set*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios*2∏
+µ
+
+• •(@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase©
+¶
+
+• •(&
+
+%7bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*DB
+@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+3
+2*ñ
+3
+® ¨(1¡
+æ
+
+® ®( 1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¥
+±
+
+® ®()2
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContextÅ
+˛
+
+® ¨(2
+%10bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+4
+5*ö
+5
+≠ ≠(L¬
+ø
+
+≠ ≠( 2
+%11+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+≠ ≠()3
+%12,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Empresas.get*64
+2
+%11+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+≠ ≠(M
+%13bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%12,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+4
+6*ó
+6
+Æ Æ(M¬
+ø
+
+Æ Æ( 2
+%14+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≥
+∞
+
+Æ Æ(&3
+%15,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*64
+2
+%14+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+Æ Æ(N
+%16bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%15,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+4
+7*ö
+4
+∞ ∞(P¬
+ø
+
+∞ ∞($2
+%17+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+∞ ∞(-3
+%18,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%17+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+∞ ∞(Q
+%19bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%18,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+8
+9*À
+8
+± ±(fπ
+∂
+
+± ±(&A
+%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¯
+ı
+
+± ±(g
+%21void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*EC
+A
+%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+usuario**(&
+$Ya existe un usuario con este alias.*
+9*ú
+9
+≥ ≥(N¬
+ø
+
+≥ ≥($2
+%22+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+≥ ≥(-3
+%23,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%22+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+≥ ≥(O
+%24bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%23,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+10
+11*Õ
+10
+¥ ¥(fπ
+∂
+
+¥ ¥(&A
+%25:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¯
+ı
+
+¥ ¥(g
+%26void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*EC
+A
+%25:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+
+correo*+)'
+%Ya existe un usuario con este correo.*
+11*ù
+11
+∂ ∂(T¬
+ø
+
+∂ ∂($2
+%27+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+∂ ∂(-3
+%28,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%27+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+∂ ∂(U
+%29bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%28,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+12
+13*”
+12
+∑ ∑(lπ
+∂
+
+∑ ∑(&A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase˛
+˚
+
+∑ ∑(m
+%31void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*EC
+A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+	documento*.,*
+(Ya existe un usuario con este documento.*
+13*ù
+13
+π π(P¬
+ø
+
+π π($2
+%32+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+π π(-3
+%33,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%32+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+π π(Q
+%34bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%33,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+14
+15*ù
+15
+∫ ∫(L¬
+ø
+
+∫ ∫( 2
+%35+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+∫ ∫()3
+%36,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Empresas.get*64
+2
+%35+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+∫ ∫(M
+%37bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%36,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+14
+16*ö
+16
+ª ª(M¬
+ø
+
+ª ª( 2
+%38+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≥
+∞
+
+ª ª(&3
+%39,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*64
+2
+%38+WebCamposDeportivos_V1._2.Data.AppDbContextÇ
+ˇ
+
+ª ª(N
+%40bool"ÉSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%39,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+14
+17*€
+14
+º º(sπ
+∂
+
+º º(&A
+%41:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÜ
+É
+
+º º(t
+%42void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*EC
+A
+%41:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+celular*864
+2Ya existe un registro con este n√∫mero de celular.*
+17*¢
+17
+æ æ((‘
+—
+
+æ æ()
+%43void"3webcamposdeportivos_v1.2/views/access/adminregistro*	
+
+%44*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject 
+«
+
+æ æ()
+%45void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%46*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectŒ
+À
+
+æ æ()
+%47void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%48*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+
+æ æ(*
+
+%47void*Ú
+7
+¡ ƒ(=¬
+ø
+
+¡ ¡(2
+%49+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+¡ ¡(%3
+%50,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%49+WebCamposDeportivos_V1._2.Data.AppDbContextíè
+
+¡ ¡(/H
+%51AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"9Microsoft.EntityFrameworkCore.DbSet<TEntity>.Add(TEntity)*75
+3
+%50,Microsoft.EntityFrameworkCore.DbSet<TEntity>*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios2Add(TEntity)¬
+ø
+
+¬ ¬(2
+%52+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContextôñ
+
+¬ ¬(*
+
+%53int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*64
+2
+%52+WebCamposDeportivos_V1._2.Data.AppDbContext2SaveChanges()1/
+
+√ √(
+%ViewBagDataAllobject"object20
+
+√ √(
+%ViewBagDataHtmlobject"objectØ
+¨
+
+√ √(K
+%54object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataAllobject*	
+Mensaje*%#!
+Usuario registrado exitosamenteá
+Ñ
+%55object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataHtmlobject*	
+Mensaje*
+""Å˛
+
+ƒ ƒ(>6
+%56/Microsoft.AspNetCore.Mvc.RedirectToActionResult"JMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string?, string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Login*
+
+Access2"RedirectToAction(string?, string?)"F
+
+ƒ ƒ(?8
+6
+%56/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ø
+2
+« «(Æ
+´
+
+« «(
+%57void"3webcamposdeportivos_v1.2/views/access/adminregistro*	
+
+%58*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject§
+°
+
+« «(
+%59void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%60*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject®
+•
+
+« «(
+%61void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%62*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+
+« «(
+
+%61void*3
+18
+»	 »(	"!
+
+» »(	
+implicit return*Æ
+19
+ü9 ü(9u
+s
+
+ü ü(*W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<usuario>k__BackingFieldstring"__entrypointd
+b
+
+ü ü(*F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+usuariostring"__entrypointr
+p
+
+ü ü(*T
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+<pass>k__BackingFieldstring"__entrypointa
+_
+
+ü ü(*C
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+passstring"__entrypointu
+s
+
+ü ü(*W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<nombres>k__BackingFieldstring"__entrypointd
+b
+
+ü ü(*F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+nombresstring"__entrypointw
+u
+
+ü ü(*Y
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<apellidos>k__BackingFieldstring"__entrypointf
+d
+
+ü ü(*H
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+	apellidosstring"__entrypoint{
+y
+
+ü ü(*]
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"(
+<tipoDocumento>k__BackingFieldstring"__entrypointj
+h
+
+ü ü(*L
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+tipoDocumentostring"__entrypointw
+u
+
+ü ü(*Y
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<documento>k__BackingFieldstring"__entrypointf
+d
+
+ü ü(*H
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+	documentostring"__entrypointt
+r
+
+ü ü(*V
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"!
+<correo>k__BackingFieldstring"__entrypointc
+a
+
+ü ü(*E
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+correostring"__entrypointu
+s
+
+ü ü(*W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<celular>k__BackingFieldstring"__entrypointd
+b
+
+ü ü(*F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+celularstring"__entrypointê
+ç
+
+ü ü(*q
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"<
+<Rol>k__BackingField$WebCamposDeportivos_V1._2.Models.Rol"__entrypoint~
+|
+
+ü ü(*`
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"+
+Rol$WebCamposDeportivos_V1._2.Models.Rol"__entrypointù
+ö
+
+ü ü(*~
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"I
+<Add_Reserva>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointå
+â
+
+ü ü(*m
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"8
+Add_Reserva)System.Collections.Generic.ICollection<T>"__entrypoint•
+¢
+
+ü ü(*Ö
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"P
+#<Add_EmpresaUsuario>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointì
+ê
+
+ü ü(*t
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"?
+Add_EmpresaUsuario)System.Collections.Generic.ICollection<T>"__entrypoint#
+!
+
+ü ü(*
+%63"__entrypoint*
+0:?
+
+ü+ ü(81
+user)WebCamposDeportivos_V1._2.Models.UsuariosB:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

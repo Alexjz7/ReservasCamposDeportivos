@@ -1,0 +1,58 @@
+﻿@model WebCamposDeportivos_V1._2.Models.Canchas
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar canchas</h1>
+
+<h3>Estás seguro de eliminar este campo?</h3>
+<div>
+    <h4>Canchas</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.detalle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.detalle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.costoDia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.costoDia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.costoNoche)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.costoNoche)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UrlImage)
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="@Html.DisplayFor(model => model.UrlImage)" alt="Imagen del campo deportivo" width="200" height="150" align="left" />
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Empresa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Empresa.nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.deporte)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.deporte)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id_cancha" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Volver</a>
+    </form>
+</div>

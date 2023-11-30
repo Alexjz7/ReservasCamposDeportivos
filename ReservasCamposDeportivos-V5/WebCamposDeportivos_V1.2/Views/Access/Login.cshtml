@@ -1,0 +1,62 @@
+﻿@model Usuarios
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inicia sesión para utilizar nuestros servicios</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/diseñoLog.css">
+</head>
+
+<body>
+
+    <a asp-controller="Home" asp-action="Principal" class="btn btn-secondary">Volver</a>
+
+    <!--Contenido del login-->
+    <section class="form-login">
+        <h2>LOGIN</h2>
+        <form asp-controller="Access" asp-action="Login" method="POST" class="inputForm">
+            <div class="form-group">
+                <input autocomplete="off" asp-for="usuario" type="text" placeholder="Usuario">
+                <span class="etiqueta">Usuario</span>
+                <i>
+                    <span asp-validation-for="usuario" style="color:indianred"></span>
+                </i>
+            </div>
+            <div class="form-group">
+                <input autocomplete="off" asp-for="pass" type="password" placeholder="Contraseña">
+                <span class="etiqueta">Contraseña</span>
+                <i>
+                    <span asp-validation-for="pass" style="color:indianred"></span>
+                </i>
+            </div>
+
+            @if (ViewData["Mensaje"] != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewData["Mensaje"]
+                </div>
+            }
+
+            <button type="submit" class="boton">
+                INICIAR
+            </button>
+            <p>¿Aún no tengo cuenta? <a asp-controller="Access" asp-action="Registrar">Registrarse ahora</a></p>
+            <p><a href="#">¿Olvidé mi cuenta?</a></p>
+        </form>
+    </section>
+</body>
+
+</html>

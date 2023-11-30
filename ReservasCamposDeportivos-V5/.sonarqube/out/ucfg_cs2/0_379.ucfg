@@ -1,0 +1,108 @@
+
+ÃWebCamposDeportivos_V1._2.Controllers.HomeController.HomeController(Microsoft.Extensions.Logging.ILogger<WebCamposDeportivos_V1._2.Controllers.HomeController>, WebCamposDeportivos_V1._2.Data.AppDbContext)~
+tC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\HomeController.cs ("3*
+1	 (	k
+i
+
+%0void"0Microsoft.AspNetCore.Mvc.Controller.Controller()*)'%
+#Microsoft.AspNetCore.Mvc.Controller*
+0*™
+0 (–
+Õ
+ (x6
+4WebCamposDeportivos_V1._2.Controllers.HomeController">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>¬
+ø
+ (q6
+4WebCamposDeportivos_V1._2.Controllers.HomeController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*:8
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext*
+2*.
+2	 (	"
+ (	
+implicit return*Î
+3S (S°
+û
+ (É
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"I
+<Usuarios>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointè
+å
+ (r
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"8
+Usuarios,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypoint†
+ù
+ (Ç
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"H
+<Canchas>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointé
+ã
+ (q
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"7
+Canchas,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypoint°
+û
+ (É
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"I
+<Reservas>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointè
+å
+ (r
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"8
+Reservas,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypoint°
+û
+ (É
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"I
+<Empresas>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointè
+å
+ (r
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"8
+Empresas,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointû
+õ
+ (Ä
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"F
+<Roles>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointå
+â
+ (o
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"5
+Roles,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointû
+õ
+ (Ä
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"F
+<Pagos>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointå
+â
+ (o
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"5
+Pagos,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypoint•
+¢
+ (á
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"M
+<User_Empresa>k__BackingField,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointì
+ê
+ (v
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"<
+User_Empresa,Microsoft.EntityFrameworkCore.DbSet<TEntity>"__entrypointc
+a
+ (
+%1"__entrypoint*A?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+1:I
+ (<=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>:B
+> (R6
+context+WebCamposDeportivos_V1._2.Data.AppDbContextB86
+4WebCamposDeportivos_V1._2.Controllers.HomeController

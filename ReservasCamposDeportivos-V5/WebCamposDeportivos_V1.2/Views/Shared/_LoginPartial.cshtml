@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Identity;
+
+@if (Context.User.Identity.IsAuthenticated == true)
+{
+        <span>
+        @Context.User.Identity?.Name
+        </span>
+}

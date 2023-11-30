@@ -1,0 +1,126 @@
+
+<WebCamposDeportivos_V1._2.Controllers.HomeController.Error()~
+tC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\HomeController.csE E(""6*¡
+0G G(Itr
+G G(n5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel"/WebCamposDeportivos_V1._2.Models.ErrorViewModel–
+“
+G G(*
+
+%1void"@WebCamposDeportivos_V1._2.Models.ErrorViewModel.ErrorViewModel()*97
+5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel{
+y
+G9 G(I!
+%2System.Diagnostics.Activity"'System.Diagnostics.Activity.Current.get*!"
+System.Diagnostics.Activity*
+1
+2*y
+2GJ G(Me
+c
+GK G(M
+%3string""System.Diagnostics.Activity.Id.get*%#
+!
+%2System.Diagnostics.Activity*
+1*
+1H	 H(	*
+3
+4*©
+3GQ G(l¢
+Ÿ
+GQ G(\+
+%7%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‡
+„
+GQ G(l
+%8string"9Microsoft.AspNetCore.Http.HttpContext.TraceIdentifier.get*/-
++
+%7%Microsoft.AspNetCore.Http.HttpContext2
+0
+GQ G(l
+%6string"__id*
+
+%8string2
+0
+GQ G(l
+%4string"__id*
+
+%6string*
+4*Ã	
+4G G(l§
+¤
+G- G(l
+%9string"=WebCamposDeportivos_V1._2.Models.ErrorViewModel.RequestId.set*97
+5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel*
+
+%4stringÌ
+É
+G G(o
+%10void")webcamposdeportivos_v1.2/views/home/error*	
+
+%11*97
+5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÌ
+É
+G G(o
+%12void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%13*97
+5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÐ
+Í
+G G(o
+%14void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%15*97
+5
+%0/WebCamposDeportivos_V1._2.Models.ErrorViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+G G(p
+
+%14void*.
+5H	 H(	"
+H H(	
+implicit return*5
+6E$ E($!
+
+E E("
+%16"__entrypoint*
+0B86
+4WebCamposDeportivos_V1._2.Controllers.HomeController

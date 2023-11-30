@@ -1,0 +1,293 @@
+
+sWebCamposDeportivos_V1._2.Controllers.HomeController.DisponibilidadCampos(string, System.TimeSpan, System.TimeSpan)~
+tC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\HomeController.cs) (="8*þ	
+0 #(/½
+º
+ ( 1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*us*q6
+4WebCamposDeportivos_V1._2.Controllers.HomeController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+®
+ ((2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext°
+­
+  ((R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"ÂMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""‚
+ÿ
+ !(
+%3System.Linq.IQueryable<T>"]System.Linq.Queryable.AsQueryable<TElement>(System.Collections.Generic.IEnumerable<TElement>)*"
+System.Linq.Queryable*VT
+R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>[
+Y
+ !("
+querySystem.Linq.IQueryable<T>"__id*#!
+
+%3System.Linq.IQueryable<T>^
+\
+# #(0
+
+%4bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+	searchEmpstring*
+1
+2*÷
+1% %(\…
+‚
+% %(]
+%5System.Linq.IQueryable<T>"…System.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*&$
+"
+querySystem.Linq.IQueryable<T>*
+""[
+Y
+% %(]"
+querySystem.Linq.IQueryable<T>"__id*#!
+
+%5System.Linq.IQueryable<T>*
+2*¢
+2( ((+[
+Y
+( ((+
+%6System.TimeSpan"__id*0.*,
+System.TimeSpan"
+ZeroSystem.TimeSpan­
+ª
+( ((+
+
+%7bool"=System.TimeSpan.operator !=(System.TimeSpan, System.TimeSpan)*"
+System.TimeSpan*!
+
+
+horaInicioSystem.TimeSpan*
+
+%6System.TimeSpan*
+3
+4*¡
+4(/ ((I[
+Y
+(< ((I
+%8System.TimeSpan"__id*0.*,
+System.TimeSpan"
+ZeroSystem.TimeSpan¬
+©
+(/ ((I
+
+%9bool"=System.TimeSpan.operator !=(System.TimeSpan, System.TimeSpan)*"
+System.TimeSpan* 
+
+	horaFinalSystem.TimeSpan*
+
+%8System.TimeSpan*
+3
+5*Í
+5(M ((dµ
+²
+(M ((d
+%10bool"=System.TimeSpan.operator !=(System.TimeSpan, System.TimeSpan)*"
+System.TimeSpan*!
+
+
+horaInicioSystem.TimeSpan* 
+
+	horaFinalSystem.TimeSpan*
+3
+6*ù
+3* *(r†
+ƒ
+* *(s 
+%11System.Linq.IQueryable<T>"…System.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*&$
+"
+querySystem.Linq.IQueryable<T>*
+""\
+Z
+* *(s"
+querySystem.Linq.IQueryable<T>"__id*$"
+ 
+%11System.Linq.IQueryable<T>*
+6*ì
+6- 1(Ñ
+Î
+-  -(3+
+%12$System.Threading.Tasks.Task<TResult>"šMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*&$
+"
+querySystem.Linq.IQueryable<T>*
+""K
+I
+- -(3-
+canchas"System.Collections.Generic.List<T>"__id*
+""/-
+/ /(
+%ViewBagDataAllobject"object0.
+/ /(
+%ViewBagDataHtmlobject"object¾
+»
+/4 /(<2
+%13+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*us*q6
+4WebCamposDeportivos_V1._2.Controllers.HomeController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext´
+±
+/4 /(E3
+%14,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Empresas.get*64
+2
+%13+WebCamposDeportivos_V1._2.Data.AppDbContextqo
+/% /(^4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectList"-Microsoft.AspNetCore.Mvc.Rendering.SelectList—
+”
+/) /(3
+%16void"hMicrosoft.AspNetCore.Mvc.Rendering.SelectList.SelectList(System.Collections.IEnumerable, string, string)*86
+4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectList*75
+3
+%14,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+
+id_empresa*
+
+nombreÃ
+À
+/ /(^
+%17object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataAllobject*
+
+id_empresa*86
+4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectListŠ
+‡
+%18object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataHtmlobject*
+
+id_empresa*
+""Ó
+Ð
+1 1( 
+%19void"8webcamposdeportivos_v1.2/views/home/disponibilidadcampos*	
+
+%20*1/
+-
+canchas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÄ
+Á
+1 1( 
+%21void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%22*1/
+-
+canchas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÈ
+Å
+1 1( 
+%23void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%24*1/
+-
+canchas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+1 1(!
+
+%23void*.
+72	 2(	"
+2 2(	
+implicit return*—
+8x (x
+}
+) (=
+%25"__entrypoint*
+
+	searchEmpstring*!
+
+
+horaInicioSystem.TimeSpan* 
+
+	horaFinalSystem.TimeSpan‹
+ˆ
+	 (@
+%26"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*
+
+	searchEmpstring:
+8
+> (N
+	searchEmpstring"__annotation*	
+
+%26•
+’
+	 (@
+%27"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*!
+
+
+horaInicioSystem.TimeSpanD
+B
+P (c
+
+horaInicioSystem.TimeSpan"__annotation*	
+
+%27”
+‘
+	 (@
+%28"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()* 
+
+	horaFinalSystem.TimeSpanC
+A
+e (w
+	horaFinalSystem.TimeSpan"__annotation*	
+
+%28*
+0:
+> (N
+	searchEmpstring:)
+P (c
+
+horaInicioSystem.TimeSpan:(
+e (w
+	horaFinalSystem.TimeSpanB86
+4WebCamposDeportivos_V1._2.Controllers.HomeController

@@ -1,0 +1,13 @@
+
+8WebCamposDeportivos_V1._2.Controllers.ReservasController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject»
+?ReservasController(WebCamposDeportivos_V1._2.Data.AppDbContext)xWebCamposDeportivos_V1._2.Controllers.ReservasController.ReservasController(WebCamposDeportivos_V1._2.Data.AppDbContext)W
+Index(string)FWebCamposDeportivos_V1._2.Controllers.ReservasController.Index(string)W
+Details(int?)FWebCamposDeportivos_V1._2.Controllers.ReservasController.Details(int?)¹
+>Create(int, string, WebCamposDeportivos_V1._2.Models.Reservas)wWebCamposDeportivos_V1._2.Controllers.ReservasController.Create(int, string, WebCamposDeportivos_V1._2.Models.Reservas)©
+6Create(WebCamposDeportivos_V1._2.Models.Reservas, int)oWebCamposDeportivos_V1._2.Controllers.ReservasController.Create(WebCamposDeportivos_V1._2.Models.Reservas, int)Q
+
+Edit(int?)CWebCamposDeportivos_V1._2.Controllers.ReservasController.Edit(int?)¯
+9Edit(int, WebCamposDeportivos_V1._2.Models.Reservas, int)rWebCamposDeportivos_V1._2.Controllers.ReservasController.Edit(int, WebCamposDeportivos_V1._2.Models.Reservas, int)U
+Delete(int?)EWebCamposDeportivos_V1._2.Controllers.ReservasController.Delete(int?)e
+DeleteConfirmed(int)MWebCamposDeportivos_V1._2.Controllers.ReservasController.DeleteConfirmed(int)c
+ReservasExists(int)LWebCamposDeportivos_V1._2.Controllers.ReservasController.ReservasExists(int)

@@ -1,0 +1,117 @@
+
+MWebCamposDeportivos_V1._2.Models.SeedData.Initialize(System.IServiceProvider)s
+iC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Models\SeedData.cs
+ 
+(%"0*¯
+0 (5»
+≈
+ (5>
+%08Microsoft.EntityFrameworkCore.DbContextOptions<TContext>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*OM"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*.,
+*
+serviceProviderSystem.IServiceProviderlj
+ (61
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"+WebCamposDeportivos_V1._2.Data.AppDbContext¨
+©
+  (,
+
+%2void"ïWebCamposDeportivos_V1._2.Data.AppDbContext.AppDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WebCamposDeportivos_V1._2.Data.AppDbContext>)*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext*B@
+>
+%08Microsoft.EntityFrameworkCore.DbContextOptions<TContext>|
+z
+ (61
+db+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext*
+1*˝
+1 ("Ø
+¨
+ (2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.get*53
+1
+db+WebCamposDeportivos_V1._2.Data.AppDbContext≥
+∞
+ ("
+
+%4bool"CSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*64
+2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+2
+3*!
+2	 (	"
+ (
+""*Û
+3 ( Ø
+¨
+ (2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.get*53
+1
+db+WebCamposDeportivos_V1._2.Data.AppDbContext^\
+ (:*
+%6$WebCamposDeportivos_V1._2.Models.Rol"$WebCamposDeportivos_V1._2.Models.Rolt
+r
+ (
+
+%7void"*WebCamposDeportivos_V1._2.Models.Rol.Rol()*.,
+*
+%6$WebCamposDeportivos_V1._2.Models.Rolì
+ê
+ (8
+%8string"4WebCamposDeportivos_V1._2.Models.Rol.Descripcion.set*.,
+*
+%6$WebCamposDeportivos_V1._2.Models.Rol*
+
+Supervisor^\
+ (=*
+%9$WebCamposDeportivos_V1._2.Models.Rol"$WebCamposDeportivos_V1._2.Models.Rolu
+s
+ (
+%10void"*WebCamposDeportivos_V1._2.Models.Rol.Rol()*.,
+*
+%9$WebCamposDeportivos_V1._2.Models.Roló
+î
+ (;
+%11string"4WebCamposDeportivos_V1._2.Models.Rol.Descripcion.set*.,
+*
+%9$WebCamposDeportivos_V1._2.Models.Rol*
+Administrador_]
+ (7+
+%12$WebCamposDeportivos_V1._2.Models.Rol"$WebCamposDeportivos_V1._2.Models.Rolv
+t
+ (
+%13void"*WebCamposDeportivos_V1._2.Models.Rol.Rol()*/-
++
+%12$WebCamposDeportivos_V1._2.Models.Rolí
+è
+ (5
+%14string"4WebCamposDeportivos_V1._2.Models.Rol.Descripcion.set*/-
++
+%12$WebCamposDeportivos_V1._2.Models.Rol*	
+Cliente»≈
+ (
+%15void"GMicrosoft.EntityFrameworkCore.DbSet<TEntity>.AddRange(params TEntity[])*64
+2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*.,
+*
+%6$WebCamposDeportivos_V1._2.Models.Rol*.,
+*
+%9$WebCamposDeportivos_V1._2.Models.Rol*/-
++
+%12$WebCamposDeportivos_V1._2.Models.Rol2AddRange(params TEntity[])ñì
+ ( 
+
+%16int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*53
+1
+db+WebCamposDeportivos_V1._2.Data.AppDbContext2SaveChanges()*
+4*.
+4	 (	"
+ (	
+implicit return:6
+
+& 
+(F*
+serviceProviderSystem.IServiceProviderB-"+
+)WebCamposDeportivos_V1._2.Models.SeedData

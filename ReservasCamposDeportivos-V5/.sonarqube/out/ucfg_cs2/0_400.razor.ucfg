@@ -1,0 +1,505 @@
+
+.webcamposdeportivos_v1.2/views/usuarios/delete"0*µ«
+0î
+àMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Usuarios_Delete_cshtml.g.csA û(EÖ
+Ç
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (!
+%0object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+ViewBagDataAllobject*	
+Title*
+
+Delete¢
+ü
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (-
+%1string"7Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.Layout.set*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*#!
+~/Views/Shared/_Layout.cshtmlµ
+≤
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (8<
+%26Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete «
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (8
+%3string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*@>
+<
+%26Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)µ
+≤
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4<
+%46Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteô
+ñ
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4,
+%6&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*@>
+<
+%46Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""Õ
+ 
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4
+
+%7void"!razor_sink*0.
+,
+%6&Microsoft.AspNetCore.Html.IHtmlContentµ
+≤
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (5<
+%86Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete «
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (5
+%9string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*@>
+<
+%86Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (1=
+%106Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (1-
+%12&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%106Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (1
+%13void"!razor_sink*1/
+-
+%12&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (8=
+%146Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (8
+%15string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%146Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4=
+%166Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4-
+%18&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%166Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml (4
+%19void"!razor_sink*1/
+-
+%18&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml" "(:=
+%206Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml" "(:
+%21string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%206Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml% %(6=
+%226Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml% %(6-
+%24&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%226Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml% %(6
+%25void"!razor_sink*1/
+-
+%24&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml( ((>=
+%266Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml( ((>
+%27string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%266Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml+ +(:=
+%286Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml+ +(:-
+%30&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%286Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml+ +(:
+%31void"!razor_sink*1/
+-
+%30&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml. .(:=
+%326Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml. .(:
+%33string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%326Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml1 1(6=
+%346Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml1 1(6-
+%36&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%346Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml1 1(6
+%37void"!razor_sink*1/
+-
+%36&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml4 4(7=
+%386Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml4 4(7
+%39string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%386Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml7 7(3=
+%406Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml7 7(3-
+%42&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%406Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml7 7(3
+%43void"!razor_sink*1/
+-
+%42&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml: :(8=
+%446Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml: :(8
+%45string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%446Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml= =(4=
+%466Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml= =(4-
+%48&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%466Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml= =(4
+%49void"!razor_sink*1/
+-
+%48&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml@ @(7=
+%506Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtml@ @(7
+%51string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%506Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlC C(3=
+%526Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlC C(3-
+%54&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%526Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlC C(3
+%55void"!razor_sink*1/
+-
+%54&Microsoft.AspNetCore.Html.IHtmlContent∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlF F(4=
+%566Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÃ…
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlF F(4
+%57string"êMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.DisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*A?
+=
+%566Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""2YDisplayNameFor<TResult>(System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)∂
+≥
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlI I(6=
+%586Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>":AspNetCoreGeneratedDocument.Views_Usuarios_Delete.Html.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Deleteõ
+ò
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlI I(6-
+%61&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%586Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""œ
+Ã
+}
+sC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Usuarios\Delete.cshtmlI I(6
+%62void"!razor_sink*1/
+-
+%61&Microsoft.AspNetCore.Html.IHtmlContent◊
+‘J
+%63CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"MAspNetCoreGeneratedDocument.Views_Usuarios_Delete.__tagHelperScopeManager.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete
+
+%64"__id*
+""∆
+√
+%65void"6webcamposdeportivos_v1.2/views/usuarios/delete!form235*	
+
+%66*64
+2
+Model)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject∫
+∑ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+%65voidΩ
+∫8
+%671Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÈ
+Êü3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*<:
+8
+%671Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelperˇ
+¸N
+%68GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë8
+%691Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*•¢*ü3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper°
+û
+%70void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*RP
+N
+%68GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*<:
+8
+%691Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper 
+«E
+%71>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseë
+é∫3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"Ç
+@__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"__id*IG
+E
+%71>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelperˇ
+¸N
+%72GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextì
+êE
+%73>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"__id*¿Ω*∫3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"Ç
+@__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelperÆ
+´
+%74void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*RP
+N
+%72GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*IG
+E
+%73>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelperÎ
+Ë8
+%751Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*•¢*ü3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper‹
+Ÿ?
+%768Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*èå*â3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"R
+__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
+ò
+%77object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*CA
+?
+%768Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
+ 
+%78"__id*
+
+%77objectô
+ñ
+%79string"<Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Action.set*<:
+8
+%751Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper*	
+
+%78ˇ
+¸N
+%80GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ?
+%818Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*èå*â3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"R
+__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute√
+¿
+%82void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%80GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%818Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
+ﬁD
+%83=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*èå*â3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
+¸N
+%84GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext◊
+‘"
+%85System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*HF
+D
+%83=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*RP
+N
+%84GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
+¸N
+%86GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%875Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%86GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
+ú
+%88bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*@>
+<
+%875Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+1
+2*Å
+1ï
+àMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Usuarios_Delete_cshtml.g.cs† †(Iˇ
+¸N
+%89GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ"
+%90System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*RP
+N
+%89GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+2*π
+2ï
+àMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Usuarios_Delete_cshtml.g.cs¢ §(%ˇ
+¸N
+%91GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*£†*ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%925Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%91GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
+\
+%93void"!razor_sink*@>
+<
+%925Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput◊
+‘J
+%94CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"MAspNetCoreGeneratedDocument.Views_Usuarios_Delete.__tagHelperScopeManager.get*753
+1AspNetCoreGeneratedDocument.Views_Usuarios_DeleteÓ
+ÎN
+%95GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*NL
+J
+%94CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˝
+˙ù3
+1AspNetCoreGeneratedDocument.Views_Usuarios_Delete"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*RP
+N
+%95GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+3*≤
+3ï
+àMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Usuarios_Delete_cshtml.g.cs•	 •(	"
+implicit return:42
+Model)WebCamposDeportivos_V1._2.Models.Usuarios:
+ViewBagDataAllobject:
+ViewBagDataHtmlobject:
+TempDataAllobject:
+TempDataHtmlobject:
+HttpContextItemsAllobject: 
+HttpContextItemsHtmlobjectB 

@@ -1,0 +1,14 @@
+{
+  "name": "cypress-e2e-framework",
+  "version": "1.0.0",
+  "description": "IMEI Testing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Rene Jibaja",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}

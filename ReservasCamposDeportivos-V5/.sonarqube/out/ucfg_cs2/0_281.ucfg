@@ -1,0 +1,67 @@
+
+oWebCamposDeportivos_V1._2.Migrations.ReservasV5.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)Š
+~C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Migrations\20231121072344_ReservasV5.csÓ  Ó($"0*Ï
+0
+Õ è(ÌÉ
+
+Õ Ö(_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Pagos*
+""2DropTable(string, string?)ÏÌ
+
+Ø Ù(!_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Reservas*
+""2DropTable(string, string?)ÓÐ
+
+Û Ü(%_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+User_Empresa*
+""2DropTable(string, string?)ÎË
+
+Þ ß( _
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Canchas*
+""2DropTable(string, string?)ÏÌ
+
+á â(!_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Usuarios*
+""2DropTable(string, string?)ÏÌ
+
+ä å(!_
+%5YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Empresas*
+""2DropTable(string, string?)ÌÉ
+
+ç è(_
+%6YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"TMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.DropTable(string, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Roles*
+""2DropTable(string, string?)*
+1*2
+1
+é	 é(	"!
+
+é é(	
+implicit return:[
+
+Ó% Ó(FM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB31
+/WebCamposDeportivos_V1._2.Migrations.ReservasV5

@@ -1,0 +1,56 @@
+
+TWebCamposDeportivos_V1._2.Controllers.User_EmpresaController.User_EmpresaExists(int)ˆ
+|C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\User_EmpresaController.cs© ©('"0*œ
+0
+« «('Ç
+Ä
+
+« «(1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*}{*y>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¸
+µ
+
+« «('2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext*
+1
+2*—
+2
+«( «(H€
+ý
+
+«( «(I
+
+%2bool"ƒSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1*
+1
+« «(^R
+P
+
+« «(^
+
+%3bool"&System.Nullable<T>.GetValueOrDefault()*
+
+
+%2bool"
+
+«
+ «(_
+
+
+%3bool*2
+3
+¬	 ¬(	"!
+
+¬ ¬(	
+implicit return:
+
+©( ©(.	
+idintB@>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController

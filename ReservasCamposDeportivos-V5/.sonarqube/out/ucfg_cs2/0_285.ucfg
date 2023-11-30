@@ -1,0 +1,172 @@
+
+mWebCamposDeportivos_V1._2.Migrations.ReservasV5.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)ˆ
+~C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Migrations\20231121072344_ReservasV5.cs  (""0*ÃH
+0	 Ï( µ²
+ (_
+%0YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Empresas*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)²¯
+ *(_
+%1YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Roles*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)´±
+, B(_
+%2YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Canchas*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)²¯
+D W(_
+%3YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*	
+Pagos*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)µ²
+Y s(_
+%4YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Usuarios*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)¶³
+	u ’(_
+%5YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+
+Reservas*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)»¸
+
+” ¬(_
+%6YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>"¸Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+User_Empresa*
+""*
+""*
+""*
+""2þCreateTable<TColumns>(string, System.Func<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.ColumnsBuilder, TColumns>, string?, System.Action<Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.CreateTableBuilder<TColumns>>?, string?)ïì
+
+® ±(%_
+%7YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Canchas_id_empresa*	
+Canchas*
+
+id_empresa*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)ëè
+
+³ ¶(%_
+%8YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Pagos_id_empresa*	
+Pagos*
+
+id_empresa*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)ëè
+
+¸ »("_
+%9YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Reservas_CampoID*
+
+Reservas*	
+CampoID*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)ðí
+
+½ À($`
+%10YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Reservas_ClienteID*
+
+Reservas*
+	ClienteID*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)ú÷
+
+Â Å(%`
+%11YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder* 
+IX_User_Empresa_id_empresa*
+User_Empresa*
+
+id_empresa*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)ú÷
+
+Ç Ê(%`
+%12YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder* 
+IX_User_Empresa_id_usuario*
+User_Empresa*
+
+id_usuario*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)êç
+
+Ì Ï(!`
+%13YMicrosoft.EntityFrameworkCore.Migrations.Operations.Builders.OperationBuilder<TOperation>"~Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder.CreateIndex(string, string, string, string?, bool, string?, bool[]?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+IX_Usuarios_id_rol*
+
+Usuarios*
+
+id_rol*
+""*
+""*
+""*
+""2DCreateIndex(string, string, string, string?, bool, string?, bool[]?)*
+1*2
+1
+Ð	 Ð(	"!
+
+Ð Ð(	
+implicit return:Y
+# (DM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB31
+/WebCamposDeportivos_V1._2.Migrations.ReservasV5

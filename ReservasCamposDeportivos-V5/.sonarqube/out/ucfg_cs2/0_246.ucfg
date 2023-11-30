@@ -1,0 +1,81 @@
+
+ZWebCamposDeportivos_V1._2.Controllers.AccessController.validarCredenciales(string, string)Ä
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.cs (,"0*û
+0
+Å Ü(∫
+∑
+
+Å Å($
+%0string"HWebCamposDeportivos_V1._2.Controllers.AccessController.Encriptar(string)*<:"8
+6WebCamposDeportivos_V1._2.Controllers.AccessController*
+
+clavestring7
+5
+
+Å Å($
+clavestring"__id*
+
+%0string¡
+æ
+
+Ç Ç('1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*wu*s8
+6WebCamposDeportivos_V1._2.Controllers.AccessController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¥
+±
+
+Ç Ç(02
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+
+Ç Ç(DR
+%3LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""∑
+¥
+
+Ç É(C
+%4System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*VT
+R
+%3LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""Ñ
+Å
+
+Ç Ñ(@
+%5System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*#!
+
+%4System.Linq.IQueryable<T>*
+""“
+œ
+
+Ç Ö(5/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios"NSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*#!
+
+%5System.Linq.IQueryable<T>Ö
+Ç
+
+Ç Ö(59
+tipo_usuario)WebCamposDeportivos_V1._2.Models.Usuarios"__id*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios"I
+
+Ü Ü( ;
+9
+tipo_usuario)WebCamposDeportivos_V1._2.Models.Usuarios*2
+1
+á	 á(	"!
+
+á á(	
+implicit return:
+- (9
+aliasstring:
+; (G
+clavestringB:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

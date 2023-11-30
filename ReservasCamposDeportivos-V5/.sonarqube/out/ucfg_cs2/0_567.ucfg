@@ -1,0 +1,74 @@
+
+JWebCamposDeportivos_V1._2.Controllers.HomeController.TerminosCondiciones()~
+tC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\HomeController.cs: :(0"2*¢
+0< <(®
+«
+< <(
+
+%0void"7webcamposdeportivos_v1.2/views/home/terminoscondiciones*
+
+%1*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject 
+
+< <(
+
+%2void")webcamposdeportivos_v1.2/views/_viewstart*
+
+%3*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¤
+¡
+< <(
+
+%4void"-webcamposdeportivos_v1.2/views/shared/_layout*
+
+%5*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+< <(
+
+
+%4void*.
+1=	 =(	"
+= =(	
+implicit return*4
+2:2 :(2 
+
+: :(0
+%6"__entrypoint*
+0B86
+4WebCamposDeportivos_V1._2.Controllers.HomeController

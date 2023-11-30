@@ -1,0 +1,206 @@
+
+CWebCamposDeportivos_V1._2.Controllers.UsuariosController.Edit(int?)Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\UsuariosController.csL) L(-"7*u
+0N N(^
+\
+N N(
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+""*
+""*
+1
+2*û
+2N N(7¡
+æ
+N N(&1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+N N(/2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContextç
+ä
+N N(7
+
+%3bool""object.operator ==(object, object)*
+"
+object*64
+2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1
+3*¯
+1P P(!´®
+P P(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()";
+P P("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*‚
+3S T( ¡
+æ
+S! S()1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+S! S(22
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContextÈÊ
+S! S(@/
+%7)System.Threading.Tasks.ValueTask<TResult>"IMicrosoft.EntityFrameworkCore.DbSet<TEntity>.FindAsync(params object?[]?)*64
+2
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""2FindAsync(params object?[]?)S
+Q
+S S(@5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"__id*
+""ê
+ç
+T T( 
+
+%8bool""object.operator ==(object, object)*
+"
+object*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+""*
+4
+5*¯
+4V V(!´®
+V V(!-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()";
+V V("/
+-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult*Ô
+5X Y( /-
+X X(
+%ViewBagDataAllobject"object0.
+X X(
+%ViewBagDataHtmlobject"object¬
+ø
+X0 X(82
+%10+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+X0 X(>3
+%11,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.get*64
+2
+%10+WebCamposDeportivos_V1._2.Data.AppDbContextä
+á
+XR X(a
+
+%12int"4WebCamposDeportivos_V1._2.Models.Usuarios.id_rol.get*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuariosqo
+X! X(b4
+%13-Microsoft.AspNetCore.Mvc.Rendering.SelectList"-Microsoft.AspNetCore.Mvc.Rendering.SelectList©
+¶
+X% X(/
+%14void"pMicrosoft.AspNetCore.Mvc.Rendering.SelectList.SelectList(System.Collections.IEnumerable, string, string, object)*86
+4
+%13-Microsoft.AspNetCore.Mvc.Rendering.SelectList*75
+3
+%11,Microsoft.EntityFrameworkCore.DbSet<TEntity>*	
+RolID*	
+RolID*
+
+
+%12intø
+º
+X X(b
+%15object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataAllobject*
+
+id_rol*86
+4
+%13-Microsoft.AspNetCore.Mvc.Rendering.SelectListÜ
+É
+%16object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataHtmlobject*
+
+id_rol*
+""œ
+Ã
+Y Y(!
+%17void",webcamposdeportivos_v1.2/views/usuarios/edit*	
+
+%18*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÃ
+…
+Y Y(!
+%19void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%20*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject–
+Õ
+Y Y(!
+%21void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%22*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+Y Y("
+
+%21void*.
+6Z	 Z(	"
+Z Z(	
+implicit return*?
+7L6 L(6+
+)
+L) L(-
+%23"__entrypoint*
+""*
+0:$
+L. L(5
+idSystem.Nullable<T>B<:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController

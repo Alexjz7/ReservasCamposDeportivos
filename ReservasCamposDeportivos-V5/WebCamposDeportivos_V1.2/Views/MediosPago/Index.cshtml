@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.MediosPago>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Medios de Pago</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                Empresa
+            </th>
+            <th>
+                Número de cuenta
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <caption>Ingrese todos los tipos de pago que vaya a manejar su empresa.</caption>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Empresas.nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.id_pagos" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-pencil"></i>
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.id_pagos" class="btn btn-info btn-sm">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.id_pagos" class="btn btn-danger btn-sm">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

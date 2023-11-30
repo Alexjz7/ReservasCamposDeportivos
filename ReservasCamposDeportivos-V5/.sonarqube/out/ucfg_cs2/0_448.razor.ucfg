@@ -1,0 +1,1294 @@
+
+-webcamposdeportivos_v1.2/views/reservas/index"0*í\
+0í
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csE z(EÉ
+Ä
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml ( 
+%0object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+ViewBagDataAllobject*	
+Title*	
+Index°
+û
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml (-
+%1string"7Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.Layout.set*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*#!
+~/Views/Shared/_Layout.cshtml“
+œ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlQ Q(I
+%2CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Indexó
+î
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlQ Q(
+%3"__id*
+""π
+∂
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlQ Q(
+
+%4void"4webcamposdeportivos_v1.2/views/reservas/index!form80*
+
+%5*/-
++
+Model"System.Collections.Generic.List<T>*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject∂
+≥
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlQ Q(ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+
+%4void∫
+∑
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlr r(67
+%61Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÂ
+‚
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlr r(6û2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*;9
+7
+%61Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper˚
+¯
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmls s(M
+%7GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÁ
+‰
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmls s(7
+%81Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*§°*û2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelperú
+ô
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmls s(
+
+%9void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*QO
+M
+%7GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*;9
+7
+%81Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper»
+≈
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlt t(pE
+%10>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseé
+ã
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlt t(pπ2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"Ç
+@__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"__id*IG
+E
+%10>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlu  u(BN
+%11GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextê
+ç
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlu  u(BE
+%12>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper"__id*øº*π2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"Ç
+@__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper¨
+©
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlu  u(B
+%13void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*RP
+N
+%11GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*IG
+E
+%12>Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelperË
+Â
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlv v( 8
+%141Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper"__id*§°*û2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"h
+3__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper1Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelperŸ
+÷
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlv v( ?
+%158Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_08Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeô
+ñ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlv v( 
+%16object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*CA
+?
+%158Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute°
+û
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlv v( 
+%17"__id*
+
+%16objectó
+î
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlv v( 
+%18string"<Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper.Method.set*<:
+8
+%141Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper*	
+
+%17¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlw w(qN
+%19GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextŸ
+÷
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlw w(q?
+%208Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_08Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¡
+æ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlw w(q
+%21void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%19GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%208Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlx  x(EN
+%22GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextŸ
+÷
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlx  x(E?
+%238Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeº
+π
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlx  x(E
+%24void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%22GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%238Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeﬁ
+€
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmly y( D
+%25=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmly y( N
+%26GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext’
+“
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmly y( "
+%27System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*HF
+D
+%25=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*RP
+N
+%26GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlz z(N
+%28GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÁ
+‰
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlz z(<
+%295Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%28GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextù
+ö
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlz z(
+%30bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*@>
+<
+%295Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+1
+2*˘
+1í
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs| |(I¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml| |(N
+%31GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext⁄
+◊
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml| |("
+%32System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*RP
+N
+%31GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+2*†
+2ì
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs~ É(¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml~  ~(GN
+%33GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÁ
+‰
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml~  ~(G<
+%345Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%33GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext›
+⁄
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml~  ~(G
+%35void"!razor_sink*@>
+<
+%345Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput”
+–
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml ( J
+%36CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_IndexÏ
+È
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml ( N
+%37GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*NL
+J
+%36CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˙
+˜
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml ( ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*RP
+N
+%37GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
+Ó
+z
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml) )(
+
+%38int"3System.Collections.Generic.ICollection<T>.Count.get*/-
++
+Model"System.Collections.Generic.List<T>*
+3
+4*ü
+3î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csâ Ø('*
+5*¢
+5î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csö	 ö(	*
+6
+7*¥0
+6î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csµ Å(4°
+û
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlT T(10
+%39)WebCamposDeportivos_V1._2.Models.Usuarios"5WebCamposDeportivos_V1._2.Models.Reservas.Cliente.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservas˝
+˙
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlT T(1
+%40string"5WebCamposDeportivos_V1._2.Models.Usuarios.nombres.get*42
+0
+%39)WebCamposDeportivos_V1._2.Models.Usuariosû
+õ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlW W(6/
+%41(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasû
+õ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlW W(60
+%42)WebCamposDeportivos_V1._2.Models.Empresas"4WebCamposDeportivos_V1._2.Models.Canchas.Empresa.get*31
+/
+%41(WebCamposDeportivos_V1._2.Models.Canchas¸
+˘
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlW W(6
+%43string"4WebCamposDeportivos_V1._2.Models.Empresas.nombre.get*42
+0
+%42)WebCamposDeportivos_V1._2.Models.Empresasû
+õ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlZ Z(1/
+%44(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservas˙
+˜
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlZ Z(1
+
+%45int"6WebCamposDeportivos_V1._2.Models.Canchas.id_cancha.get*31
+/
+%44(WebCamposDeportivos_V1._2.Models.Canchaså
+â
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml] ](A
+%46System.DateTime":WebCamposDeportivos_V1._2.Models.Reservas.fechaReserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservas·
+ﬁ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml] ](A
+%47string"!System.DateTime.ToString(string?)*
+
+%46System.DateTime*
+
+dd/MM/yyyyã
+à
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml` `(=
+%48System.TimeSpan"9WebCamposDeportivos_V1._2.Models.Reservas.horaReserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservas›
+⁄
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml` `(=
+%49string"!System.TimeSpan.ToString(string?)*
+
+%48System.TimeSpan*
+
+hh\:mm˝
+˙
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlf f($
+%50string"4WebCamposDeportivos_V1._2.Models.Reservas.estado.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasˇ
+¸
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmli i()
+
+%51int"9WebCamposDeportivos_V1._2.Models.Reservas.numeroHoras.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasã
+à
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmll l(L
+%52System.TimeSpan"9WebCamposDeportivos_V1._2.Models.Reservas.horaReserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasû
+õ
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmll l(L/
+%53(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasê
+ç
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmll l(L
+%54decimal"uWebCamposDeportivos_V1._2.Models.Reservas.ObtenerCostoHora(System.TimeSpan, WebCamposDeportivos_V1._2.Models.Canchas)*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservas*
+
+%52System.TimeSpan*31
+/
+%53(WebCamposDeportivos_V1._2.Models.Canchas≥
+∞
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlo o(A=
+%556Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"9AspNetCoreGeneratedDocument.Views_Reservas_Index.Html.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Indexö
+ó
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlo o(A-
+%57&Microsoft.AspNetCore.Html.IHtmlContent"‘Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions.DisplayFor<TModel, TResult>(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TResult>>)*DB"@
+>Microsoft.AspNetCore.Mvc.Rendering.HtmlHelperDisplayExtensions*A?
+=
+%556Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
+""Œ
+À
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlo o(A
+%58void"!razor_sink*1/
+-
+%57&Microsoft.AspNetCore.Html.IHtmlContent•¢
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlr r(6-
+%59&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.getõò
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlr r(6
+%60bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*1/
+-
+%59&System.Security.Claims.ClaimsPrincipal*	
+Cliente2IsInRole(string)*
+8
+9*Å"
+8î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csá ê(Y’
+“J
+%61CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+
+%62"__id*
+""ª
+∏
+%63void"2webcamposdeportivos_v1.2/views/reservas/index!a263*	
+
+%64*/-
++
+Model"System.Collections.Generic.List<T>*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobjectπ
+∂ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+%63voidø
+º:
+%653Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÓ
+Î¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*><
+:
+%653Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper˛
+˚N
+%66GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
+Ì:
+%673Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper£
+†
+%68void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*RP
+N
+%66GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*><
+:
+%673Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper
+Ì:
+%693Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper€
+ÿ?
+%708Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
+ò
+%71object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*CA
+?
+%708Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
+ 
+%72"__id*
+
+%71objectù
+ö
+%73string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*><
+:
+%693Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*	
+
+%72˛
+˚N
+%74GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
+ÿ?
+%758Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute√
+¿
+%76void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%74GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%758Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute
+Ì:
+%773Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
+¬;
+%784System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*><
+:
+%773Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperç
+ä
+%79bool""object.operator ==(object, object)*
+"
+object*?=
+;
+%784System.Collections.Generic.IDictionary<TKey, TValue>*
+""*
+10
+11*ú
+10ï
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csí í(™ê
+ç
+%80string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
+asp-route-id*975
+3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
+RouteValuesMK'
+%81 System.InvalidOperationException" System.InvalidOperationExceptionï
+í
+%82void"CSystem.InvalidOperationException.InvalidOperationException(string?)*+)
+'
+%81 System.InvalidOperationException*
+
+%80string*
+12*˙'
+11î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csî °(Eë
+é
+%83void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase˛
+˚
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlt t(p
+
+%84int"8WebCamposDeportivos_V1._2.Models.Reservas.id_reserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasë
+é
+%85string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBasey
+w\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstring"__id*
+
+%85string
+Ì:
+%863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
+¬;
+%874System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*><
+:
+%863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelpery
+w
+%88string"__id*`^*\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstring∫∑
+%89string"8System.Collections.Generic.ICollection<T>.this[TKey].set*?=
+;
+%874System.Collections.Generic.IDictionary<TKey, TValue>*
+id*
+
+%88string2this[TKey].set˛
+˚N
+%90GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
+Ì:
+%913Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
+¬;
+%924System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*><
+:
+%913Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperß§
+%93string"8System.Collections.Generic.ICollection<T>.this[TKey].get*?=
+;
+%924System.Collections.Generic.IDictionary<TKey, TValue>*
+id2this[TKey].get
+
+%94"__id*
+""≈
+¬
+%95void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*RP
+N
+%90GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+asp-route-id*
+
+%93string*	
+
+%94˛
+˚N
+%96GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
+ÿ?
+%978Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_38Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeæ
+ª
+%98void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%96GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%978Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute‡
+›D
+%99=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
+¸O
+%100GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextŸ
+÷#
+%101System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*HF
+D
+%99=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*SQ
+O
+%100GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
+¸O
+%102GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%1035Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%102GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext°
+û
+%104bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*A?
+=
+%1035Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+13
+14*Ñ
+13î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs£ £(Iˇ
+¸O
+%105GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextﬁ
+€#
+%106System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*SQ
+O
+%105GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+14*ø,
+14î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs• ∞(Yˇ
+¸O
+%107GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%1085Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%107GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext`
+^
+%109void"!razor_sink*A?
+=
+%1085Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput÷
+”K
+%110CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+ÌO
+%111GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*OM
+K
+%110CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˝
+˙ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*SQ
+O
+%111GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext÷
+”K
+%112CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+
+%113"__id*
+""Ω
+∫
+%114void"2webcamposdeportivos_v1.2/views/reservas/index!a295*
+
+
+%115*/-
++
+Model"System.Collections.Generic.List<T>*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject∫
+∑ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+%114void¿
+Ω;
+%1163Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÔ
+Ï¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*?=
+;
+%1163Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
+¸O
+%117GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
+Ó;
+%1183Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¶
+£
+%119void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*SQ
+O
+%117GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*?=
+;
+%1183Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperÒ
+Ó;
+%1203Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
+Ÿ@
+%1218Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeù
+ö
+%122object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*DB
+@
+%1218Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute$
+"
+%123"__id*
+
+%122object†
+ù
+%124string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*?=
+;
+%1203Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
+
+
+%123ˇ
+¸O
+%125GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ@
+%1268Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute∆
+√
+%127void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*SQ
+O
+%125GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*DB
+@
+%1268Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
+Ó;
+%1283Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1294System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1283Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperè
+å
+%130bool""object.operator ==(object, object)*
+"
+object*@>
+<
+%1294System.Collections.Generic.IDictionary<TKey, TValue>*
+""*
+15
+16*°
+15ï
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs≤ ≤(™ë
+é
+%131string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
+asp-route-id*975
+3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
+RouteValuesNL(
+%132 System.InvalidOperationException" System.InvalidOperationExceptionò
+ï
+%133void"CSystem.InvalidOperationException.InvalidOperationException(string?)*,*
+(
+%132 System.InvalidOperationException*
+
+%131string*
+12*ó(
+16î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs¥ ¡(Eí
+è
+%134void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseˇ
+¸
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtmlw w(q
+%135int"8WebCamposDeportivos_V1._2.Models.Reservas.id_reserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasí
+è
+%136string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBasez
+x\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstring"__id*
+
+%136stringÒ
+Ó;
+%1373Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1384System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1373Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperz
+x
+%139string"__id*`^*\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstringΩ∫
+%140string"8System.Collections.Generic.ICollection<T>.this[TKey].set*@>
+<
+%1384System.Collections.Generic.IDictionary<TKey, TValue>*
+id*
+
+%139string2this[TKey].setˇ
+¸O
+%141GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
+Ó;
+%1423Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1434System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1423Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper©¶
+%144string"8System.Collections.Generic.ICollection<T>.this[TKey].get*@>
+<
+%1434System.Collections.Generic.IDictionary<TKey, TValue>*
+id2this[TKey].get
+
+%145"__id*
+""…
+∆
+%146void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*SQ
+O
+%141GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+asp-route-id*
+
+%144string*
+
+
+%145ˇ
+¸O
+%147GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ@
+%1488Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_58Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¡
+æ
+%149void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*SQ
+O
+%147GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*DB
+@
+%1488Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
+ﬁE
+%150=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
+¸O
+%151GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext⁄
+◊#
+%152System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*IG
+E
+%150=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*SQ
+O
+%151GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
+¸O
+%153GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%1545Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%153GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext°
+û
+%155bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*A?
+=
+%1545Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+17
+18*Ñ
+17î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs√ √(Iˇ
+¸O
+%156GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextﬁ
+€#
+%157System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*SQ
+O
+%156GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+18*æ
+18î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs≈ «(ˇ
+¸O
+%158GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%1595Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%158GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext`
+^
+%160void"!razor_sink*A?
+=
+%1595Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput÷
+”K
+%161CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+ÌO
+%162GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*OM
+K
+%161CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˝
+˙ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*SQ
+O
+%162GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+9*Ì
+9î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs— —(4¶£
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml{ {(X.
+%163&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.getùö
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml{ {(X
+%164bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*20
+.
+%163&System.Security.Claims.ClaimsPrincipal*	
+Cliente2IsInRole(string)*
+19
+20*Ù
+20î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs—9 —(V¶£
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml{ {(X.
+%165&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.get£†
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml{ {(X
+%166bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*20
+.
+%165&System.Security.Claims.ClaimsPrincipal*
+Administrador2IsInRole(string)*
+19
+21*°"
+19î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs◊ ‡(Y÷
+”K
+%167CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+
+%168"__id*
+""Ω
+∫
+%169void"2webcamposdeportivos_v1.2/views/reservas/index!a343*
+
+
+%170*/-
++
+Model"System.Collections.Generic.List<T>*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject∫
+∑ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+%169void¿
+Ω;
+%1713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÔ
+Ï¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*?=
+;
+%1713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
+¸O
+%172GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
+Ó;
+%1733Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¶
+£
+%174void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*SQ
+O
+%172GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*?=
+;
+%1733Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperÒ
+Ó;
+%1753Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
+Ÿ@
+%1768Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_68Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeù
+ö
+%177object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*DB
+@
+%1768Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute$
+"
+%178"__id*
+
+%177object†
+ù
+%179string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*?=
+;
+%1753Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
+
+
+%178ˇ
+¸O
+%180GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ@
+%1818Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_68Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute∆
+√
+%182void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*SQ
+O
+%180GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*DB
+@
+%1818Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
+Ó;
+%1833Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1844System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1833Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperè
+å
+%185bool""object.operator ==(object, object)*
+"
+object*@>
+<
+%1844System.Collections.Generic.IDictionary<TKey, TValue>*
+""*
+22
+23*°
+22ï
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs‚ ‚(™ë
+é
+%186string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
+asp-route-id*975
+3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
+RouteValuesNL(
+%187 System.InvalidOperationException" System.InvalidOperationExceptionò
+ï
+%188void"CSystem.InvalidOperationException.InvalidOperationException(string?)*,*
+(
+%187 System.InvalidOperationException*
+
+%186string*
+12*ó(
+23î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.cs‰ Ò(Eí
+è
+%189void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseˇ
+¸
+|
+rC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Reservas\Index.cshtml} }(p
+%190int"8WebCamposDeportivos_V1._2.Models.Reservas.id_reserva.get*53
+1
+item)WebCamposDeportivos_V1._2.Models.Reservasí
+è
+%191string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBasez
+x\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstring"__id*
+
+%191stringÒ
+Ó;
+%1923Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1934System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1923Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperz
+x
+%194string"__id*`^*\2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"&
+__tagHelperStringValueBufferstringΩ∫
+%195string"8System.Collections.Generic.ICollection<T>.this[TKey].set*@>
+<
+%1934System.Collections.Generic.IDictionary<TKey, TValue>*
+id*
+
+%194string2this[TKey].setˇ
+¸O
+%196GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
+Ó;
+%1973Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®•*¢2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"l
+5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper«
+ƒ<
+%1984System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*?=
+;
+%1973Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper©¶
+%199string"8System.Collections.Generic.ICollection<T>.this[TKey].get*@>
+<
+%1984System.Collections.Generic.IDictionary<TKey, TValue>*
+id2this[TKey].get
+
+%200"__id*
+""…
+∆
+%201void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*SQ
+O
+%196GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+asp-route-id*
+
+%199string*
+
+
+%200ˇ
+¸O
+%202GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ@
+%2038Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperAttribute_78Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¡
+æ
+%204void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*SQ
+O
+%202GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*DB
+@
+%2038Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
+ﬁE
+%205=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*éã*à2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
+¸O
+%206GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext⁄
+◊#
+%207System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*IG
+E
+%205=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*SQ
+O
+%206GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
+¸O
+%208GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%2095Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%208GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext°
+û
+%210bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*A?
+=
+%2095Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+24
+25*Ñ
+24î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csÛ Û(Iˇ
+¸O
+%211GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextﬁ
+€#
+%212System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*SQ
+O
+%211GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+25*ø
+25î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csı ˜(ˇ
+¸O
+%213GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢ü*ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÎ
+Ë=
+%2145Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*SQ
+O
+%213GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext`
+^
+%215void"!razor_sink*A?
+=
+%2145Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput÷
+”K
+%216CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"LAspNetCoreGeneratedDocument.Views_Reservas_Index.__tagHelperScopeManager.get*642
+0AspNetCoreGeneratedDocument.Views_Reservas_Index
+ÌO
+%217GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*OM
+K
+%216CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˝
+˙ú2
+0AspNetCoreGeneratedDocument.Views_Reservas_Index"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*SQ
+O
+%217GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+21*†
+21î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csˇ ˇ(Q*
+5*†
+7î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csá á(?*
+12*†
+4î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csí í(w*
+12*≤
+12î
+áMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Reservas_Index_cshtml.g.csö	 ö(	"
+implicit return:-+
+Model"System.Collections.Generic.List<T>:
+ViewBagDataAllobject:
+ViewBagDataHtmlobject:
+TempDataAllobject:
+TempDataHtmlobject:
+HttpContextItemsAllobject: 
+HttpContextItemsHtmlobjectB 

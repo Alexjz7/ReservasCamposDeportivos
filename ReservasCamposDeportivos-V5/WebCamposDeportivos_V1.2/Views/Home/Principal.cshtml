@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Bienvenido a IMEI.SPORTS</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+    <!-- Custom fonts for this template-->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="/css/Cover.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+</head>
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">IMEI.SPORTS</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="@Url.Action("Principal", "Home")">Inicio</a>
+                    @* <a class="nav-link" href="#">Conocer más</a> *@
+                    <a class="nav-link" href="#">Contacto</a>
+                    <a href="@Url.Action("AdminRegistro", "Access")" class="nav-link">Pertenezco a una empresa</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <h1>IMEI.SPORTS</h1>
+            <p class="lead">IMEI.SPORTS es la solución definitiva para los amantes del deporte que desean encontrar y reservar campos deportivos de manera rápida y sencilla. Este innovador programa te ofrece acceso a una amplia variedad de campos deportivos disponibles en tu área, todo en un solo lugar.</p>
+            <p class="lead">
+                @* <a href="@Url.Action("Index", "Home")" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Ir al Dashboard</a> *@
+                <a href="@Url.Action("Login", "Access")" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Ir al Dashboard</a>
+            </p>
+        </main>
+        <footer class="mt-auto text-white-50">
+                @* <div class="container">
+                    <div class="row">
+                        <div>
+                            <h5>Contacto</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="correo" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="correo" placeholder="tucorreo@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-secondary">Enviar mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+                </div> *@
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+;webcamposdeportivos_v1.2/views/access/adminregistro!head109"0*À6
+0ô
+çMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Access_AdminRegistro_cshtml.g.cso Ç(IÂ
+‚
+Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtmlz z(I
+%0CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"RAspNetCoreGeneratedDocument.Views_Access_AdminRegistro.__tagHelperScopeManager.get*<:8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistroû
+õ
+Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtmlz z(
+%1"__id*
+""Œ
+À
+Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtmlz z(
+
+%2void";webcamposdeportivos_v1.2/views/access/adminregistro!link121*
+
+%3*64
+2
+Model)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject√
+¿
+Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtmlz z(¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+
+%2voidŒ
+À
+Ä
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml} }(F
+%4@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseû
+õ
+Ä
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml} }(√8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"Ü
+B__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper"__id*JH
+F
+%4@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelperÉ
+Ä
+~
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml~ ~M
+%5GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextù
+ö
+~
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml~ ~F
+%6@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper"__id*…∆*√8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"Ü
+B__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper≠
+™
+~
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml~ ~
+
+%7void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*QO
+M
+%5GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*JH
+F
+%6@Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelperÜ
+É
+Ä
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml (M
+%8GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext„
+‡
+Ä
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml (>
+%98Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*îë*é8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"R
+__tagHelperAttribute_08Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeø
+º
+Ä
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Access\AdminRegistro.cshtml (
+%10void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*QO
+M
+%8GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B@
+>
+%98Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÑ
+ÅN
+%11GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext·
+ﬁ?
+%128Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*îë*é8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"R
+__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeæ
+ª
+%13void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%11GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%128Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÊ
+„D
+%14=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*îë*é8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerÑ
+ÅN
+%15GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext◊
+‘"
+%16System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*HF
+D
+%14=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*RP
+N
+%15GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÑ
+ÅN
+%17GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%185Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%17GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
+ú
+%19bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*@>
+<
+%185Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+1
+2*ã
+1ö
+çMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Access_AdminRegistro_cshtml.g.csÑ Ñ(MÑ
+ÅN
+%20GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ"
+%21System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*RP
+N
+%20GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+2*“
+2ö
+çMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Access_AdminRegistro_cshtml.g.csÜ à(!Ñ
+ÅN
+%22GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*®•*¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%235Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%22GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
+\
+%24void"!razor_sink*@>
+<
+%235Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput·
+ﬁJ
+%25CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"RAspNetCoreGeneratedDocument.Views_Access_AdminRegistro.__tagHelperScopeManager.get*<:8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistroÓ
+ÎN
+%26GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*NL
+J
+%25CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManagerÇ
+ˇ¢8
+6AspNetCoreGeneratedDocument.Views_Access_AdminRegistro"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*RP
+N
+%26GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+3*∑
+3ö
+çMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Access_AdminRegistro_cshtml.g.csâ â("
+implicit return:42
+Model)WebCamposDeportivos_V1._2.Models.Usuarios:
+ViewBagDataAllobject:
+ViewBagDataHtmlobject:
+TempDataAllobject:
+TempDataHtmlobject:
+HttpContextItemsAllobject: 
+HttpContextItemsHtmlobjectB 

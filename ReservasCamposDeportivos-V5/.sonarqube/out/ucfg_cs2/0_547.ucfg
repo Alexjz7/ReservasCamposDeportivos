@@ -1,0 +1,103 @@
+
+?WebCamposDeportivos_V1._2.Controllers.CanchasController.Index()Å
+wC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\CanchasController.cs) (."2*Ö
+0 (8¿
+Ω
+ ('1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*xv*t9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+ (/2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext∞
+≠
+ (GR
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""…
+∆
+ (G\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"__id*VT
+R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>ä
+á
+ (8*
+%3$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*`^
+\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""ú
+ô
+ (9
+
+%4void",webcamposdeportivos_v1.2/views/canchas/index*
+
+%5*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectô
+ñ
+ (9
+
+%6void")webcamposdeportivos_v1.2/views/_viewstart*
+
+%7*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectù
+ö
+ (9
+
+%8void"-webcamposdeportivos_v1.2/views/shared/_layout*
+
+%9*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+ (:
+
+
+%8void*.
+1	 (	"
+ (	
+implicit return*5
+20 (0!
+
+) (.
+%10"__entrypoint*
+0B;9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController

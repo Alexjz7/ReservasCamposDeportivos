@@ -1,0 +1,38 @@
+
+?WebCamposDeportivos_V1._2.Controllers.AccessController.Logout()€
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.cs?) ?(/"2*à
+0A B(5¢
+Ÿ
+A A(+
+%0%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase"
+ 
+A+ A(\
+%1"__id*
+""Á
+¾
+A A(]!
+%2System.Threading.Tasks.Task"„Microsoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.SignOutAsync(Microsoft.AspNetCore.Http.HttpContext, string?)*MK"I
+GMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions*/-
++
+%0%Microsoft.AspNetCore.Http.HttpContext*
+
+%1þû
+B B(65
+%3/Microsoft.AspNetCore.Mvc.RedirectToActionResult"JMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string?, string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Login*
+
+Access2"RedirectToAction(string?, string?)"C
+B B(77
+5
+%3/Microsoft.AspNetCore.Mvc.RedirectToActionResult*.
+1C	 C(	"
+C C(	
+implicit return*4
+2?1 ?(1 
+
+?) ?(/
+%4"__entrypoint*
+0B:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

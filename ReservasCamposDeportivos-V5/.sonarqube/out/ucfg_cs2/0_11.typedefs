@@ -1,0 +1,14 @@
+ö
+7WebCamposDeportivos_V1._2.Controllers.CanchasController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject¸
+>CanchasController(WebCamposDeportivos_V1._2.Data.AppDbContext)vWebCamposDeportivos_V1._2.Controllers.CanchasController.CanchasController(WebCamposDeportivos_V1._2.Data.AppDbContext)J
+Index()?WebCamposDeportivos_V1._2.Controllers.CanchasController.Index()z
+Details(int?, System.DateTime?)WWebCamposDeportivos_V1._2.Controllers.CanchasController.Details(int?, System.DateTime?)L
+Create()@WebCamposDeportivos_V1._2.Controllers.CanchasController.Create()œ
+0Create(WebCamposDeportivos_V1._2.Models.Canchas)hWebCamposDeportivos_V1._2.Controllers.CanchasController.Create(WebCamposDeportivos_V1._2.Models.Canchas)P
+
+Edit(int?)BWebCamposDeportivos_V1._2.Controllers.CanchasController.Edit(int?)¢
+3Edit(int, WebCamposDeportivos_V1._2.Models.Canchas)kWebCamposDeportivos_V1._2.Controllers.CanchasController.Edit(int, WebCamposDeportivos_V1._2.Models.Canchas)T
+Delete(int?)DWebCamposDeportivos_V1._2.Controllers.CanchasController.Delete(int?)d
+DeleteConfirmed(int)LWebCamposDeportivos_V1._2.Controllers.CanchasController.DeleteConfirmed(int)`
+CanchasExists(int)JWebCamposDeportivos_V1._2.Controllers.CanchasController.CanchasExists(int)ß
+QObtenerHorasReservadas(WebCamposDeportivos_V1._2.Models.Canchas, System.DateTime)‰WebCamposDeportivos_V1._2.Controllers.CanchasController.ObtenerHorasReservadas(WebCamposDeportivos_V1._2.Models.Canchas, System.DateTime)

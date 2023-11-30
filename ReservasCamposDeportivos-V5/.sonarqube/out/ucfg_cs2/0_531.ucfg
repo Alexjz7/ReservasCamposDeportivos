@@ -1,0 +1,56 @@
+
+DWebCamposDeportivos_V1._2.Controllers.User_EmpresaController.Index()†
+|C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\User_EmpresaController.cs) (."2*Ø
+0 (8Å
+Â
+ ('1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*}{*y>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¶
+³
+ (42
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext°
+­
+ (LR
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"ÂMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""Ð
+Í
+ (dR
+%3LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"ÂMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""É
+Æ
+ (d\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"__id*VT
+R
+%3LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>Š
+‡
+ (8*
+%4$System.Threading.Tasks.Task<TResult>"šMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*`^
+\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""¯¬
+ (9)
+%5#Microsoft.AspNetCore.Mvc.ViewResult"1Microsoft.AspNetCore.Mvc.Controller.View(object?)*)'%
+#Microsoft.AspNetCore.Mvc.Controller*
+""2View(object?)"7
+ (:+
+)
+%5#Microsoft.AspNetCore.Mvc.ViewResult*.
+1	 (	"
+ (	
+implicit return*4
+20 (0 
+
+) (.
+%6"__entrypoint*
+0B@>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController

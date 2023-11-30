@@ -1,0 +1,55 @@
+
+JWebCamposDeportivos_V1._2.Controllers.CanchasController.CanchasExists(int)ƒ
+wC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\CanchasController.cs° °(""0*’
+0
+² ²($Â
+¿
+
+² ²(1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*xv*t9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext³
+°
+
+² ²($2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext*
+1
+2*—
+2
+²% ²(@€
+ý
+
+²% ²(A
+
+%2bool"ƒSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1*
+1
+² ²(VR
+P
+
+² ²(V
+
+%3bool"&System.Nullable<T>.GetValueOrDefault()*
+
+
+%2bool"
+
+² ²(W
+
+
+%3bool*2
+3
+³	 ³(	"!
+
+³ ³(	
+implicit return:
+
+°# °()	
+idintB;9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController

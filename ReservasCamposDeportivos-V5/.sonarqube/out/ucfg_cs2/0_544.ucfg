@@ -1,0 +1,83 @@
+
+FWebCamposDeportivos_V1._2.Controllers.AccessController.AdminRegistro()‚
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.cs™ ™(*"2*¨
+0
+› ›(¬
+©
+
+› ›(
+
+%0void"3webcamposdeportivos_v1.2/views/access/adminregistro*
+
+%1*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¢
+Ÿ
+
+› ›(
+
+%2void")webcamposdeportivos_v1.2/views/_viewstart*
+
+%3*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¦
+£
+
+› ›(
+
+%4void"-webcamposdeportivos_v1.2/views/shared/_layout*
+
+%5*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+
+› ›(
+
+
+%4void*2
+1
+œ	 œ(	"!
+
+œ œ(	
+implicit return*8
+2
+™, ™(,"
+ 
+
+™ ™(*
+%6"__entrypoint*
+0B:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

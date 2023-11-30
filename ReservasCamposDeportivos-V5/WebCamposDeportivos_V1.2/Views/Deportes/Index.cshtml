@@ -1,0 +1,71 @@
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Deportes>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Deportes</h1>
+
+@* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Crear Nuevo</button> *@
+
+@if (User.IsInRole("Administrador"))
+{
+    <p>
+        <a asp-action="Create">Agregar nuevo</a>
+    </p>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                    @if (User.IsInRole("Administrador"))
+                    {
+                    <a asp-action="Edit" asp-route-id="@item.id_deportes">Edit</a>
+                    }
+                    |
+                    @if (User.IsInRole("Supervisor") || User.IsInRole("Administrador"))
+                    {
+                    <a asp-action="Delete" asp-route-id="@item.id_deportes">Delete</a>
+                    }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Creación Deporte</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Create">
+                    <div class="form-group">
+                            <label for="txtdescripcion">Nombre:</label>
+                            <input type="text" class="form-control required" id="txtnombre" name="descripcion" autocomplete="off">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>

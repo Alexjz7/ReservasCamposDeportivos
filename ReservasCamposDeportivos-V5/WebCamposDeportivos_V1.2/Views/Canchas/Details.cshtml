@@ -1,0 +1,214 @@
+﻿@model WebCamposDeportivos_V1._2.Models.Canchas
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card border-primary">
+    <div class="card-body">
+        <h2 class="card-title font-weight-bold text-primary">Detalle del Campo</h2>
+        <hr class="mt-1 mb-1" />
+        <div class="form-row">
+            <div class="col-md-4 order-md-1">
+                <div class="row">
+                    <h6 class="col-4 col-form-label font-weight-bold">Empresa:</h6>
+                    <div class="col-sm-8">
+                        <h6 class="col-form-label">@Html.DisplayTextFor(model => model.Empresa.nombre)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="col-4 col-form-label font-weight-bold">Deporte:</h6>
+                    <div class="col-sm-8">
+                        <h6 class="col-form-label">@Html.DisplayTextFor(model => model.deporte)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="col-4 col-form-label font-weight-bold">Descripción:</h6>
+                    <div class="col-sm-8">
+                        <h6 class="col-form-label">@Html.DisplayTextFor(model => model.detalle)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="col-4 col-form-label font-weight-bold">Costo por día:</h6>
+                    <div class="col-sm-8">
+                        <h6 class="col-form-label">S/. @Html.DisplayTextFor(model => model.costoDia)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6 class="col-4 col-form-label font-weight-bold">Costo por noche:</h6>
+                    <div class="col-sm-8">
+                        <h6 class="col-form-label">S/. @Html.DisplayTextFor(model => model.costoNoche)</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 order-md-2">
+                <img src="@Html.DisplayFor(model => model.UrlImage)" alt="Imagen del campo deportivo" width="500" height="350" align="left" />
+            </div>
+
+            <div class="col-md-4 order-md-3">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3 bg-primary">
+                        <h6 class="m-0 font-weight-bold text-white">Buscar Horarios</h6>
+                        <input type="date" id="fechaReserva" name="fechaReservaHidden" value="@DateTime.Now.ToString("yyyy-MM-dd")" min="@DateTime.Now.ToString("yyyy-MM-dd")" max="2023-12-31" class="form-control" oninput="filtrarPorFecha()">
+                    </div>
+
+                    <script>
+                        function filtrarPorFecha() {
+                            // Ejemplo en JavaScript para asignar una fecha al campo
+                            var fechaSeleccionada = new Date(); // Aquí deberías obtener la fecha de alguna manera
+                            document.getElementById('fechaReservaHidden').value = fechaSeleccionada.toISOString(); // O el formato que necesites
+                        }
+                    </script>
+
+
+                    <div id="cardBodyHorarios" class="card-body">
+                        <div class="col-sm-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" style="width:100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Horas</th>
+                                        </tr>
+                                    </thead>
+                                    <!-- Agrega una descripción a la tabla -->
+                                    <caption>Seleccione una hora en la que desee reservar este campo</caption>
+                                    <tbody>
+                                        @for (int i = 0; i <= Model.Empresa.DiferenciaHoras.TotalHours; i++)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @if (User.IsInRole("Cliente"))
+                                                    {
+                                                        var horaActual = Model.Empresa.horaApertura.Add(TimeSpan.FromHours(i));
+                                                        var formattedHora = horaActual.ToString("hh\\:mm");
+                                                        var formattedFecha = DateTime.Now.ToString("yyyy-MM-dd");
+
+                                                        if (ViewBag.HorasReservadas != null && ViewBag.HorasReservadas.Contains(horaActual))
+                                                        {
+                                                            <span class="hora-reservada" data-hora="@formattedHora">
+                                                                @formattedHora
+                                                            </span>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a asp-action="Create" asp-controller="Reservas" asp-route-idCancha="@Model?.id_cancha"
+                                                               asp-route-horaSeleccionada="@formattedHora" asp-route-fechaSeleccionada="@formattedFecha">
+                                                                @formattedHora
+                                                            </a>
+
+
+                                                        }
+                                                    }
+                                                    else if (User.IsInRole("Administrador"))
+                                                    {
+                                                        @Model.Empresa.horaApertura.Add(TimeSpan.FromHours(i)).ToString("hh\\:mm")
+                                                    }
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resto del código... -->
+
+        </div>
+    </div>
+
+    @section Scripts {
+
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+
+        <script>
+            $(document).ready(function () {
+
+                // Función para deshabilitar visualmente las horas reservadas
+                function deshabilitarHorasReservadas() {
+
+                    // Obtén las horas reservadas desde ViewBag
+                    var horasReservadas = @Html.Raw(Json.Serialize(ViewBag.HorasReservadas));
+
+                    // Deshabilita visualmente las horas reservadas
+                    horasReservadas.forEach(function (horaReservada) {
+
+                        // Convierte la hora reservada a un objeto Date de JavaScript
+                        var fechaHoraReservada = new Date();
+                        fechaHoraReservada.setHours(horaReservada.Hours, horaReservada.Minutes, 0, 0);
+
+                        // Encuentra la celda correspondiente y deshabilítala visualmente
+                        var formattedHoraReservada = fechaHoraReservada.toLocaleTimeString("es-ES", {
+                            hour12: false,
+                            hourFormat: "HH:mm"
+                        });
+                        var $celda = $('[data-hora="' + formattedHoraReservada + '"]');
+                        $celda.addClass('hora-reservada');
+
+                        // Deshabilita visualmente las horas siguientes según la duración de la reserva
+                        var duracionReserva = @ViewBag.NumeroHoras;
+                        for (var i = 1; i < duracionReserva; i++) {
+
+                            // Convierte la hora reservada a un objeto Date de JavaScript
+                            fechaHoraReservada.setHours(fechaHoraReservada.getHours() + 1);
+
+                            // Encuentra la celda correspondiente y deshabilítala visualmente
+                            var formattedHoraSiguiente = fechaHoraReservada.toLocaleTimeString("es-ES", {
+                                hour12: false,
+                                hourFormat: "HH:mm"
+                            });
+                            var $celda = $('[data-hora="' + formattedHoraSiguiente + '"]');
+                            $celda.addClass('hora-reservada');
+                        }
+                    });
+                }
+
+                // Agrega un evento al cambio de la fecha para actualizar las horas reservadas
+                $('#fechaReserva').on('input', function () {
+                    // Realizar la solicitud AJAX para actualizar la vista
+                    actualizarVistaPorFecha();
+                });
+
+                // Función para realizar la solicitud AJAX y actualizar la vista
+                function actualizarVistaPorFecha() {
+                    // Obtener la nueva fecha seleccionada
+                    var nuevaFecha = $('#fechaReserva').val();
+
+                    // Realizar la solicitud AJAX
+                    $.ajax({
+                        url: '@Url.Action("Details", "Canchas")',
+                        type: 'GET',
+                        data: { id: @Model.id_cancha, fechaSeleccionada: nuevaFecha }, // Asegúrate de pasar la nueva fecha seleccionada
+                        success: function (result) {
+                            // Actualizar el contenido de la página con el nuevo HTML
+                            $('#cardBodyHorarios').html($(result).find('#cardBodyHorarios').html());
+                            // Llamar a la función para deshabilitar horas reservadas después de la actualización
+                            deshabilitarHorasReservadas();
+                        },
+                        error: function (error) {
+                            console.error('Error al realizar la solicitud AJAX:', error);
+                        }
+                    });
+                }
+
+
+                // Llama a la función al cargar la página
+                deshabilitarHorasReservadas();
+            });
+        </script>
+
+        <style>
+            .hora-reservada {
+                color: gray; /* Color transparente rojo */
+                text-decoration: line-through; /* Tachado */
+                pointer-events: none; /* No se puede hacer clic en la celda deshabilitada */
+            }
+        </style>
+    }
+
+

@@ -1,0 +1,123 @@
+
+HWebCamposDeportivos_V1._2.Controllers.AccessController.Encriptar(string)Ç
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.csâ â(&"7*∞
+0
+ã å(0JH
+
+ã ã(2
+%0System.Text.StringBuilder"System.Text.StringBuilderj
+h
+
+ã# ã(0
+
+%1void")System.Text.StringBuilder.StringBuilder()*#!
+
+%0System.Text.StringBuilderZ
+X
+
+ã ã(2
+sbSystem.Text.StringBuilder"__id*#!
+
+%0System.Text.StringBuilderì
+ê
+
+å! å(0)
+%2#System.Security.Cryptography.SHA256",System.Security.Cryptography.SHA256.Create()*)'"%
+#System.Security.Cryptography.SHA256p
+n
+
+å å(0+
+hash#System.Security.Cryptography.SHA256"__id*-+
+)
+%2#System.Security.Cryptography.SHA256*
+1*∫
+1
+é ê()e
+c
+
+é é(,
+%3System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.EncodingQ
+O
+
+é é(,
+encSystem.Text.Encoding"__id*
+
+%3System.Text.Encodingåâ
+
+è1 è(D
+%4byte[]"%System.Text.Encoding.GetBytes(string)*
+
+encSystem.Text.Encoding*
+
+textostring2GetBytes(string)†
+ù
+
+è  è(E
+%5byte[]">System.Security.Cryptography.HashAlgorithm.ComputeHash(byte[])*/-
++
+hash#System.Security.Cryptography.SHA256*
+
+%4byte[]8
+6
+
+è è(E
+resultbyte[]"__id*
+
+%5byte[]*
+2*
+2
+ñ	 ñ(	*
+3
+4*¯
+3
+í í(-M
+K
+
+í í(.
+%6string"byte.ToString(string?)*
+	
+bbyte*
+x2í
+è
+
+í í(/
+%7System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*#!
+
+sbSystem.Text.StringBuilder*
+
+%6string*
+2*
+4
+ñ	 ñ(	*
+5*ñ
+5
+ï ï( g
+e
+
+ï ï( 
+%8string"$System.Text.StringBuilder.ToString()*#!
+
+sbSystem.Text.StringBuilder"
+
+ï ï(!
+
+%8string*2
+6
+ñ	 ñ(	"!
+
+ñ ñ(	
+implicit return*M
+7
+â4 â(47
+5
+
+â â(&
+%9"__entrypoint*
+
+textostring*
+0:
+
+â' â(3
+textostringB:"8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

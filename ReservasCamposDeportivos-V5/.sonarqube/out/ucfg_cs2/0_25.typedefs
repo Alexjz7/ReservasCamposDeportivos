@@ -1,0 +1,27 @@
+ê
+)WebCamposDeportivos_V1._2.Models.ReservasobjectÄ
+KObtenerCostoHora(System.TimeSpan, WebCamposDeportivos_V1._2.Models.Canchas)uWebCamposDeportivos_V1._2.Models.Reservas.ObtenerCostoHora(System.TimeSpan, WebCamposDeportivos_V1._2.Models.Canchas)B
+
+Reservas()4WebCamposDeportivos_V1._2.Models.Reservas.Reservas()J
+id_reserva.get8WebCamposDeportivos_V1._2.Models.Reservas.id_reserva.getJ
+id_reserva.set8WebCamposDeportivos_V1._2.Models.Reservas.id_reserva.setH
+ClienteID.get7WebCamposDeportivos_V1._2.Models.Reservas.ClienteID.getH
+ClienteID.set7WebCamposDeportivos_V1._2.Models.Reservas.ClienteID.setD
+CampoID.get5WebCamposDeportivos_V1._2.Models.Reservas.CampoID.getD
+CampoID.set5WebCamposDeportivos_V1._2.Models.Reservas.CampoID.setN
+fechaReserva.get:WebCamposDeportivos_V1._2.Models.Reservas.fechaReserva.getN
+fechaReserva.set:WebCamposDeportivos_V1._2.Models.Reservas.fechaReserva.setL
+horaReserva.get9WebCamposDeportivos_V1._2.Models.Reservas.horaReserva.getL
+horaReserva.set9WebCamposDeportivos_V1._2.Models.Reservas.horaReserva.setL
+numeroHoras.get9WebCamposDeportivos_V1._2.Models.Reservas.numeroHoras.getL
+numeroHoras.set9WebCamposDeportivos_V1._2.Models.Reservas.numeroHoras.set@
+	total.get3WebCamposDeportivos_V1._2.Models.Reservas.total.get@
+	total.set3WebCamposDeportivos_V1._2.Models.Reservas.total.setB
+
+estado.get4WebCamposDeportivos_V1._2.Models.Reservas.estado.getB
+
+estado.set4WebCamposDeportivos_V1._2.Models.Reservas.estado.set@
+	Campo.get3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get@
+	Campo.set3WebCamposDeportivos_V1._2.Models.Reservas.Campo.setD
+Cliente.get5WebCamposDeportivos_V1._2.Models.Reservas.Cliente.getD
+Cliente.set5WebCamposDeportivos_V1._2.Models.Reservas.Cliente.set

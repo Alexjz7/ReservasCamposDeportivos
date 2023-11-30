@@ -1,0 +1,18 @@
+ä
+
++WebCamposDeportivos_V1._2.Data.AppDbContext'Microsoft.EntityFrameworkCore.DbContextobjectƒ
+iAppDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WebCamposDeportivos_V1._2.Data.AppDbContext>)•WebCamposDeportivos_V1._2.Data.AppDbContext.AppDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WebCamposDeportivos_V1._2.Data.AppDbContext>)H
+Usuarios.get8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.getH
+Usuarios.set8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.setF
+Canchas.get7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.getF
+Canchas.set7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.setH
+Reservas.get8WebCamposDeportivos_V1._2.Data.AppDbContext.Reservas.getH
+Reservas.set8WebCamposDeportivos_V1._2.Data.AppDbContext.Reservas.setH
+Empresas.get8WebCamposDeportivos_V1._2.Data.AppDbContext.Empresas.getH
+Empresas.set8WebCamposDeportivos_V1._2.Data.AppDbContext.Empresas.setB
+	Roles.get5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.getB
+	Roles.set5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.setB
+	Pagos.get5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.getB
+	Pagos.set5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.setP
+User_Empresa.get<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.getP
+User_Empresa.set<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.set

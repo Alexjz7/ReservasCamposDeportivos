@@ -1,0 +1,284 @@
+
+FWebCamposDeportivos_V1._2.Controllers.ReservasController.Index(string)Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\ReservasController.cs) (."11*É
+0  ('ú
+ô
+ (,
+%0&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase"
+ 
+- (F
+%1"__id*
+""Ù
+Ò
+ (G
+%2string"iSystem.Security.Claims.PrincipalExtensions.FindFirstValue(System.Security.Claims.ClaimsPrincipal, string)*0.",
+*System.Security.Claims.PrincipalExtensions*0.
+,
+%0&System.Security.Claims.ClaimsPrincipal*
+
+%16
+4
+ (G
+userIDstring"__id*
+
+%2string¡
+æ
+ ( 1
+%3+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+ ()2
+%4,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Reservas.get*53
+1
+%3+WebCamposDeportivos_V1._2.Data.AppDbContext∞
+≠
+ ((R
+%5LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%4,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""–
+Õ
+ (&R
+%6LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%5LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""–
+Õ
+ (2R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%6LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""Ç
+ˇ
+ (
+%8System.Linq.IQueryable<T>"]System.Linq.Queryable.AsQueryable<TElement>(System.Collections.Generic.IEnumerable<TElement>)*"
+System.Linq.Queryable*VT
+R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>[
+Y
+ ("
+querySystem.Linq.IQueryable<T>"__id*#!
+
+%8System.Linq.IQueryable<T>ú
+ô
+   (,
+%9&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¶£
+   ((
+%10bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*0.
+,
+%9&System.Security.Claims.ClaimsPrincipal*	
+Cliente2IsInRole(string)*
+1
+2*Ç
+1 ,  (:k
+i
+ ,  (:
+%11bool""string.operator !=(string, string)*
+"
+string*
+
+userIDstring*
+""*
+3
+2*ﬁ
+3" $(4Ü
+É
+" "(P 
+%12System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*&$
+"
+querySystem.Linq.IQueryable<T>*
+""\
+Z
+" "(P"
+querySystem.Linq.IQueryable<T>"__id*$"
+ 
+%12System.Linq.IQueryable<T>`
+^
+$ $(5
+%13bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+
+searchNamestring*
+4
+5*˘
+4& &([Ü
+É
+& &(\ 
+%14System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*&$
+"
+querySystem.Linq.IQueryable<T>*
+""\
+Z
+& &(\"
+querySystem.Linq.IQueryable<T>"__id*$"
+ 
+%14System.Linq.IQueryable<T>*
+5*Â
+2* *(2ù
+ö
+* *(-
+%15&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase≠™
+* *(3
+%16bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*1/
+-
+%15&System.Security.Claims.ClaimsPrincipal*
+Administrador2IsInRole(string)*
+6
+7*‚
+7*7 *(Qù
+ö
+*7 *(;-
+%17&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase™ß
+*7 *(R
+%18bool"7System.Security.Claims.ClaimsPrincipal.IsInRole(string)*1/
+-
+%17&System.Security.Claims.ClaimsPrincipal*
+
+Supervisor2IsInRole(string)*
+6
+8*w
+6, ,(4`
+^
+, ,(5
+%19bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+
+searchNamestring*
+9
+5*˘
+9. .([Ü
+É
+. .(\ 
+%20System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*&$
+"
+querySystem.Linq.IQueryable<T>*
+""\
+Z
+. .(\"
+querySystem.Linq.IQueryable<T>"__id*$"
+ 
+%20System.Linq.IQueryable<T>*
+5*Ú
+84 4(¶£
+4 4(,
+%21%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()":
+4 4( .
+,
+%21%Microsoft.AspNetCore.Mvc.ForbidResult*™
+57 9( —
+Œ
+7! 7(4+
+%22$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*&$
+"
+querySystem.Linq.IQueryable<T>*
+""L
+J
+7 7(4.
+reservas"System.Collections.Generic.List<T>"__id*
+""…
+∆
+9 9(!
+%23void"-webcamposdeportivos_v1.2/views/reservas/index*	
+
+%24*20
+.
+reservas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject≈
+¬
+9 9(!
+%25void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%26*20
+.
+reservas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject…
+∆
+9 9(!
+%27void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%28*20
+.
+reservas"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+9 9("
+
+%27void*/
+10:	 :(	"
+: :(	
+implicit return*ú
+11A (A;
+9
+) (.
+%29"__entrypoint*
+
+
+searchNamestringå
+â
+	 (@
+%30"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*
+
+
+searchNamestring;
+9
+/ (@
+
+searchNamestring"__annotation*	
+
+%30*
+0: 
+/ (@
+
+searchNamestringB<:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController

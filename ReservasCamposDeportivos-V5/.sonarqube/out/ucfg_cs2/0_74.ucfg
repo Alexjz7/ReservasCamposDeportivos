@@ -1,0 +1,20 @@
+
+•WebCamposDeportivos_V1._2.Data.AppDbContext.AppDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WebCamposDeportivos_V1._2.Data.AppDbContext>)u
+kC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Data\AppDbContext.cs ("1*
+1	 (	*
+0*‰
+0D (Rô
+ñ
+D (S
+
+%0void"aMicrosoft.EntityFrameworkCore.DbContext.DbContext(Microsoft.EntityFrameworkCore.DbContextOptions)*-+)
+'Microsoft.EntityFrameworkCore.DbContext*GE
+C
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>*
+2*.
+2	 (	"
+ (	
+implicit return:O
+ (BC
+options8Microsoft.EntityFrameworkCore.DbContextOptions<TContext>B/-
++WebCamposDeportivos_V1._2.Data.AppDbContext

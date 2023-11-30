@@ -1,0 +1,106 @@
+﻿@model List<WebCamposDeportivos_V1._2.Models.Canchas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3 bg-primary">
+        <h6 class="m-0 font-weight-bold text-white">Lista de Campos</h6>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12">
+                @if (User.IsInRole("Administrador"))
+                {
+                    <p>
+                        <a asp-action="Create" class="btn btn-success btn-sm" type="button">Crear campo</a>
+                    </p>
+                }
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="miTabla" style="width:100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Empresa
+                                </th>
+                                <th>
+                                    Deporte
+                                </th>
+                                <th>
+                                    Detalle
+                                </th>
+                                <th>
+                                    Costo por Día
+                                </th>
+                                <th>
+                                    Costo por Noche
+                                </th>
+                                <th>
+                                    Imagen
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Empresa.nombre)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.deporte)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.detalle)
+                                    </td>
+                                    <td>
+                                        <label>S/.</label>
+                                        @Html.DisplayFor(modelItem => item.costoDia)
+                                    </td>
+                                    <td>
+                                        <label>S/.</label>
+                                        @Html.DisplayFor(modelItem => item.costoNoche)
+                                    </td>
+                                    <td>
+                                        <img src="@item.UrlImage" alt="Imagen de cancha deportiva" width="200" height="150" />
+                                    </td>
+                                    <td>
+                                        @if (User.IsInRole("Administrador"))
+                                        {
+                                            <a asp-action="Details" asp-route-id="@item.id_cancha" class="btn btn-info btn-sm">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <a asp-action="Edit" asp-route-id="@item.id_cancha" class="btn btn-primary btn-sm">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+                                        }
+                                        @if (User.IsInRole("Administrador") || (User.IsInRole("Supervisor")))
+                                        {
+                                            <a asp-action="Delete" asp-route-id="@item.id_cancha" class="btn btn-danger btn-sm">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#miTabla').DataTable();
+        });
+    </script>
+}

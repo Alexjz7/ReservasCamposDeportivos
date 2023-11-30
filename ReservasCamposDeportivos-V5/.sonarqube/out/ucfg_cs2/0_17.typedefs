@@ -1,0 +1,11 @@
+’
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobject»
+?UsuariosController(WebCamposDeportivos_V1._2.Data.AppDbContext)xWebCamposDeportivos_V1._2.Controllers.UsuariosController.UsuariosController(WebCamposDeportivos_V1._2.Data.AppDbContext)K
+Index()@WebCamposDeportivos_V1._2.Controllers.UsuariosController.Index()W
+Details(int?)FWebCamposDeportivos_V1._2.Controllers.UsuariosController.Details(int?)Q
+
+Edit(int?)CWebCamposDeportivos_V1._2.Controllers.UsuariosController.Edit(int?)¥
+4Edit(int, WebCamposDeportivos_V1._2.Models.Usuarios)mWebCamposDeportivos_V1._2.Controllers.UsuariosController.Edit(int, WebCamposDeportivos_V1._2.Models.Usuarios)U
+Delete(int?)EWebCamposDeportivos_V1._2.Controllers.UsuariosController.Delete(int?)e
+DeleteConfirmed(int)MWebCamposDeportivos_V1._2.Controllers.UsuariosController.DeleteConfirmed(int)c
+UsuariosExists(int)LWebCamposDeportivos_V1._2.Controllers.UsuariosController.UsuariosExists(int)

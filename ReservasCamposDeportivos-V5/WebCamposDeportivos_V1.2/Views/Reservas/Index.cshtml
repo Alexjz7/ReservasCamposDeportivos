@@ -1,0 +1,492 @@
+﻿@model List<WebCamposDeportivos_V1._2.Models.Reservas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <!-- Agrega la biblioteca qrcode.js desde una CDN -->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <!-- ... Otras etiquetas head ... -->
+</head>
+<div class="row">
+    <div class="col-8">
+        <h1>Lista de Reservas</h1>
+    </div>
+    <div class="col-4">
+        <form method="get" id="searchForm">
+            <div class="form-row">
+                <div class="col">
+                    <label for="searchName" class="sr-only">Fecha a buscar:</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                Filtrar por fechas
+                            </span>
+                        </div>
+                        <input type="date" min="2023-01-01" max="2023-12-31" class="form-control" name="searchName" value="@ViewData["SearchName"]">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-outline-primary">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <label for="estadoReserva" class="form-label">Filtrar por estado de reserva:</label>
+        <select class="form-select" id="estadoReserva">
+            <option value="">Todos</option>
+            <option value="Pendiente">Pendiente</option>
+            <option value="Reservado">Reservado</option>
+        </select>
+    </div>
+</div>
+<hr />
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Seleccionar
+                </th>
+                <th>
+                    Cliente
+                </th>
+                <th>
+                    Empresa
+                </th>
+                <th>
+                    Deporte
+                </th>
+                <th>
+                    Fecha de la Reserva
+                </th>
+                <th>
+                    Hora de la Reserva
+                </th>
+                @* <th>
+            Tipo de Pago
+            </th> *@
+                <th>
+                    Estado
+                </th>
+                <th>
+                    N&deg Horas
+                </th>
+                <th>
+                    Costo de cancha
+                </th>
+                <th name="totalPagar">
+                    Total
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.estado == "Pendiente")
+                {
+                    <h4 id="reloj"></h4>
+                }
+
+                <tr>
+                    <!-- Agrega esta celda con un checkbox en cada fila -->
+                    <!-- Cambia el tipo de input a radio -->
+                    <td>
+                        <input type="radio" name="reservaSeleccionada" value="@item.id_reserva" />
+                    </td>
+
+
+                    <td>
+                        @item.Cliente.nombres
+                    </td>
+                    <td>
+                        @item.Campo.Empresa.nombre
+                    </td>
+                    <td>
+                        @item.Campo.deporte
+                    </td>
+                    <td>
+                        @item.fechaReserva.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        @item.horaReserva.ToString("hh\\:mm")
+                    </td>
+                    <td>
+                        @item.estado
+                    </td>
+                    <td>
+                        @item.numeroHoras
+                    </td>
+                    <td>
+                        @item.ObtenerCostoHora(item.horaReserva, item.Campo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.total)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Cliente"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.id_reserva" class="btn btn-primary btn-sm">
+                                <i class="fa-solid fa-pencil"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.id_reserva" class="btn btn-danger btn-sm">
+                                <i class="fa-solid fa-trash-can"></i>
+                            </a>
+                        }
+                        @if (User.IsInRole("Cliente") || User.IsInRole("Administrador"))
+                        {
+                            <a asp-action="Details" asp-route-id="@item.id_reserva" class="btn btn-info btn-sm">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (User.IsInRole("Cliente"))
+    {
+        <button id="confirmarPago" class="btn btn-primary btn-sm">
+            Confirmar pago
+        </button>
+
+    }
+}
+
+else
+{
+    <p class="alert alert-info">
+        No hay registros para mostrar.
+    </p>
+}
+<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+
+<div id="infoContainer" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; padding: 20px; border: 1px solid #ccc; border-radius: 5px; z-index: 2;">
+</div>
+
+<style>
+    #infoContainer {
+        position: fixed;
+        top: 50 %;
+        left: 50 %;
+        transform: translate(-50 %, -50 %);
+        padding: 20px;
+        background - color: #fff;
+        box - shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    .closeButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font - size: 20px;
+        cursor: pointer;
+    }
+
+    #qrContainer {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #infoContainer h2 {
+        text-align: center;
+    }
+
+    #confirmarBoton {
+        margin-top: 10px;
+    }
+</style>
+
+
+@section Scripts {
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Maneja el clic en el botón "Confirmar pago"
+            document.getElementById('confirmarPago').addEventListener('click', function () {
+                // Obtiene el botón de opción seleccionado
+                var radioButtons = document.querySelectorAll('input[name="reservaSeleccionada"]:checked');
+
+                if (radioButtons.length === 0) {
+                    alert('Selecciona una reserva antes de confirmar el pago.');
+                } else {
+                    // Obtiene el valor del botón de opción seleccionado
+                    var reservaSeleccionada = radioButtons[0].value;
+
+                    // Muestra la información en el div y pasa el id de reserva
+                    mostrarInformacion(reservaSeleccionada);
+                }
+            });
+            // Función para mostrar la información en el div
+            function mostrarInformacion(reservaSeleccionada) {
+                // Obtén el contenedor del div, el overlay y el botón de cierre
+                var infoContainer = document.getElementById('infoContainer');
+                var overlay = document.getElementById('overlay');
+
+                // Limpia el contenido del contenedor antes de agregar nuevos elementos
+                infoContainer.innerHTML = '';
+
+                // Encuentra la fila correspondiente a la reserva seleccionada
+                var filaSeleccionada = document.querySelector('input[name="reservaSeleccionada"][value="' + reservaSeleccionada + '"]').closest('tr');
+
+                var nombreEmpresa = filaSeleccionada.querySelector('td:nth-child(3)').innerText;
+                var nombreCancha = filaSeleccionada.querySelector('td:nth-child(4)').innerText;
+                var numeroHoras = filaSeleccionada.querySelector('td:nth-child(8)').innerText;
+                var totalPago = filaSeleccionada.querySelector('td:nth-child(10)').innerText; // Ajusta esto según tu estructura de tabla
+
+                // Agrega el div morado con el texto "Confirmación de pago"
+                var confirmacionPagoDiv = document.createElement('div');
+                confirmacionPagoDiv.style.width = '100%';
+                confirmacionPagoDiv.style.height = '100px'; // Ajustamos la altura
+                confirmacionPagoDiv.style.backgroundColor = '#8e44ad'; // Color morado Yape
+                confirmacionPagoDiv.style.color = 'white';
+                confirmacionPagoDiv.style.textAlign = 'center';
+                confirmacionPagoDiv.style.fontWeight = 'bold';
+                confirmacionPagoDiv.style.fontSize = '24px'; // Ajustamos el tamaño de la fuente
+                confirmacionPagoDiv.style.paddingTop = '50px'; // Centramos verticalmente
+                confirmacionPagoDiv.innerHTML = 'Confirmación de pago';
+                infoContainer.appendChild(confirmacionPagoDiv);
+
+                // Crea la tabla con líneas blancas
+                var tablaDatos = document.createElement('table');
+                tablaDatos.style.width = '100%';
+                tablaDatos.style.marginTop = '20px'; // Ajustamos la separación desde el div anterior
+                tablaDatos.style.borderCollapse = 'collapse';
+
+                // Agrega estilos de línea blanca a la tabla
+                tablaDatos.style.border = '1px solid rgba(255, 255, 255, 0.5)';
+
+                // Función para agregar una fila a la tabla
+                function agregarFila(dato, valor) {
+                    var fila = tablaDatos.insertRow();
+                    var celdaDato = fila.insertCell(0);
+                    var celdaValor = fila.insertCell(1);
+                    celdaDato.innerHTML = dato;
+                    celdaValor.innerHTML = valor;
+                    // Agrega estilos a las celdas
+                    celdaDato.style.border = '1px solid rgba(255, 255, 255, 0.5)';
+                    celdaValor.style.border = '1px solid rgba(255, 255, 255, 0.5)';
+                    celdaDato.style.padding = '8px';
+                    celdaValor.style.padding = '8px';
+                }
+
+                // Agrega filas con los datos a la tabla
+                agregarFila('N° Rerserva:', reservaSeleccionada);
+                agregarFila('Empresa:', nombreEmpresa);
+                agregarFila('Deporte:', nombreCancha);
+                agregarFila('N° Horas:', numeroHoras);
+                agregarFila('TOTAL A PAGAR:', totalPago);
+
+                // Agrega la tabla al contenedor
+                infoContainer.appendChild(tablaDatos);
+
+                // Agrega un botón de cierre en la parte superior derecha del div
+                var closeButton = document.createElement('span');
+                closeButton.innerHTML = '&times;'; // Caracter 'X' para cerrar
+                closeButton.className = 'closeButton';
+                closeButton.addEventListener('click', function () {
+                    // Cierra el div al hacer clic en el botón de cierre
+                    infoContainer.style.display = 'none';
+                    overlay.style.display = 'none';
+                });
+
+                // Agrega el botón de cierre al div
+                infoContainer.appendChild(closeButton);
+
+                // Agrega el contenedor para el código QR
+                var qrContainer = document.createElement('div');
+                qrContainer.id = 'qrContainer';
+                qrContainer.style.width = '400px'; // Establece el ancho deseado
+                qrContainer.style.height = '370px'; // Establece la altura deseada
+                infoContainer.appendChild(qrContainer);
+
+                // Obtén el número de teléfono para Yape y el total a pagar
+                var numeroYape = '+051974795951';  // Reemplaza esto con tu número Yape
+                var totalPagar = '@Model.FirstOrDefault()?.numeroHoras * Model.FirstOrDefault()?.ObtenerCostoHora(Model.FirstOrDefault().horaReserva, Model.FirstOrDefault().Campo)';
+
+                // Ruta relativa del código QR con parámetros
+                var qrImagePath = '/imagenes/Yape-CodigoQR-1.jpg' + '?numero=' + encodeURIComponent(numeroYape) + '&total=' + encodeURIComponent(totalPagar);
+
+                // Mostrar el código QR existente
+                var qrImage = document.createElement('img');
+                qrImage.src = qrImagePath;
+                qrImage.width = 275; // Establece el ancho del código QR
+                qrImage.height = 350; // Establece la altura del código QR
+                qrContainer.appendChild(qrImage);
+
+                // Agrega el botón de confirmación
+                var botonConfirmar = document.createElement('button');
+                botonConfirmar.innerHTML = 'Confirmar';
+                botonConfirmar.className = 'botonConfirmar'; // Clase para el botón de confirmación
+
+                // Agrega estilos al botón de confirmación
+                botonConfirmar.style.backgroundColor = '#8e44ad'; // Color morado Yape
+                botonConfirmar.style.color = 'white';
+                botonConfirmar.style.border = 'none';
+                botonConfirmar.style.padding = '10px 20px';
+                botonConfirmar.style.borderRadius = '5px';
+                botonConfirmar.style.cursor = 'pointer';
+                botonConfirmar.style.display = 'block';
+                botonConfirmar.style.margin = 'auto';
+
+                // Agrega el evento de clic al botón de confirmación
+                botonConfirmar.addEventListener('click', function () {
+                    // Cierra el div al hacer clic en el botón de confirmación
+                    infoContainer.style.display = 'none';
+                    overlay.style.display = 'none';
+
+                    // Realiza una llamada Ajax para confirmar el pago y cambiar el estado
+                    confirmarPago(reservaSeleccionada);
+                });
+
+                // Agrega el botón de confirmación al div
+                infoContainer.appendChild(botonConfirmar);
+
+                // Muestra el overlay y el div de información
+                overlay.style.display = 'block';
+                infoContainer.style.display = 'block';
+            }
+
+            botonConfirmar.addEventListener('click', function () {
+                // Realiza una llamada Ajax para confirmar el pago y cambiar el estado
+                confirmarPago(reservaSeleccionada);
+            });
+            function confirmarPago(idReserva) {
+                // Realiza una llamada Ajax a la acción ConfirmarPago en tu controlador
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/Reservas/ConfirmarPago/' + idReserva, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        // Cierra el div y el overlay
+                        infoContainer.style.display = 'none';
+                        overlay.style.display = 'none';
+
+                        // Redirecciona al índice de reservas
+                        window.location.href = '/Reservas/Index';
+                    } else {
+                        // Maneja el error si es necesario
+                        console.error('Error al confirmar el pago');
+                    }
+                };
+
+                // Envía la solicitud
+                xhr.send();
+            }
+
+            // Cierra el div y oculta el overlay al hacer clic en el botón de cierre
+            document.addEventListener('click', function (event) {
+                if (event.target.classList.contains('closeButton')) {
+                    document.getElementById('infoContainer').style.display = 'none';
+                    document.getElementById('overlay').style.display = 'none';
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            let mostrarReloj = document.getElementById('reloj');
+
+            // Obtén la fecha de la reserva en formato de cadena (asegúrate de que sea compatible con JavaScript)
+            let fechaReservaString = '@Model.FirstOrDefault()?.FechaCreacion.ToString("yyyy-MM-ddTHH:mm:ss")';
+
+            // Convierte la cadena a un objeto Date de JavaScript
+            let fechaReserva = new Date(fechaReservaString);
+
+            // Obtén el tiempo de confirmación en minutos (asegúrate de que sea compatible con JavaScript)
+            let tiempoConfirmacionMinutes = @Model.FirstOrDefault()?.TiempoConfirmacion?.TotalMinutes;
+
+            // Calcula la fecha de confirmación
+            let fechaConfirmacion = new Date(fechaReserva.getTime() + tiempoConfirmacionMinutes * 60 * 1000);
+
+            // Calcula la fecha de finalización del tiempo de confirmación (12 horas después de la confirmación)
+            let fechaFinConfirmacion = new Date(fechaConfirmacion.getTime() + 12 * 60 * 60 * 1000);
+
+            // Función para actualizar el reloj
+            function actualizarReloj() {
+                let ahora = new Date();
+                let tiempoRestante = fechaFinConfirmacion - ahora;
+
+                // Verifica si ya se ha alcanzado el tiempo de confirmación
+                if (tiempoRestante <= 0) {
+                    mostrarReloj.innerHTML = "Tiempo de confirmación alcanzado";
+
+                    // Aquí puedes agregar lógica adicional, como eliminar la reserva automáticamente
+
+                } else {
+                    let horas = Math.floor(tiempoRestante / (60 * 60 * 1000));
+                    let minutos = Math.floor((tiempoRestante % (60 * 60 * 1000)) / (60 * 1000));
+                    let segundos = Math.floor((tiempoRestante % (60 * 1000)) / 1000);
+
+                    mostrarReloj.innerHTML = horas + "h " + minutos + "m " + segundos + "s";
+                }
+            }
+
+            // Llama a la función para actualizar el reloj cada segundo
+            setInterval(actualizarReloj, 1000);
+
+            // Llama a la función una vez al cargar la página para mostrar el tiempo restante inicial
+            actualizarReloj();
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Maneja cambios en el combo box
+            var estadoReservaSelect = document.getElementById('estadoReserva');
+            estadoReservaSelect.addEventListener('change', function () {
+                // Obtiene el valor seleccionado en el combo box
+                var selectedEstado = this.value;
+
+                // Filtra la tabla según el estado seleccionado
+                filtrarTablaPorEstado(selectedEstado);
+            });
+
+            // Función para filtrar la tabla por estado
+            function filtrarTablaPorEstado(estado) {
+                // Obtén todas las filas de la tabla
+                var filas = document.querySelectorAll('tbody tr');
+
+                // Itera sobre las filas y muestra/oculta según el estado seleccionado
+                filas.forEach(function (fila) {
+                    var estadoReserva = fila.querySelector('td:nth-child(7)').innerText.trim(); // Ajusta esto según tu estructura de tabla
+
+                    if (estado === '' || estadoReserva === estado) {
+                        // Muestra la fila si no hay un estado seleccionado o si coincide con el estado seleccionado
+                        fila.style.display = '';
+                    } else {
+                        // Oculta la fila si no coincide con el estado seleccionado
+                        fila.style.display = 'none';
+                    }
+                });
+            }
+
+            var resetFiltroButton = document.createElement('button');
+            resetFiltroButton.innerHTML = 'Mostrar Todos';
+            resetFiltroButton.className = 'btn btn-outline-secondary';
+            resetFiltroButton.addEventListener('click', function () {
+                estadoReservaSelect.value = '';
+                filtrarTablaPorEstado('');
+            });
+            var estadoReservaContainer = document.querySelector('.col-4'); 
+            estadoReservaContainer.appendChild(resetFiltroButton);
+        });
+    </script>
+}

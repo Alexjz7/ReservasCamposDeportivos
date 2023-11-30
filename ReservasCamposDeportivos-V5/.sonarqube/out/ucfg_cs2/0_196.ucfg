@@ -1,0 +1,45 @@
+
+pWebCamposDeportivos_V1._2.Migrations.ReservasV53.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)‹
+€C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Migrations\20231121081234_ReservasV5.3.cs  ($"0*„	
+0 #( ïì
+ #(!d
+%0^Microsoft.EntityFrameworkCore.Migrations.Operations.Builders.AlterOperationBuilder<TOperation>"ÁMicrosoft.EntityFrameworkCore.Migrations.MigrationBuilder.AlterColumn<T>(string, string, string?, bool?, int?, bool, string?, bool, object?, string?, string?, System.Type?, string?, bool?, int?, bool, bool, object?, string?, string?, bool?, bool?, string?, string?, string?, string?, int?, int?, int?, int?, bool?, bool?)*QO
+M
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder*
+Descripcion*	
+Pagos*
+nvarchar(9)*
+""*2	*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+nvarchar(15)*
+""*2*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""*
+""2‡AlterColumn<T>(string, string, string?, bool?, int?, bool, string?, bool, object?, string?, string?, System.Type?, string?, bool?, int?, bool, bool, object?, string?, string?, bool?, bool?, string?, string?, string?, string?, int?, int?, int?, int?, bool?, bool?)*
+1*.
+1$	 $(	"
+$ $(	
+implicit return:Y
+% (FM
+migrationBuilder9Microsoft.EntityFrameworkCore.Migrations.MigrationBuilderB42
+0WebCamposDeportivos_V1._2.Migrations.ReservasV53

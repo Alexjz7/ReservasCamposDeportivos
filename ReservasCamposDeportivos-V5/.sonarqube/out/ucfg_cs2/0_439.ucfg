@@ -1,0 +1,146 @@
+
+OWebCamposDeportivos_V1._2.Controllers.MediosPagoController.DeleteConfirmed(int)Ü
+zC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\MediosPagoController.cs≠) ≠(8"6*•
+0
+Ø Ø(&≈
+¬
+
+Ø Ø(1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*{y*w<
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+
+Ø Ø(2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContextè
+å
+
+Ø Ø(&
+
+%2bool""object.operator ==(object, object)*
+"
+object*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1
+2*°
+1
+± ±(J“œ
+
+± ±(K+
+%3%Microsoft.AspNetCore.Mvc.ObjectResult"YMicrosoft.AspNetCore.Mvc.ControllerBase.Problem(string?, string?, int?, string?, string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*/-+
+)Entity set 'AppDbContext.Pagos'  is null.*
+""*
+""*
+""*
+""21Problem(string?, string?, int?, string?, string?)";
+
+± ±(L-
++
+%3%Microsoft.AspNetCore.Mvc.ObjectResult*ı
+2
+≥ ¥("≈
+¬
+
+≥# ≥(+1
+%4+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*{y*w<
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+
+≥# ≥(12
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*53
+1
+%4+WebCamposDeportivos_V1._2.Data.AppDbContextÎË
+
+≥# ≥(?/
+%6)System.Threading.Tasks.ValueTask<TResult>"IMicrosoft.EntityFrameworkCore.DbSet<TEntity>.FindAsync(params object?[]?)*64
+2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""2FindAsync(params object?[]?)Y
+W
+
+≥ ≥(?9
+
+mediosPago+WebCamposDeportivos_V1._2.Models.MediosPago"__id*
+""ñ
+ì
+
+¥ ¥("
+
+%7bool""object.operator !=(object, object)*
+"
+object*=;
+9
+
+mediosPago+WebCamposDeportivos_V1._2.Models.MediosPago*
+""*
+3
+4*≤
+3
+∂ ∂(0≈
+¬
+
+∂ ∂(1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*{y*w<
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+
+∂ ∂(2
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*53
+1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContextüú
+
+∂ ∂(1H
+%10AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"<Microsoft.EntityFrameworkCore.DbSet<TEntity>.Remove(TEntity)*64
+2
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>*=;
+9
+
+mediosPago+WebCamposDeportivos_V1._2.Models.MediosPago2Remove(TEntity)*
+4*ñ
+4
+π ∫(1∆
+√
+
+π π(2
+%11+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*{y*w<
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContextíè
+
+π π(-+
+%12$System.Threading.Tasks.Task<TResult>"\Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)*64
+2
+%11+WebCamposDeportivos_V1._2.Data.AppDbContext*
+""24SaveChangesAsync(System.Threading.CancellationToken)ﬁ€
+
+∫ ∫(26
+%13/Microsoft.AspNetCore.Mvc.RedirectToActionResult"AMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2RedirectToAction(string?)"F
+
+∫ ∫(38
+6
+%13/Microsoft.AspNetCore.Mvc.RedirectToActionResult*2
+5
+ª	 ª(	"!
+
+ª ª(	
+implicit return*C
+6
+≠@ ≠(@-
++
+
+≠) ≠(8
+%14"__entrypoint*
+""*
+0:
+
+≠9 ≠(?	
+idintB><
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController

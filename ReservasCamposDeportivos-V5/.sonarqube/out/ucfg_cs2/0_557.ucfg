@@ -1,0 +1,528 @@
+
+CWebCamposDeportivos_V1._2.Controllers.ReservasController.Edit(int?)Ñ
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\ReservasController.cs¸) ¸(-"7*y
+0
+˛ ˛(`
+^
+
+˛ ˛(
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+""*
+""*
+1
+2*¶
+2
+˛ ˛(7√
+¿
+
+˛ ˛(&1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¥
+±
+
+˛ ˛(/2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Reservas.get*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContextè
+å
+
+˛ ˛(7
+
+%3bool""object.operator ==(object, object)*
+"
+object*64
+2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1
+3*˛
+1
+Ä Ä(!≠™
+
+Ä Ä(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"=
+
+Ä Ä("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*ç"
+3
+É ë( û
+õ
+
+É É(,
+%5&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase$
+"
+
+É- É(F
+%6"__id*
+""ˆ
+Û
+
+É É(G
+%7string"iSystem.Security.Claims.PrincipalExtensions.FindFirstValue(System.Security.Claims.ClaimsPrincipal, string)*0.",
+*System.Security.Claims.PrincipalExtensions*0.
+,
+%5&System.Security.Claims.ClaimsPrincipal*
+
+%68
+6
+
+É É(G
+userIdstring"__id*
+
+%7string√
+¿
+
+Ö! Ö()1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext¥
+±
+
+Ö! Ö(22
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%8+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+
+Ö! Ü(I0
+%10)WebCamposDeportivos_V1._2.Models.Usuarios"éSystem.Linq.Queryable.FirstOrDefault<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%9,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""à
+Ö
+
+Ö Ü(I;
+clienteUsuario)WebCamposDeportivos_V1._2.Models.Usuarios"__id*42
+0
+%10)WebCamposDeportivos_V1._2.Models.Usuarios1/
+
+â â(
+%ViewBagDataAllobject"object20
+
+â â(
+%ViewBagDataHtmlobject"objectñ
+ì
+
+â' â(=
+%11string"5WebCamposDeportivos_V1._2.Models.Usuarios.nombres.get*?=
+;
+clienteUsuario)WebCamposDeportivos_V1._2.Models.Usuariosf
+d
+
+â â(?
+%12"__mapSet*
+
+%ViewBagDataAllobject*
+nombreCliente*
+
+%11string^
+\
+
+â â(?
+%13"__mapSet*
+
+%ViewBagDataHtmlobject*
+nombreCliente*
+""ƒ
+¡
+
+ã! ã()2
+%14+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+ã! ã(23
+%15,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Reservas.get*64
+2
+%14+WebCamposDeportivos_V1._2.Data.AppDbContext¥
+±
+
+ã! å("S
+%16LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*75
+3
+%15,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""™
+ß
+
+ã! ç((S
+%17LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"òMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ThenInclude<TEntity, TPreviousProperty, TProperty>(Microsoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TPreviousProperty>, System.Linq.Expressions.Expression<System.Func<TPreviousProperty, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*WU
+S
+%16LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""‘
+—
+
+ã! é("S
+%18LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*WU
+S
+%17LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""Õ
+ 
+
+ã! è(0+
+%19$System.Threading.Tasks.Task<TResult>"ŸMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstAsync<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*WU
+S
+%18LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""*
+""U
+S
+
+ã è(05
+reservas)WebCamposDeportivos_V1._2.Models.Reservas"__id*
+""ì
+ê
+
+ë ë( 
+%20bool""object.operator ==(object, object)*
+"
+object*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas*
+""*
+4
+5*Ä
+4
+ì ì(!Æ´
+
+ì ì(!.
+%21'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()">
+
+ì ì("0
+.
+%21'Microsoft.AspNetCore.Mvc.NotFoundResult*”.
+5
+ñ Ø( ù
+ö
+
+ñ: ñ(N
+%22System.TimeSpan"9WebCamposDeportivos_V1._2.Models.Reservas.horaReserva.get*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas∞
+≠
+
+ñP ñ(^/
+%23(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas¢
+ü
+
+ñ  ñ(_
+%24decimal"uWebCamposDeportivos_V1._2.Models.Reservas.ObtenerCostoHora(System.TimeSpan, WebCamposDeportivos_V1._2.Models.Canchas)*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas*
+
+%22System.TimeSpan*31
+/
+%23(WebCamposDeportivos_V1._2.Models.Canchas>
+<
+
+ñ ñ(_
+	costoHoradecimal"__id*
+
+%24decimal∞
+≠
+
+ò" ò(0/
+%25(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservasà
+Ö
+
+ò" ò(:
+
+%26int"6WebCamposDeportivos_V1._2.Models.Canchas.id_cancha.get*31
+/
+%25(WebCamposDeportivos_V1._2.Models.Canchas^
+\
+
+ò ò(<
+%27"__mapSet*
+
+%ViewBagDataAllobject*
+
+IdCancha*
+
+
+%26intY
+W
+
+ò ò(<
+%28"__mapSet*
+
+%ViewBagDataHtmlobject*
+
+IdCancha*
+""∞
+≠
+
+ô' ô(5/
+%29(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas¨
+©
+
+ô' ô(=0
+%30)WebCamposDeportivos_V1._2.Models.Empresas"4WebCamposDeportivos_V1._2.Models.Canchas.Empresa.get*31
+/
+%29(WebCamposDeportivos_V1._2.Models.Canchasä
+á
+
+ô' ô(D
+%31string"4WebCamposDeportivos_V1._2.Models.Empresas.nombre.get*42
+0
+%30)WebCamposDeportivos_V1._2.Models.Empresasf
+d
+
+ô ô(F
+%32"__mapSet*
+
+%ViewBagDataAllobject*
+NombreEmpresa*
+
+%31string^
+\
+
+ô ô(F
+%33"__mapSet*
+
+%ViewBagDataHtmlobject*
+NombreEmpresa*
+""∞
+≠
+
+ö& ö(4/
+%34(WebCamposDeportivos_V1._2.Models.Canchas"3WebCamposDeportivos_V1._2.Models.Reservas.Campo.get*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservasâ
+Ü
+
+ö& ö(<
+%35string"4WebCamposDeportivos_V1._2.Models.Canchas.deporte.get*31
+/
+%34(WebCamposDeportivos_V1._2.Models.Canchase
+c
+
+ö ö(>
+%36"__mapSet*
+
+%ViewBagDataAllobject*
+deporteCampo*
+
+%35string]
+[
+
+ö ö(>
+%37"__mapSet*
+
+%ViewBagDataHtmlobject*
+deporteCampo*
+""i
+g
+
+ú ú()
+%38"__mapSet*
+
+%ViewBagDataAllobject*
+	CostoHora*
+
+	costoHoradecimalZ
+X
+
+ú ú()
+%39"__mapSet*
+
+%ViewBagDataHtmlobject*
+	CostoHora*
+""ƒ
+¡
+
+û2 û(:2
+%40+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+
+û2 û(C3
+%41,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*64
+2
+%40+WebCamposDeportivos_V1._2.Data.AppDbContextô
+ñ
+
+û2 ü(* 
+%42System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*75
+3
+%41,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""ì
+ê
+
+û2 §( 
+%43System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
+System.Linq.Queryable*$"
+ 
+%42System.Linq.IQueryable<T>*
+""p
+n
+
+û( §(4
+usuario)System.Collections.Generic.IEnumerable<T>"__id*$"
+ 
+%43System.Linq.IQueryable<T>à
+Ö
+
+• •(%
+%44"__mapSet*
+
+%ViewBagDataAllobject*	
+usuario*86
+4
+usuario)System.Collections.Generic.IEnumerable<T>X
+V
+
+• •(%
+%45"__mapSet*
+
+%ViewBagDataHtmlobject*	
+usuario*
+""ƒ
+¡
+
+®/ ®(72
+%46+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≥
+∞
+
+®/ ®(=3
+%47,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Pagos.get*64
+2
+%46+WebCamposDeportivos_V1._2.Data.AppDbContext¶
+£
+
+®/ ¨( 
+%48System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
+System.Linq.Queryable*75
+3
+%47,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""m
+k
+
+®( ¨(1
+pago)System.Collections.Generic.IEnumerable<T>"__id*$"
+ 
+%48System.Linq.IQueryable<T>Å
+
+
+≠ ≠(
+%49"__mapSet*
+
+%ViewBagDataAllobject*
+
+pago*53
+1
+pago)System.Collections.Generic.IEnumerable<T>U
+S
+
+≠ ≠(
+%50"__mapSet*
+
+%ViewBagDataHtmlobject*
+
+pago*
+""—
+Œ
+
+Ø Ø(!
+%51void",webcamposdeportivos_v1.2/views/reservas/edit*	
+
+%52*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectŒ
+À
+
+Ø Ø(!
+%53void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%54*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject“
+œ
+
+Ø Ø(!
+%55void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%56*97
+5
+reservas)WebCamposDeportivos_V1._2.Models.Reservas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+
+Ø Ø("
+
+%55void*2
+6
+∞	 ∞(	"!
+
+∞ ∞(	
+implicit return*C
+7
+¸6 ¸(6-
++
+
+¸) ¸(-
+%57"__entrypoint*
+""*
+0:&
+
+¸. ¸(5
+idSystem.Nullable<T>B<:
+8WebCamposDeportivos_V1._2.Controllers.ReservasController

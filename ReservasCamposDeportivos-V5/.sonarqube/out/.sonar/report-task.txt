@@ -1,0 +1,6 @@
+projectKey=CBO
+serverUrl=https://sonarqube.bit2bitamericas.com
+serverVersion=10.1.0.73491
+dashboardUrl=https://sonarqube.bit2bitamericas.com/dashboard?id=CBO
+ceTaskId=AYvyCVP50haiPv-hRe5p
+ceTaskUrl=https://sonarqube.bit2bitamericas.com/api/ce/task?id=AYvyCVP50haiPv-hRe5p

@@ -1,0 +1,326 @@
+
+mWebCamposDeportivos_V1._2.Controllers.UsuariosController.Edit(int, WebCamposDeportivos_V1._2.Models.Usuarios)Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\UsuariosController.csa) a(-"10*•
+0c c()ç
+ä
+c c()	
+%0int"8WebCamposDeportivos_V1._2.Models.Usuarios.id_usuario.get*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+1
+2*¯
+1e e(!´®
+e e(!-
+%1'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()";
+e e("/
+-
+%1'Microsoft.AspNetCore.Mvc.NotFoundResult*¯
+2h h("∂
+≥
+h h(@
+%2:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseß
+§
+h h("
+
+%3bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*DB
+@
+%2:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+3
+4*ÿ
+3l m(5¡
+æ
+l l(1
+%4+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext§°
+l l(-G
+%5AMicrosoft.EntityFrameworkCore.ChangeTracking.EntityEntry<TEntity>"@Microsoft.EntityFrameworkCore.DbContext.Update<TEntity>(TEntity)*53
+1
+%4+WebCamposDeportivos_V1._2.Data.AppDbContext*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios2Update<TEntity>(TEntity)¡
+æ
+m m("1
+%6+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContextéã
+m m(5*
+%7$System.Threading.Tasks.Task<TResult>"\Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)*53
+1
+%6+WebCamposDeportivos_V1._2.Data.AppDbContext*
+""24SaveChangesAsync(System.Threading.CancellationToken)*	
+5
+6
+7*ﬁ
+5q q(;ç
+ä
+q( q(;	
+%8int"8WebCamposDeportivos_V1._2.Models.Usuarios.id_usuario.get*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios∂
+≥
+q q(<
+
+%9bool"LWebCamposDeportivos_V1._2.Controllers.UsuariosController.UsuariosExists(int)*><:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController*
+	
+%8int*
+8
+9*˙
+8s s()¨©
+s s().
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"<
+s s(*0
+.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult*
+9~	 ~(	*
+7*≤
+6z z(5‹Ÿ
+z z(66
+%11/Microsoft.AspNetCore.Mvc.RedirectToActionResult"AMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2RedirectToAction(string?)"D
+z z(78
+6
+%11/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ô
+4| }( /-
+| |(
+%ViewBagDataAllobject"object0.
+| |(
+%ViewBagDataHtmlobject"object¬
+ø
+|0 |(82
+%12+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+|0 |(>3
+%13,Microsoft.EntityFrameworkCore.DbSet<TEntity>"5WebCamposDeportivos_V1._2.Data.AppDbContext.Roles.get*64
+2
+%12+WebCamposDeportivos_V1._2.Data.AppDbContextä
+á
+|R |(a
+
+%14int"4WebCamposDeportivos_V1._2.Models.Usuarios.id_rol.get*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuariosqo
+|! |(b4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectList"-Microsoft.AspNetCore.Mvc.Rendering.SelectList©
+¶
+|% |(/
+%16void"pMicrosoft.AspNetCore.Mvc.Rendering.SelectList.SelectList(System.Collections.IEnumerable, string, string, object)*86
+4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectList*75
+3
+%13,Microsoft.EntityFrameworkCore.DbSet<TEntity>*	
+RolID*	
+RolID*
+
+
+%14intø
+º
+| |(b
+%17object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataAllobject*
+
+id_rol*86
+4
+%15-Microsoft.AspNetCore.Mvc.Rendering.SelectListÜ
+É
+%18object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataHtmlobject*
+
+id_rol*
+""œ
+Ã
+} }(!
+%19void",webcamposdeportivos_v1.2/views/usuarios/edit*	
+
+%20*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectÃ
+…
+} }(!
+%21void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%22*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject–
+Õ
+} }(!
+%23void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%24*97
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+} }("
+
+%23void*.
+7~	 ~(	"
+~ ~(	
+implicit return*‰
+10
+a± a(±w
+u
+a) a(-[
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios""
+<usuario>k__BackingFieldstring"__entrypointf
+d
+a) a(-J
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+usuariostring"__entrypointt
+r
+a) a(-X
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+<pass>k__BackingFieldstring"__entrypointc
+a
+a) a(-G
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+passstring"__entrypointw
+u
+a) a(-[
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios""
+<nombres>k__BackingFieldstring"__entrypointf
+d
+a) a(-J
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+nombresstring"__entrypointy
+w
+a) a(-]
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<apellidos>k__BackingFieldstring"__entrypointh
+f
+a) a(-L
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+	apellidosstring"__entrypoint}
+{
+a) a(-a
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"(
+<tipoDocumento>k__BackingFieldstring"__entrypointl
+j
+a) a(-P
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+tipoDocumentostring"__entrypointy
+w
+a) a(-]
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<documento>k__BackingFieldstring"__entrypointh
+f
+a) a(-L
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+	documentostring"__entrypointv
+t
+a) a(-Z
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"!
+<correo>k__BackingFieldstring"__entrypointe
+c
+a) a(-I
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+correostring"__entrypointw
+u
+a) a(-[
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios""
+<celular>k__BackingFieldstring"__entrypointf
+d
+a) a(-J
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"
+celularstring"__entrypointí
+è
+a) a(-u
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"<
+<Rol>k__BackingField$WebCamposDeportivos_V1._2.Models.Rol"__entrypointÄ
+~
+a) a(-d
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"+
+Rol$WebCamposDeportivos_V1._2.Models.Rol"__entrypoint†
+ù
+a) a(-Ç
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"I
+<Add_Reserva>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointé
+ã
+a) a(-q
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"8
+Add_Reserva)System.Collections.Generic.ICollection<T>"__entrypointß
+§
+a) a(-â
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"P
+#<Add_EmpresaUsuario>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointï
+í
+a) a(-x
+5
+usuarios)WebCamposDeportivos_V1._2.Models.Usuarios"?
+Add_EmpresaUsuario)System.Collections.Generic.ICollection<T>"__entrypoint+
+)
+a) a(-
+%25"__entrypoint*
+""*
+0:
+a. a(4	
+idint:B
+	a6 a(∞5
+usuarios)WebCamposDeportivos_V1._2.Models.UsuariosB<:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController

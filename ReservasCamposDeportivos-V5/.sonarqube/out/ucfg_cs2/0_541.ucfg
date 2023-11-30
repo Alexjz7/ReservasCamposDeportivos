@@ -1,0 +1,534 @@
+
+gWebCamposDeportivos_V1._2.Controllers.AccessController.Login(WebCamposDeportivos_V1._2.Models.Usuarios)Ä
+vC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\AccessController.cs) (."7*â
+0! !($â
+Ü
+! !(
+%0string"5WebCamposDeportivos_V1._2.Models.Usuarios.usuario.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuariosf
+d
+! !($
+
+%1bool""string.operator !=(string, string)*
+"
+string*
+
+%0string*
+""*
+1
+2*Ü
+1!( !(9Ü
+É
+!( !(1
+%2string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuariosf
+d
+!( !(9
+
+%3bool""string.operator !=(string, string)*
+"
+string*
+
+%2string*
+""*
+3
+2*∂
+3$ &(!â
+Ü
+$0 $(<
+%4string"5WebCamposDeportivos_V1._2.Models.Usuarios.usuario.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.UsuariosÜ
+É
+$> $(G
+%5string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.get*53
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios¸
+˘
+$ $(H/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios"ZWebCamposDeportivos_V1._2.Controllers.AccessController.validarCredenciales(string, string)*<:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController*
+
+%4string*
+
+%5string{
+y
+$ $(H2
+_user)WebCamposDeportivos_V1._2.Models.Usuarios"__id*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuariosç
+ä
+& &(!
+
+%7bool""object.operator !=(object, object)*
+"
+object*64
+2
+_user)WebCamposDeportivos_V1._2.Models.Usuarios*
+""*
+4
+5*Ç/
+4( 8(JZX
+(! 2((
+%8"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+(% ((0
+
+%9void")System.Collections.Generic.List<T>.List()*,*
+(
+%8"System.Collections.Generic.List<T>#
+!
+* *(7
+%10"__id*
+""ã
+à
+*9 *(I
+
+%11int"8WebCamposDeportivos_V1._2.Models.Usuarios.id_usuario.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.Usuarios;
+9
+*9 *(T
+%12string"int.ToString()*
+
+
+%11intOM
+* *(U#
+%13System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+* *(
+%14void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%13System.Security.Claims.Claim*	
+
+%10*
+
+%12string#
+!
++ +(-
+%15"__id*
+""ã
+à
++/ +(<
+%16string"5WebCamposDeportivos_V1._2.Models.Usuarios.nombres.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosU
+S
++/ +(A
+%17string"__concat*
++/ +(<
+
+%16string*
++> +(A
+ ç
+ä
++D +(S
+%18string"7WebCamposDeportivos_V1._2.Models.Usuarios.apellidos.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.Usuarios_
+]
++/ +(S
+%19string"__concat*
++/ +(A
+
+%17string*
++D +(S
+
+%18stringOM
++ +(T#
+%20System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
++ +(
+%21void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%20System.Security.Claims.Claim*	
+
+%15*
+
+%19string#
+!
+, ,(.
+%22"__id*
+""ä
+á
+,0 ,(<
+%23string"4WebCamposDeportivos_V1._2.Models.Usuarios.correo.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosOM
+, ,(=#
+%24System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+, ,(
+%25void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%24System.Security.Claims.Claim*	
+
+%22*
+
+%23string#
+!
+- -(2
+%26"__id*
+""ã
+à
+-4 -(A
+%27string"5WebCamposDeportivos_V1._2.Models.Usuarios.usuario.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosOM
+- -(B#
+%28System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+- -(
+%29void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%28System.Security.Claims.Claim*	
+
+%26*
+
+%27string#
+!
+. .(4
+%30"__id*
+""ã
+à
+.6 .(C
+%31string"5WebCamposDeportivos_V1._2.Models.Usuarios.celular.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosOM
+. .(D#
+%32System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+. .(
+%33void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%32System.Security.Claims.Claim*	
+
+%30*
+
+%31string#
+!
+/ /(2
+%34"__id*
+""ë
+é
+/4 /(G
+%35string";WebCamposDeportivos_V1._2.Models.Usuarios.tipoDocumento.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosOM
+/ /(H#
+%36System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+/ /(
+%37void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%36System.Security.Claims.Claim*	
+
+%34*
+
+%35string#
+!
+0 0(5
+%38"__id*
+""ç
+ä
+07 0(F
+%39string"7WebCamposDeportivos_V1._2.Models.Usuarios.documento.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosOM
+0 0(G#
+%40System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+0 0(
+%41void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%40System.Security.Claims.Claim*	
+
+%38*
+
+%39string#
+!
+1 1(-
+%42"__id*
+""•
+¢
+1/ 1(8+
+%43$WebCamposDeportivos_V1._2.Models.Rol"1WebCamposDeportivos_V1._2.Models.Usuarios.Rol.get*64
+2
+_user)WebCamposDeportivos_V1._2.Models.UsuariosÉ
+Ä
+1/ 1(D
+%44string"4WebCamposDeportivos_V1._2.Models.Rol.Descripcion.get*/-
++
+%43$WebCamposDeportivos_V1._2.Models.RolOM
+1 1(E#
+%45System.Security.Claims.Claim"System.Security.Claims.Claimï
+í
+1 1(
+%46void"2System.Security.Claims.Claim.Claim(string, string)*'%
+#
+%45System.Security.Claims.Claim*	
+
+%42*
+
+%44stringn
+l
+( 2(,
+claims"System.Collections.Generic.List<T>"__id*,*
+(
+%8"System.Collections.Generic.List<T>#
+!
+5< 5(m
+%47"__id*
+""a_
+4) 5(n,
+%48%System.Security.Claims.ClaimsIdentity"%System.Security.Claims.ClaimsIdentityê
+ç
+4- 4(;
+%49void"ÑSystem.Security.Claims.ClaimsIdentity.ClaimsIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>?, string?)*0.
+,
+%48%System.Security.Claims.ClaimsIdentity*0.
+,
+claims"System.Collections.Generic.List<T>*	
+
+%47}
+{
+4 5(n7
+claimsIdentity%System.Security.Claims.ClaimsIdentity"__id*0.
+,
+%48%System.Security.Claims.ClaimsIdentity£
+†
+6 6(%,
+%50%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase#
+!
+62 6(c
+%51"__id*
+""ca
+74 7(W-
+%52&System.Security.Claims.ClaimsPrincipal"&System.Security.Claims.ClaimsPrincipalÁ
+‰
+78 7(G
+%53void"[System.Security.Claims.ClaimsPrincipal.ClaimsPrincipal(System.Security.Principal.IIdentity)*1/
+-
+%52&System.Security.Claims.ClaimsPrincipal*;9
+7
+claimsIdentity%System.Security.Claims.ClaimsIdentityû
+õ
+6 7(X"
+%54System.Threading.Tasks.Task"´Microsoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.SignInAsync(Microsoft.AspNetCore.Http.HttpContext, string?, System.Security.Claims.ClaimsPrincipal)*MK"I
+GMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions*0.
+,
+%50%Microsoft.AspNetCore.Http.HttpContext*	
+
+%51*1/
+-
+%52&System.Security.Claims.ClaimsPrincipalåâ
+8 8(K6
+%55/Microsoft.AspNetCore.Mvc.RedirectToActionResult"JMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string?, string?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+DisponibilidadCampos*
+
+Home2"RedirectToAction(string?, string?)"D
+8 8(L8
+6
+%55/Microsoft.AspNetCore.Mvc.RedirectToActionResult*æ
+5: :(U/-
+: :(
+%ViewBagDataAllobject"object0.
+: :(
+%ViewBagDataHtmlobject"objectº
+π
+: :(U
+%56object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataAllobject*	
+Mensaje*420
+.El usuario y/o la contrase√±a son incorrectos.á
+Ñ
+%57object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%ViewBagDataHtmlobject*	
+Mensaje*
+""*
+2*ù
+2< <(§
+°
+< <(
+%58void"+webcamposdeportivos_v1.2/views/access/login*	
+
+%59*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¢
+ü
+< <(
+%60void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%61*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¶
+£
+< <(
+%62void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%63*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+< <(
+
+%62void*.
+6=	 =(	"
+= =(	
+implicit return*˝
+7= (=s
+q
+) (.W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<usuario>k__BackingFieldstring"__entrypointb
+`
+) (.F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+usuariostring"__entrypointp
+n
+) (.T
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+<pass>k__BackingFieldstring"__entrypoint_
+]
+) (.C
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+passstring"__entrypoints
+q
+) (.W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<nombres>k__BackingFieldstring"__entrypointb
+`
+) (.F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+nombresstring"__entrypointu
+s
+) (.Y
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<apellidos>k__BackingFieldstring"__entrypointd
+b
+) (.H
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+	apellidosstring"__entrypointy
+w
+) (.]
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"(
+<tipoDocumento>k__BackingFieldstring"__entrypointh
+f
+) (.L
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+tipoDocumentostring"__entrypointu
+s
+) (.Y
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"$
+<documento>k__BackingFieldstring"__entrypointd
+b
+) (.H
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+	documentostring"__entrypointr
+p
+) (.V
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"!
+<correo>k__BackingFieldstring"__entrypointa
+_
+) (.E
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+correostring"__entrypoints
+q
+) (.W
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios""
+<celular>k__BackingFieldstring"__entrypointb
+`
+) (.F
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"
+celularstring"__entrypointé
+ã
+) (.q
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"<
+<Rol>k__BackingField$WebCamposDeportivos_V1._2.Models.Rol"__entrypoint|
+z
+) (.`
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"+
+Rol$WebCamposDeportivos_V1._2.Models.Rol"__entrypointõ
+ò
+) (.~
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"I
+<Add_Reserva>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointä
+á
+) (.m
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"8
+Add_Reserva)System.Collections.Generic.ICollection<T>"__entrypoint£
+†
+) (.Ö
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"P
+#<Add_EmpresaUsuario>k__BackingField)System.Collections.Generic.ICollection<T>"__entrypointë
+é
+) (.t
+1
+user)WebCamposDeportivos_V1._2.Models.Usuarios"?
+Add_EmpresaUsuario)System.Collections.Generic.ICollection<T>"__entrypoint!
+
+) (.
+%64"__entrypoint*
+0:=
+/ (<1
+user)WebCamposDeportivos_V1._2.Models.UsuariosB:8
+6WebCamposDeportivos_V1._2.Controllers.AccessController

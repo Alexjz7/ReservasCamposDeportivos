@@ -1,0 +1,102 @@
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Empresas>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card shadow mb-4">
+    <div class="card-header py-3 bg-primary">
+        <h6 class="m-0 font-weight-bold text-white">Lista de Empresas</h6>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12">
+                @if (User.IsInRole("Administrador"))
+                {
+                    <a asp-action="Create" class="btn btn-success btn-sm" type="button">Agregar empresa</a>
+                }
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="miTabla" style="width:100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Correo
+                                </th>
+                                <th>
+                                    Celular
+                                </th>
+                                <th>
+                                    Hora de Apertura
+                                </th>
+                                <th>
+                                    Hora de Cierre
+                                </th>
+                                @* <th>
+                                    DiferenciaHoras
+                                </th> *@
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <caption>Este es un apartado donde usted como administrador, podrá crear sus empresas de campos deportivos.</caption>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.nombre)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.correo)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.celular)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.horaApertura)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.horaCierre)
+                                    </td>
+                                    @* <td>
+                                        @Html.DisplayFor(modelItem => item.DiferenciaHoras)
+                                    </td> *@
+                                    <td>
+                                        @if (User.IsInRole("Administrador"))
+                                        {
+                                            <a asp-action="Edit" asp-route-id="@item.id_empresa" class="btn btn-primary btn-sm">
+                                                <i class="fa-solid fa-pencil"></i>
+                                            </a>
+
+                                            <a asp-action="Delete" asp-route-id="@item.id_empresa" class="btn btn-danger btn-sm ml-2">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </a>
+
+                                            <a asp-action="Create" asp-controller="MediosPago" asp-route-id_empresa="@item.id_empresa" class="btn btn-secondary btn-sm ml-2">
+                                            <i class="fa-solid fa-money-check-dollar"></i>
+                                            </a>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#miTabla').DataTable();
+        });
+    </script>
+}

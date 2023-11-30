@@ -1,0 +1,142 @@
+
+PWebCamposDeportivos_V1._2.Models.SeedData.AddSupervisor(System.IServiceProvider)s
+iC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Models\SeedData.cs   (("0*˛
+0" $(5»
+≈
+# $(5>
+%08Microsoft.EntityFrameworkCore.DbContextOptions<TContext>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*OM"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*.,
+*
+serviceProviderSystem.IServiceProviderlj
+"! $(61
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"+WebCamposDeportivos_V1._2.Data.AppDbContext¨
+©
+"% "(1
+
+%2void"ïWebCamposDeportivos_V1._2.Data.AppDbContext.AppDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<WebCamposDeportivos_V1._2.Data.AppDbContext>)*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext*B@
+>
+%08Microsoft.EntityFrameworkCore.DbContextOptions<TContext>Å
+
+" $(66
+context+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext*
+1*Ö
+1' '(*∑
+¥
+' '($2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*:8
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext≥
+∞
+' '(*
+
+%4bool"CSystem.Linq.Queryable.Any<TSource>(System.Linq.IQueryable<TSource>)*"
+System.Linq.Queryable*64
+2
+%3,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+2
+3*!
+2?	 ?(	"
+) )(
+""*Ç
+3, =(%∑
+¥
+, ,( 2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*:8
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContexthf
+- :(/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios")WebCamposDeportivos_V1._2.Models.UsuariosÑ
+Å
+- -( 
+
+%7void"4WebCamposDeportivos_V1._2.Models.Usuarios.Usuarios()*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuariosã
+à
+/ /("	
+%8int"4WebCamposDeportivos_V1._2.Models.Usuarios.id_rol.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*2ò
+ï
+0 0(-
+%9string"5WebCamposDeportivos_V1._2.Models.Usuarios.usuario.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+	SoundWolfõ
+ò
+2 2(5
+%10string";WebCamposDeportivos_V1._2.Models.SeedData.Encriptar(string)*/-"+
+)WebCamposDeportivos_V1._2.Models.SeedData*
+	admin$123ò
+ï
+2 2(5
+%11string"2WebCamposDeportivos_V1._2.Models.Usuarios.pass.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+%10string°
+û
+3 3(4
+%12string"5WebCamposDeportivos_V1._2.Models.Usuarios.nombres.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+Fabricio Nicol√°s§
+°
+4 4(7
+%13string"7WebCamposDeportivos_V1._2.Models.Usuarios.apellidos.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+Guti√©rrez Mendozaô
+ñ
+5 5(-
+%14string";WebCamposDeportivos_V1._2.Models.Usuarios.tipoDocumento.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*	
+DNIö
+ó
+6 6(.
+%15string"7WebCamposDeportivos_V1._2.Models.Usuarios.documento.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+
+83214756°
+û
+7 7(5
+%16string"4WebCamposDeportivos_V1._2.Models.Usuarios.correo.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+Fabr23@outlook.comô
+ñ
+8 8(-
+%17string"5WebCamposDeportivos_V1._2.Models.Usuarios.celular.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+	943286177è
+å
+9 9(%
+%18bool"4WebCamposDeportivos_V1._2.Models.Usuarios.estado.set*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios*
+""ÏÈ
+, ;(
+%19void"GMicrosoft.EntityFrameworkCore.DbSet<TEntity>.AddRange(params TEntity[])*64
+2
+%5,Microsoft.EntityFrameworkCore.DbSet<TEntity>*31
+/
+%6)WebCamposDeportivos_V1._2.Models.Usuarios2AddRange(params TEntity[])õò
+= =(%
+
+%20int"5Microsoft.EntityFrameworkCore.DbContext.SaveChanges()*:8
+6
+context+WebCamposDeportivos_V1._2.Data.AppDbContext2SaveChanges()*
+4*.
+4?	 ?(	"
+? ?(	
+implicit return:6
+ )  (I*
+serviceProviderSystem.IServiceProviderB-"+
+)WebCamposDeportivos_V1._2.Models.SeedData

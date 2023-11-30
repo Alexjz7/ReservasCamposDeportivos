@@ -1,0 +1,103 @@
+
+@WebCamposDeportivos_V1._2.Controllers.UsuariosController.Index()Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\UsuariosController.cs) (."2*à
+0 (8¡
+æ
+ ('1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+ (02
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>"8WebCamposDeportivos_V1._2.Data.AppDbContext.Usuarios.get*53
+1
+%0+WebCamposDeportivos_V1._2.Data.AppDbContext∞
+≠
+ (DR
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%1,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""…
+∆
+ (D\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"__id*VT
+R
+%2LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>ä
+á
+ (8*
+%3$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*`^
+\
+appDbContextLMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""ù
+ö
+ (9
+
+%4void"-webcamposdeportivos_v1.2/views/usuarios/index*
+
+%5*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectô
+ñ
+ (9
+
+%6void")webcamposdeportivos_v1.2/views/_viewstart*
+
+%7*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectù
+ö
+ (9
+
+%8void"-webcamposdeportivos_v1.2/views/shared/_layout*
+
+%9*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+ (:
+
+
+%8void*.
+1	 (	"
+ (	
+implicit return*5
+20 (0!
+
+) (.
+%10"__entrypoint*
+0B<:
+8WebCamposDeportivos_V1._2.Controllers.UsuariosController

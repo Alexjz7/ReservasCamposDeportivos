@@ -1,0 +1,273 @@
+
+WWebCamposDeportivos_V1._2.Controllers.CanchasController.Details(int?, System.DateTime?)Å
+wC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\CanchasController.cs!) !(0"9*u
+0# #(^
+\
+# #(
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+""*
+""*
+1
+2*ú
+2# #(6¿
+Ω
+# #(&1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*xv*t9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+# #(.2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>"7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.get*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContextç
+ä
+# #(6
+
+%3bool""object.operator ==(object, object)*
+"
+object*64
+2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1
+3*¯
+1% %(!´®
+% %(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()";
+% %("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*¯
+3( ,(¿
+Ω
+(  (((1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*xv*t9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext±
+Æ
+(  ((02
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>"7WebCamposDeportivos_V1._2.Data.AppDbContext.Canchas.get*53
+1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContext∞
+≠
+(  )((R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""“
+œ
+(  *(<*
+%8$System.Threading.Tasks.Task<TResult>"‚Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""*
+""Q
+O
+( *(<3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas"__id*
+""é
+ã
+, ,(
+
+%9bool""object.operator ==(object, object)*
+"
+object*75
+3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas*
+""*
+4
+5*˙
+4. .(!¨©
+. .(!.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"<
+. .("0
+.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult*∂
+50% 0(6W
+U
+0% 0(6
+%12System.DateTime"__id*+)
+'
+fechaSeleccionadaSystem.Nullable<T>F
+D
+0% 0(6
+%11System.DateTime"__id*
+
+%12System.DateTime*
+6
+7*¯
+60: 0(FT
+R
+0: 0(F
+%14System.DateTime"System.DateTime.Now.get*"
+System.DateTimeF
+D
+0: 0(F
+%13System.DateTime"__id*
+
+%14System.DateTimeF
+D
+0: 0(F
+%11System.DateTime"__id*
+
+%13System.DateTime*
+7*ß
+70 7(P
+N
+0 0(F 
+fechaReserva2System.DateTime"__id*
+
+%11System.DateTimeÃ
+…
+1? 1(m
+%15(T1, T2, T3)"âWebCamposDeportivos_V1._2.Controllers.CanchasController.ObtenerHorasReservadas(WebCamposDeportivos_V1._2.Models.Canchas, System.DateTime)*=;9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController*75
+3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas*$"
+ 
+fechaReserva2System.DateTime/-
+3 3(
+%ViewBagDataAllobject"object0.
+3 3(
+%ViewBagDataHtmlobject"objectè
+å
+3 3(5
+%16"__mapSet*
+
+%ViewBagDataAllobject*
+HorasReservadas*97
+5
+horasReservadas"System.Collections.Generic.List<T>^
+\
+3 3(5
+%17"__mapSet*
+
+%ViewBagDataHtmlobject*
+HorasReservadas*
+""g
+e
+4 4(-
+%18"__mapSet*
+
+%ViewBagDataAllobject*
+NumeroHoras*
+
+numeroHorasintZ
+X
+4 4(-
+%19"__mapSet*
+
+%ViewBagDataHtmlobject*
+NumeroHoras*
+""u
+s
+5 5(/
+%20"__mapSet*
+
+%ViewBagDataAllobject*
+fechaReserva*#!
+
+fechaReservaSystem.DateTime[
+Y
+5 5(/
+%21"__mapSet*
+
+%ViewBagDataHtmlobject*
+fechaReserva*
+""œ
+Ã
+7 7( 
+%22void".webcamposdeportivos_v1.2/views/canchas/details*	
+
+%23*75
+3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject 
+«
+7 7( 
+%24void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%25*75
+3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectŒ
+À
+7 7( 
+%26void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%27*75
+3
+canchas(WebCamposDeportivos_V1._2.Models.Canchas*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+7 7(!
+
+%26void*.
+88	 8(	"
+8 8(	
+implicit return*ﬁ
+9!V !(VX
+V
+!) !(0
+%28"__entrypoint*
+""*+)
+'
+fechaSeleccionadaSystem.Nullable<T>ü
+ú
+ 	  (4
+%29"
+__annotate*PNL
+JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*+)
+'
+fechaSeleccionadaSystem.Nullable<T>N
+L
+!: !(U'
+fechaSeleccionadaSystem.Nullable<T>"__annotation*	
+
+%29*
+0:$
+!1 !(8
+idSystem.Nullable<T>:3
+!: !(U'
+fechaSeleccionadaSystem.Nullable<T>B;9
+7WebCamposDeportivos_V1._2.Controllers.CanchasController

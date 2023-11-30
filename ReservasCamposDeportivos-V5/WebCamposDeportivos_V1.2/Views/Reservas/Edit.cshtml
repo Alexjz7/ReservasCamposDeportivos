@@ -1,0 +1,103 @@
+﻿@model WebCamposDeportivos_V1._2.Models.Reservas
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Reservas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            @if (User.IsInRole("Cliente"))
+            {
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="id_reserva" />
+                <input type="hidden" name="IdCancha" value="@ViewBag.IdCancha" />
+                <input type="hidden" asp-for="TiempoConfirmacion" value="@Model.TiempoConfirmacion">
+                <input type="hidden" asp-for="FechaCreacion" value="@Model.FechaCreacion">
+
+                <div class="form-group">
+                    <input asp-for="ClienteID" type="text" class="form-control" name="nombreCliente" value="@ViewBag.nombreCliente" readonly hidden/>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" name="NombreEmpresa" value="@ViewBag.NombreEmpresa" readonly hidden />
+                </div>
+
+                @* <div class="form-group">
+                    <input asp-for="CanchaID" type="text" class="form-control" name="deporteCampo" value="@ViewBag.deporteCampo" readonly hidden/>
+                </div> *@
+
+                <div class="form-group">
+                    <label asp-for="fechaReserva" class="control-label">Fecha de la reserva</label>
+                    <input asp-for="fechaReserva" type="date" class="form-control" min="2023-01-01" max="2023-12-31" id="fechaReservaInput" />
+                    <span asp-validation-for="fechaReserva" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input asp-for="horaReserva" type="time" class="form-control" max="22:00" min="06:00" step="300" readonly hidden/>
+                    <span asp-validation-for="horaReserva" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="numeroHoras" class="control-label">N&deg Horas</label>
+                    <input asp-for="numeroHoras" class="form-control" type="number" id="cbonumeroHoras" />
+                    <span asp-validation-for="numeroHoras" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Costo de la cancha</label>
+                    <input type="text" class="form-control" id="cboCosto" value="@ViewBag.costoHora" readonly />
+                    <span asp-validation-for="total" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="total" class="control-label">Total</label>
+                    <input asp-for="total" type="number" class="form-control" id="cboTotal" readonly />
+                    <span asp-validation-for="total" class="text-danger"></span>
+                </div>
+
+                @* <div class="form-group">
+                    <label asp-for="PagoID" class="control-label">Seleccione el tipo de pago</label>
+                    <select asp-for="PagoID" class="form-control" asp-items="@ViewBag.pago"></select>
+                </div> *@
+                <div class="form-group">
+                    <input asp-for="estado" type="text" class="form-control" readonly hidden />
+                    @* <select asp-for="estado" class="form-control">
+                        <option value="Pendiente" selected>Pendiente</option>
+                        <option value="Ocupado">Ocupado</option>
+                    </select> *@
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function (event) {
+            $('#cbonumeroHoras').change(function () {
+                let costo = Number($("#cboCosto").val()) || 0;
+                let n_horas = Number($("#cbonumeroHoras").val()) || 0;
+                let result = costo * n_horas;
+                $("#cboTotal").val(result.toFixed(2));
+            });
+        });
+    </script>
+}

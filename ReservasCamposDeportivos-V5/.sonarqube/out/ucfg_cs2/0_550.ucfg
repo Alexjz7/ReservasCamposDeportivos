@@ -1,0 +1,128 @@
+
+@WebCamposDeportivos_V1._2.Controllers.EmpresasController.Index()Ç
+xC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\EmpresasController.cs) (."2*Î
+0 $(>ú
+ô
+ (,
+%0&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase"
+ 
+- (F
+%1"__id*
+""Ù
+Ò
+ (G
+%2string"iSystem.Security.Claims.PrincipalExtensions.FindFirstValue(System.Security.Claims.ClaimsPrincipal, string)*0.",
+*System.Security.Claims.PrincipalExtensions*0.
+,
+%0&System.Security.Claims.ClaimsPrincipal*
+
+%16
+4
+ (G
+userIdstring"__id*
+
+%2string¡
+æ
+ %  (-1
+%3+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*yw*u:
+8WebCamposDeportivos_V1._2.Controllers.EmpresasController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∂
+≥
+ %  (:2
+%4,Microsoft.EntityFrameworkCore.DbSet<TEntity>"<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.get*53
+1
+%3+WebCamposDeportivos_V1._2.Data.AppDbContextï
+í
+ % !(@
+%5System.Linq.IQueryable<T>"ÖSystem.Linq.Queryable.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)*"
+System.Linq.Queryable*64
+2
+%4,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""è
+å
+ % "()
+%6System.Linq.IQueryable<T>"íSystem.Linq.Queryable.Select<TSource, TResult>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, TResult>>)*"
+System.Linq.Queryable*#!
+
+%5System.Linq.IQueryable<T>*
+""h
+f
+  "()/
+empresasDelUsuarioSystem.Linq.IQueryable<T>"__id*#!
+
+%6System.Linq.IQueryable<T>›
+⁄
+$ $(>*
+%7$System.Threading.Tasks.Task<TResult>"öMicrosoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync<TSource>(System.Linq.IQueryable<TSource>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*31
+/
+empresasDelUsuarioSystem.Linq.IQueryable<T>*
+""ù
+ö
+$ $(?
+
+%8void"-webcamposdeportivos_v1.2/views/empresas/index*
+
+%9*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectõ
+ò
+$ $(?
+%10void")webcamposdeportivos_v1.2/views/_viewstart*	
+
+%11*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectü
+ú
+$ $(?
+%12void"-webcamposdeportivos_v1.2/views/shared/_layout*	
+
+%13*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+$ $(@
+
+%12void*.
+1%	 %(	"
+% %(	
+implicit return*5
+20 (0!
+
+) (.
+%14"__entrypoint*
+0B<:
+8WebCamposDeportivos_V1._2.Controllers.EmpresasController

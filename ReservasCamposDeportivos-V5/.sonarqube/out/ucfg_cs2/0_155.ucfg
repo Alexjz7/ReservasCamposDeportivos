@@ -1,0 +1,43 @@
+
+HWebCamposDeportivos_V1._2.Models.Empresas.ObtenerRangoHorasDisponibles()s
+iC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Models\Empresas.cs4% 4(A"0*‘
+06 7(?ë
+é
+6$ 6(0
+%0System.TimeSpan":WebCamposDeportivos_V1._2.Models.Empresas.horaApertura.get*/-+
+)WebCamposDeportivos_V1._2.Models.EmpresasM
+K
+6$ 6(6	
+%1int"System.TimeSpan.Hours.get*
+
+%0System.TimeSpanî
+ë
+68 6(G
+%2System.TimeSpan"=WebCamposDeportivos_V1._2.Models.Empresas.DiferenciaHoras.get*/-+
+)WebCamposDeportivos_V1._2.Models.EmpresasM
+K
+68 6(M	
+%3int"System.TimeSpan.Hours.get*
+
+%2System.TimeSpanù
+ö
+6 6(R/
+%4)System.Collections.Generic.IEnumerable<T>"&System.Linq.Enumerable.Range(int, int)*"
+System.Linq.Enumerable*
+	
+%1int*
+""ú
+ô
+6 7(@/
+%5)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*31
+/
+%4)System.Collections.Generic.IEnumerable<T>*
+"""=
+6 7(A1
+/
+%5)System.Collections.Generic.IEnumerable<T>*.
+18	 8(	"
+8 8(	
+implicit returnB-+
+)WebCamposDeportivos_V1._2.Models.Empresas

@@ -1,0 +1,21 @@
+…
+(WebCamposDeportivos_V1._2.Models.Canchasobject?
+	Canchas()2WebCamposDeportivos_V1._2.Models.Canchas.Canchas()G
+id_cancha.get6WebCamposDeportivos_V1._2.Models.Canchas.id_cancha.getG
+id_cancha.set6WebCamposDeportivos_V1._2.Models.Canchas.id_cancha.setI
+id_empresa.get7WebCamposDeportivos_V1._2.Models.Canchas.id_empresa.getI
+id_empresa.set7WebCamposDeportivos_V1._2.Models.Canchas.id_empresa.setC
+deporte.get4WebCamposDeportivos_V1._2.Models.Canchas.deporte.getC
+deporte.set4WebCamposDeportivos_V1._2.Models.Canchas.deporte.setC
+detalle.get4WebCamposDeportivos_V1._2.Models.Canchas.detalle.getC
+detalle.set4WebCamposDeportivos_V1._2.Models.Canchas.detalle.setE
+costoDia.get5WebCamposDeportivos_V1._2.Models.Canchas.costoDia.getE
+costoDia.set5WebCamposDeportivos_V1._2.Models.Canchas.costoDia.setI
+costoNoche.get7WebCamposDeportivos_V1._2.Models.Canchas.costoNoche.getI
+costoNoche.set7WebCamposDeportivos_V1._2.Models.Canchas.costoNoche.setE
+UrlImage.get5WebCamposDeportivos_V1._2.Models.Canchas.UrlImage.getE
+UrlImage.set5WebCamposDeportivos_V1._2.Models.Canchas.UrlImage.setC
+Empresa.get4WebCamposDeportivos_V1._2.Models.Canchas.Empresa.getC
+Empresa.set4WebCamposDeportivos_V1._2.Models.Canchas.Empresa.setK
+Add_Reserva.get8WebCamposDeportivos_V1._2.Models.Canchas.Add_Reserva.getK
+Add_Reserva.set8WebCamposDeportivos_V1._2.Models.Canchas.Add_Reserva.set

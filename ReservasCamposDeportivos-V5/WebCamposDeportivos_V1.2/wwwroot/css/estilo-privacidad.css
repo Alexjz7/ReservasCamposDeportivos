@@ -1,0 +1,54 @@
+.div_card {
+    background-color: black;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+    .card .slider {
+        position: relative;
+        overflow: hidden;
+    }
+
+        .card .slider .text {
+            height: 800px;
+            overflow: auto;
+            padding: 10px;
+        }
+
+        .card .slider .scrollbar {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 100%;
+            width: 10px;
+            background-color: transparent;
+            border: none;
+        }
+
+            .card .slider .scrollbar .thumb {
+                width: 10px;
+                height: 100%;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ccff;
+    border-radius: 10px;
+}

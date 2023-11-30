@@ -1,0 +1,102 @@
+﻿@model IEnumerable<WebCamposDeportivos_V1._2.Models.Usuarios>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tipoDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.correo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.celular)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <caption>Solo suted como supervisor tiene acceso a esta vista, aquí podrá visualizar todos los usuarios creados, incluyendo el suyo.</caption>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.usuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pass)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apellidos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tipoDocumento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.documento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.celular)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rol.RolID)
+                </td>
+                <td>
+                    @if (User.IsInRole("Cliente") || (User.IsInRole("Administrador")))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.id_usuario" class="btn btn-primary btn-sm">
+                            <i class="fa-solid fa-pencil"></i>
+                        </a>
+                    }
+
+                    @if (User.IsInRole("Supervisor"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.id_usuario" class="btn btn-danger btn-sm ml-2">
+                            <i class="fa-solid fa-trash-can"></i>
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

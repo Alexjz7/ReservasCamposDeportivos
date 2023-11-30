@@ -1,0 +1,14 @@
+©
+
+:WebCamposDeportivos_V1._2.Controllers.MediosPagoController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobjectÁ
+AMediosPagoController(WebCamposDeportivos_V1._2.Data.AppDbContext)|WebCamposDeportivos_V1._2.Controllers.MediosPagoController.MediosPagoController(WebCamposDeportivos_V1._2.Data.AppDbContext)M
+Index()BWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Index()Y
+Details(int?)HWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Details(int?)O
+Create()CWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Create()¥
+3Create(WebCamposDeportivos_V1._2.Models.MediosPago)nWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Create(WebCamposDeportivos_V1._2.Models.MediosPago)S
+
+Edit(int?)EWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Edit(int?)«
+6Edit(int, WebCamposDeportivos_V1._2.Models.MediosPago)qWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Edit(int, WebCamposDeportivos_V1._2.Models.MediosPago)W
+Delete(int?)GWebCamposDeportivos_V1._2.Controllers.MediosPagoController.Delete(int?)g
+DeleteConfirmed(int)OWebCamposDeportivos_V1._2.Controllers.MediosPagoController.DeleteConfirmed(int)i
+MediosPagoExists(int)PWebCamposDeportivos_V1._2.Controllers.MediosPagoController.MediosPagoExists(int)

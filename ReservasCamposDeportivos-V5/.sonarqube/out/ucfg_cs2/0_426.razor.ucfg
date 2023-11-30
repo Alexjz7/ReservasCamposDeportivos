@@ -1,0 +1,324 @@
+
++webcamposdeportivos_v1.2/views/home/privacy"0*◊,
+0ê
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.csD h(EÑ
+Å
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtml (
+%0string"7Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.Layout.set*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
+""Ã
+…
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlJ J(I
+%1CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"JAspNetCoreGeneratedDocument.Views_Home_Privacy.__tagHelperScopeManager.get*420
+.AspNetCoreGeneratedDocument.Views_Home_Privacyï
+í
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlJ J(
+%2"__id*
+""ö
+ó
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlJ J(
+
+%3void"2webcamposdeportivos_v1.2/views/home/privacy!head73*
+
+%4*
+
+Modeldynamic*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject≤
+Ø
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlJ J(ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+
+%3voidæ
+ª
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmle e(u=
+%57Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÛ
+
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmle e(u®0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"t
+9__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_HeadTagHelper7Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper"__id*A?
+=
+%57Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper˜
+Ù
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlf f(+M
+%6GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextı
+Ú
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlf f(+=
+%77Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper"__id*Æ´*®0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"t
+9__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_HeadTagHelper7Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper†
+ù
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlf f(+
+
+%8void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*QO
+M
+%6GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A?
+=
+%77Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelperŸ
+÷
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlg g(C
+%9=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*åâ*Ü0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner¯
+ı
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlg g(N
+%10GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext“
+œ
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlg g("
+%11System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*GE
+C
+%9=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*RP
+N
+%10GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext¯
+ı
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlh h(N
+%12GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÂ
+‚
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlh h(<
+%135Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%12GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextõ
+ò
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlh h(
+%14bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*@>
+<
+%135Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+1
+2*Ò
+1ê
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.csj j(I¯
+ı
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlj j(*N
+%15GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÿ
+’
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlj j(*"
+%16System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*RP
+N
+%15GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+2*ü6
+2ë
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.csl ≤(E¯
+ı
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmll l(%N
+%17GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÂ
+‚
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmll l(%<
+%185Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%17GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
+ÿ
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmll l(%
+%19void"!razor_sink*@>
+<
+%185Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutputÕ
+ 
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlm m(J
+%20CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"JAspNetCoreGeneratedDocument.Views_Home_Privacy.__tagHelperScopeManager.get*420
+.AspNetCoreGeneratedDocument.Views_Home_PrivacyÍ
+Á
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlm m(N
+%21GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*NL
+J
+%20CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManagerˆ
+Û
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlm m(ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*RP
+N
+%21GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÕ
+ 
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlo o(J
+%22CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"JAspNetCoreGeneratedDocument.Views_Home_Privacy.__tagHelperScopeManager.get*420
+.AspNetCoreGeneratedDocument.Views_Home_Privacyñ
+ì
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlo o(
+%23"__id*
+""ù
+ö
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlo o(
+%24void"3webcamposdeportivos_v1.2/views/home/privacy!body110*	
+
+%25*
+
+Modeldynamic*
+
+ViewBagDataAllobject*
+
+ViewBagDataHtmlobject*
+
+TempDataAllobject*
+
+TempDataHtmlobject*!
+
+HttpContextItemsAllobject*" 
+
+HttpContextItemsHtmlobject≥
+∞
+z
+pC:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Views\Home\Privacy.cshtmlo o(ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
+
+%24void√
+¿>
+%267Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*20.
+,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase¯
+ı®0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"t
+9__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper7Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper"__id*B@
+>
+%267Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper¸
+˘N
+%27GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext˙
+˜>
+%287Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper"__id*Æ´*®0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"t
+9__Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper7Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelperß
+§
+%29void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*RP
+N
+%27GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B@
+>
+%287Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper¸
+˘N
+%30GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextŸ
+÷?
+%318Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*åâ*Ü0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"R
+__tagHelperAttribute_38Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeæ
+ª
+%32void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*RP
+N
+%30GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*CA
+?
+%318Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeﬁ
+€D
+%33=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*åâ*Ü0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"R
+__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner¸
+˘N
+%34GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext◊
+‘"
+%35System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*HF
+D
+%33=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*RP
+N
+%34GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext¸
+˘N
+%36GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%375Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%36GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
+ú
+%38bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*@>
+<
+%375Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
+3
+4*˚
+3í
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.cs¥ ¥(I¸
+˘N
+%39GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
+Ÿ"
+%40System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*RP
+N
+%39GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+4*™
+4í
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.cs∂ ∏(&¸
+˘N
+%41GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*†ù*ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
+Ê<
+%425Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*RP
+N
+%41GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
+\
+%43void"!razor_sink*@>
+<
+%425Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput—
+ŒJ
+%44CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"JAspNetCoreGeneratedDocument.Views_Home_Privacy.__tagHelperScopeManager.get*420
+.AspNetCoreGeneratedDocument.Views_Home_PrivacyÓ
+ÎN
+%45GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*NL
+J
+%44CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˙
+˜ö0
+.AspNetCoreGeneratedDocument.Views_Home_Privacy"f
+__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*RP
+N
+%45GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
+5*Ø
+5í
+ÖMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.csπ	 π(	"
+implicit return:
+Modeldynamic:
+ViewBagDataAllobject:
+ViewBagDataHtmlobject:
+TempDataAllobject:
+TempDataHtmlobject:
+HttpContextItemsAllobject: 
+HttpContextItemsHtmlobjectB 

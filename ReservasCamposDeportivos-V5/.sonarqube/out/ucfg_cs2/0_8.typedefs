@@ -1,0 +1,12 @@
+Ç
+
+6WebCamposDeportivos_V1._2.Controllers.AccessController#Microsoft.AspNetCore.Mvc.Controller'Microsoft.AspNetCore.Mvc.ControllerBaseobjectµ
+=AccessController(WebCamposDeportivos_V1._2.Data.AppDbContext)tWebCamposDeportivos_V1._2.Controllers.AccessController.AccessController(WebCamposDeportivos_V1._2.Data.AppDbContext)I
+Login()>WebCamposDeportivos_V1._2.Controllers.AccessController.Login()õ
+0Login(WebCamposDeportivos_V1._2.Models.Usuarios)gWebCamposDeportivos_V1._2.Controllers.AccessController.Login(WebCamposDeportivos_V1._2.Models.Usuarios)K
+Logout()?WebCamposDeportivos_V1._2.Controllers.AccessController.Logout()Q
+Registrar()BWebCamposDeportivos_V1._2.Controllers.AccessController.Registrar()£
+4Registrar(WebCamposDeportivos_V1._2.Models.Usuarios)kWebCamposDeportivos_V1._2.Controllers.AccessController.Registrar(WebCamposDeportivos_V1._2.Models.Usuarios)Å
+#validarCredenciales(string, string)ZWebCamposDeportivos_V1._2.Controllers.AccessController.validarCredenciales(string, string)Y
+AdminRegistro()FWebCamposDeportivos_V1._2.Controllers.AccessController.AdminRegistro()´
+8AdminRegistro(WebCamposDeportivos_V1._2.Models.Usuarios)oWebCamposDeportivos_V1._2.Controllers.AccessController.AdminRegistro(WebCamposDeportivos_V1._2.Models.Usuarios)

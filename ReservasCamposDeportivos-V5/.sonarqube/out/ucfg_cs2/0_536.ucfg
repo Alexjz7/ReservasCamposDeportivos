@@ -1,0 +1,148 @@
+
+IWebCamposDeportivos_V1._2.Controllers.User_EmpresaController.Delete(int?)à
+|C:\Users\UCLAB505\Desktop\ReservasCamposDeportivos-nuevo (V5)\WebCamposDeportivos_V1.2\Controllers\User_EmpresaController.csÉ) É(/"7*y
+0
+Ö Ö(`
+^
+
+Ö Ö(
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+""*
+""*
+1
+2*Æ
+2
+Ö Ö(;«
+ƒ
+
+Ö Ö(&1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*}{*y>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∏
+µ
+
+Ö Ö(32
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>"<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.get*53
+1
+%1+WebCamposDeportivos_V1._2.Data.AppDbContextè
+å
+
+Ö Ö(;
+
+%3bool""object.operator ==(object, object)*
+"
+object*64
+2
+%2,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""*
+1
+3*˛
+1
+á á(!≠™
+
+á á(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"=
+
+á á("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*˙
+3
+ä é($«
+ƒ
+
+ä% ä(-1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContext"__id*}{*y>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController"7
+_context+WebCamposDeportivos_V1._2.Data.AppDbContext∏
+µ
+
+ä% ä(:2
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>"<WebCamposDeportivos_V1._2.Data.AppDbContext.User_Empresa.get*53
+1
+%5+WebCamposDeportivos_V1._2.Data.AppDbContext≤
+Ø
+
+ä% ã((R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*64
+2
+%6,Microsoft.EntityFrameworkCore.DbSet<TEntity>*
+""“
+œ
+
+ä% å((R
+%8LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>"¬Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.Include<TEntity, TProperty>(System.Linq.IQueryable<TEntity>, System.Linq.Expressions.Expression<System.Func<TEntity, TProperty>>)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%7LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""‘
+—
+
+ä% ç(A*
+%9$System.Threading.Tasks.Task<TResult>"‚Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>, System.Threading.CancellationToken)*FD"B
+@Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions*VT
+R
+%8LMicrosoft.EntityFrameworkCore.Query.IIncludableQueryable<TEntity, TProperty>*
+""*
+""]
+[
+
+ä ç(A=
+user_Empresa-WebCamposDeportivos_V1._2.Models.User_Empresa"__id*
+""õ
+ò
+
+é é($
+%10bool""object.operator ==(object, object)*
+"
+object*A?
+=
+user_Empresa-WebCamposDeportivos_V1._2.Models.User_Empresa*
+""*
+4
+5*Ä
+4
+ê ê(!Æ´
+
+ê ê(!.
+%11'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()">
+
+ê ê("0
+.
+%11'Microsoft.AspNetCore.Mvc.NotFoundResult*π
+5
+ì ì($ÎË
+
+ì ì(%*
+%12#Microsoft.AspNetCore.Mvc.ViewResult"1Microsoft.AspNetCore.Mvc.Controller.View(object?)*)'%
+#Microsoft.AspNetCore.Mvc.Controller*A?
+=
+user_Empresa-WebCamposDeportivos_V1._2.Models.User_Empresa2View(object?)":
+
+ì ì(&,
+*
+%12#Microsoft.AspNetCore.Mvc.ViewResult*2
+6
+î	 î(	"!
+
+î î(	
+implicit return*C
+7
+É8 É(8-
++
+
+É) É(/
+%13"__entrypoint*
+""*
+0:&
+
+É0 É(7
+idSystem.Nullable<T>B@>
+<WebCamposDeportivos_V1._2.Controllers.User_EmpresaController
