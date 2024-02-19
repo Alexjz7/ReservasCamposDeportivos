@@ -1,4 +1,4 @@
-# ReservasCamposDeportivos
+# .NET ReservasCamposDeportivos
 
 Aplicación web enfocada en la gestión de reservas de campos deportivos en la ciudad de Cajamarca.
 
